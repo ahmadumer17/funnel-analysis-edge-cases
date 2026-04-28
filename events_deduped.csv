@@ -1,0 +1,1622 @@
+user_id,event,timestamp,device,session_id,prev_event,prev_ts,time_diff_sec
+user_0001,home,2024-01-01 23:10:48,Tablet,user_0001_s1,,,
+user_0003,home,2024-01-02 10:45:36,Tablet,user_0003_s1,,,
+user_0003,product_view,2024-01-02 10:48:49,Tablet,user_0003_s1,home,2024-01-02 10:45:36,193.0
+user_0003,add_to_cart,2024-01-02 10:55:07,Tablet,user_0003_s1,product_view,2024-01-02 10:48:49,378.0
+user_0004,home,2024-01-03 04:07:14,Mobile_App,user_0004_s1,,,
+user_0004,product_view,2024-01-03 04:16:53,Mobile_App,user_0004_s1,home,2024-01-03 04:07:14,579.0
+user_0005,home,2024-01-03 09:06:16,Tablet,user_0005_s1,,,
+user_0005,product_view,2024-01-03 09:11:42,Tablet,user_0005_s1,home,2024-01-03 09:06:16,326.0
+user_0005,add_to_cart,2024-01-03 09:16:10,Tablet,user_0005_s1,product_view,2024-01-03 09:11:42,268.0
+user_0005,checkout_click,2024-01-03 09:24:24,Tablet,user_0005_s1,add_to_cart,2024-01-03 09:16:10,494.0
+user_0005,purchase,2024-01-03 09:31:13,Tablet,user_0005_s1,checkout_click,2024-01-03 09:24:24,409.0
+user_0006,home,2024-01-03 06:17:40,Tablet,user_0006_s1,,,
+user_0006,product_view,2024-01-03 06:24:38,Tablet,user_0006_s1,home,2024-01-03 06:17:40,418.0
+user_0006,add_to_cart,2024-01-03 06:34:38,Tablet,user_0006_s1,product_view,2024-01-03 06:24:38,600.0
+user_0007,home,2024-01-01 16:19:52,Mobile_App,user_0007_s1,,,
+user_0007,product_view,2024-01-01 16:28:53,Mobile_App,user_0007_s1,home,2024-01-01 16:19:52,541.0
+user_0007,add_to_cart,2024-01-01 16:37:12,Mobile_App,user_0007_s1,product_view,2024-01-01 16:28:53,499.0
+user_0007,home,2024-01-01 16:37:39,Mobile_App,user_0007_s1,add_to_cart,2024-01-01 16:37:12,27.0
+user_0007,product_view,2024-01-01 16:38:20,Mobile_App,user_0007_s1,home,2024-01-01 16:37:39,41.0
+user_0007,add_to_cart,2024-01-01 16:40:05,Mobile_App,user_0007_s1,product_view,2024-01-01 16:38:20,105.0
+user_0007,checkout_click,2024-01-01 16:45:04,Mobile_App,user_0007_s1,add_to_cart,2024-01-01 16:40:05,299.0
+user_0007,purchase,2024-01-01 16:52:22,Mobile_App,user_0007_s1,checkout_click,2024-01-01 16:45:04,438.0
+user_0008,home,2024-01-03 07:17:06,Mobile_App,user_0008_s1,,,
+user_0008,product_view,2024-01-03 07:24:48,Mobile_App,user_0008_s1,home,2024-01-03 07:17:06,462.0
+user_0008,add_to_cart,2024-01-03 07:31:52,Mobile_App,user_0008_s1,product_view,2024-01-03 07:24:48,424.0
+user_0008,checkout_click,2024-01-03 07:41:23,Mobile_App,user_0008_s1,add_to_cart,2024-01-03 07:31:52,571.0
+user_0008,purchase,2024-01-03 07:42:04,Mobile_App,user_0008_s1,checkout_click,2024-01-03 07:41:23,41.0
+user_0009,home,2024-01-01 23:51:14,Tablet,user_0009_s1,,,
+user_0010,home,2024-01-02 18:41:09,Mobile_App,user_0010_s1,,,
+user_0010,product_view,2024-01-02 18:44:15,Mobile_App,user_0010_s1,home,2024-01-02 18:41:09,186.0
+user_0010,add_to_cart,2024-01-02 18:47:30,Mobile_App,user_0010_s1,product_view,2024-01-02 18:44:15,195.0
+user_0010,checkout_click,2024-01-02 18:57:03,Mobile_App,user_0010_s1,add_to_cart,2024-01-02 18:47:30,573.0
+user_0010,purchase,2024-01-02 19:05:53,Mobile_App,user_0010_s1,checkout_click,2024-01-02 18:57:03,530.0
+user_0011,home,2024-01-01 11:08:50,Web_Desktop,user_0011_s1,,,
+user_0012,home,2024-01-04 00:01:52,Mobile_App,user_0012_s1,,,
+user_0012,product_view,2024-01-04 00:11:22,Mobile_App,user_0012_s1,home,2024-01-04 00:01:52,570.0
+user_0012,add_to_cart,2024-01-04 00:19:05,Mobile_App,user_0012_s1,product_view,2024-01-04 00:11:22,463.0
+user_0012,checkout_click,2024-01-04 00:23:00,Mobile_App,user_0012_s1,add_to_cart,2024-01-04 00:19:05,235.0
+user_0012,purchase,2024-01-04 00:29:52,Mobile_App,user_0012_s1,checkout_click,2024-01-04 00:23:00,412.0
+user_0013,home,2024-01-03 18:06:57,Tablet,user_0013_s1,,,
+user_0013,product_view,2024-01-03 18:11:12,Tablet,user_0013_s1,home,2024-01-03 18:06:57,255.0
+user_0014,home,2024-01-01 16:22:47,Mobile_App,user_0014_s1,,,
+user_0014,product_view,2024-01-01 16:25:32,Mobile_App,user_0014_s1,home,2024-01-01 16:22:47,165.0
+user_0014,add_to_cart,2024-01-01 16:34:06,Mobile_App,user_0014_s1,product_view,2024-01-01 16:25:32,514.0
+user_0014,checkout_click,2024-01-01 16:41:32,Mobile_App,user_0014_s1,add_to_cart,2024-01-01 16:34:06,446.0
+user_0014,purchase,2024-01-01 16:49:05,Mobile_App,user_0014_s1,checkout_click,2024-01-01 16:41:35,450.0
+user_0015,home,2024-01-03 20:57:21,Tablet,user_0015_s1,,,
+user_0015,product_view,2024-01-03 21:01:05,Tablet,user_0015_s1,home,2024-01-03 20:57:21,224.0
+user_0015,add_to_cart,2024-01-04 07:03:58,Mobile_App,user_0015_s2,product_view,2024-01-03 21:01:05,36173.0
+user_0015,home,2024-01-04 07:05:07,Mobile_App,user_0015_s2,add_to_cart,2024-01-04 07:03:58,69.0
+user_0015,product_view,2024-01-04 07:05:48,Mobile_App,user_0015_s2,home,2024-01-04 07:05:07,41.0
+user_0015,add_to_cart,2024-01-04 07:06:07,Mobile_App,user_0015_s2,product_view,2024-01-04 07:05:48,19.0
+user_0015,checkout_click,2024-01-04 07:16:00,Tablet,user_0015_s2,add_to_cart,2024-01-04 07:06:07,593.0
+user_0015,purchase,2024-01-04 07:20:34,Tablet,user_0015_s2,checkout_click,2024-01-04 07:16:02,272.0
+user_0016,home,2024-01-02 06:26:32,Web_Desktop,user_0016_s1,,,
+user_0016,product_view,2024-01-02 06:31:33,Web_Desktop,user_0016_s1,home,2024-01-02 06:26:32,301.0
+user_0016,add_to_cart,2024-01-02 06:39:48,Web_Desktop,user_0016_s1,product_view,2024-01-02 06:31:33,495.0
+user_0016,checkout_click,2024-01-02 06:49:47,Web_Desktop,user_0016_s1,add_to_cart,2024-01-02 06:39:48,599.0
+user_0016,purchase,2024-01-02 06:53:31,Web_Desktop,user_0016_s1,checkout_click,2024-01-02 06:49:47,224.0
+user_0017,home,2024-01-02 22:21:38,Mobile_App,user_0017_s1,,,
+user_0017,product_view,2024-01-02 22:31:11,Mobile_App,user_0017_s1,home,2024-01-02 22:21:38,573.0
+user_0018,home,2024-01-04 02:07:32,Mobile_App,user_0018_s1,,,
+user_0018,product_view,2024-01-04 02:12:14,Mobile_App,user_0018_s1,home,2024-01-04 02:07:32,282.0
+user_0018,add_to_cart,2024-01-04 07:13:24,Web_Desktop,user_0018_s2,product_view,2024-01-04 02:12:14,18070.0
+user_0018,checkout_click,2024-01-04 07:22:49,Mobile_App,user_0018_s2,add_to_cart,2024-01-04 07:13:24,565.0
+user_0019,home,2024-01-03 01:16:44,Web_Desktop,user_0019_s1,,,
+user_0020,home,2024-01-04 09:07:40,Mobile_App,user_0020_s1,,,
+user_0020,product_view,2024-01-04 09:14:28,Mobile_App,user_0020_s1,home,2024-01-04 09:07:40,408.0
+user_0020,add_to_cart,2024-01-04 09:22:26,Mobile_App,user_0020_s1,product_view,2024-01-04 09:14:28,478.0
+user_0020,checkout_click,2024-01-04 09:31:57,Mobile_App,user_0020_s1,add_to_cart,2024-01-04 09:22:26,571.0
+user_0020,purchase,2024-01-04 09:34:47,Mobile_App,user_0020_s1,checkout_click,2024-01-04 09:32:00,167.0
+user_0021,home,2024-01-02 18:13:21,Mobile_App,user_0021_s1,,,
+user_0021,product_view,2024-01-02 18:18:21,Mobile_App,user_0021_s1,home,2024-01-02 18:13:21,300.0
+user_0021,add_to_cart,2024-01-02 18:23:08,Mobile_App,user_0021_s1,product_view,2024-01-02 18:18:21,287.0
+user_0021,checkout_click,2024-01-02 18:25:12,Mobile_App,user_0021_s1,add_to_cart,2024-01-02 18:23:08,124.0
+user_0021,purchase,2024-01-02 18:26:27,Mobile_App,user_0021_s1,checkout_click,2024-01-02 18:25:12,75.0
+user_0022,home,2024-01-01 09:28:47,Mobile_App,user_0022_s1,,,
+user_0022,product_view,2024-01-01 09:31:11,Mobile_App,user_0022_s1,home,2024-01-01 09:28:47,144.0
+user_0024,home,2024-01-03 08:03:32,Mobile_App,user_0024_s1,,,
+user_0024,product_view,2024-01-03 08:10:58,Mobile_App,user_0024_s1,home,2024-01-03 08:03:32,446.0
+user_0024,add_to_cart,2024-01-03 08:14:06,Mobile_App,user_0024_s1,product_view,2024-01-03 08:10:58,188.0
+user_0025,home,2024-01-02 05:58:31,Mobile_App,user_0025_s1,,,
+user_0025,product_view,2024-01-02 06:03:15,Mobile_App,user_0025_s1,home,2024-01-02 05:58:31,284.0
+user_0025,add_to_cart,2024-01-02 06:05:35,Mobile_App,user_0025_s1,product_view,2024-01-02 06:03:15,140.0
+user_0026,home,2024-01-03 21:18:23,Mobile_App,user_0026_s1,,,
+user_0026,product_view,2024-01-03 21:22:10,Mobile_App,user_0026_s1,home,2024-01-03 21:18:23,227.0
+user_0026,add_to_cart,2024-01-03 21:27:25,Mobile_App,user_0026_s1,product_view,2024-01-03 21:22:10,315.0
+user_0026,checkout_click,2024-01-03 21:32:40,Mobile_App,user_0026_s1,add_to_cart,2024-01-03 21:27:25,315.0
+user_0026,purchase,2024-01-03 21:42:19,Mobile_App,user_0026_s1,checkout_click,2024-01-03 21:32:40,579.0
+user_0027,home,2024-01-03 03:06:01,Mobile_App,user_0027_s1,,,
+user_0028,home,2024-01-03 16:29:04,Tablet,user_0028_s1,,,
+user_0028,product_view,2024-01-03 16:32:48,Tablet,user_0028_s1,home,2024-01-03 16:29:04,224.0
+user_0028,add_to_cart,2024-01-03 16:40:44,Tablet,user_0028_s1,product_view,2024-01-03 16:32:48,476.0
+user_0028,home,2024-01-03 16:42:37,Tablet,user_0028_s1,add_to_cart,2024-01-03 16:40:44,113.0
+user_0028,product_view,2024-01-03 16:43:55,Tablet,user_0028_s1,home,2024-01-03 16:42:37,78.0
+user_0028,add_to_cart,2024-01-03 16:45:32,Tablet,user_0028_s1,product_view,2024-01-03 16:43:55,97.0
+user_0028,checkout_click,2024-01-03 16:49:23,Tablet,user_0028_s1,add_to_cart,2024-01-03 16:45:32,231.0
+user_0029,home,2024-01-03 03:44:46,Web_Desktop,user_0029_s1,,,
+user_0029,product_view,2024-01-03 03:50:50,Web_Desktop,user_0029_s1,home,2024-01-03 03:44:46,364.0
+user_0029,add_to_cart,2024-01-03 03:56:22,Web_Desktop,user_0029_s1,product_view,2024-01-03 03:50:50,332.0
+user_0030,home,2024-01-03 09:48:41,Tablet,user_0030_s1,,,
+user_0030,product_view,2024-01-03 09:56:31,Tablet,user_0030_s1,home,2024-01-03 09:48:41,470.0
+user_0030,add_to_cart,2024-01-03 10:02:30,Tablet,user_0030_s1,product_view,2024-01-03 09:56:31,359.0
+user_0030,checkout_click,2024-01-03 10:06:38,Tablet,user_0030_s1,add_to_cart,2024-01-03 10:02:30,248.0
+user_0030,purchase,2024-01-03 10:10:01,Tablet,user_0030_s1,checkout_click,2024-01-03 10:06:38,203.0
+user_0031,home,2024-01-01 19:22:30,Tablet,user_0031_s1,,,
+user_0031,product_view,2024-01-01 19:26:50,Tablet,user_0031_s1,home,2024-01-01 19:22:30,260.0
+user_0031,add_to_cart,2024-01-01 19:29:50,Tablet,user_0031_s1,product_view,2024-01-01 19:26:50,180.0
+user_0031,home,2024-01-01 19:30:31,Tablet,user_0031_s1,add_to_cart,2024-01-01 19:29:50,41.0
+user_0031,product_view,2024-01-01 19:31:41,Tablet,user_0031_s1,home,2024-01-01 19:30:31,70.0
+user_0031,add_to_cart,2024-01-01 19:33:09,Tablet,user_0031_s1,product_view,2024-01-01 19:31:41,88.0
+user_0031,checkout_click,2024-01-01 19:34:53,Tablet,user_0031_s1,add_to_cart,2024-01-01 19:33:09,104.0
+user_0031,purchase,2024-01-01 19:38:42,Tablet,user_0031_s1,checkout_click,2024-01-01 19:34:53,229.0
+user_0032,home,2024-01-03 10:33:19,Web_Desktop,user_0032_s1,,,
+user_0032,product_view,2024-01-03 10:37:33,Web_Desktop,user_0032_s1,home,2024-01-03 10:33:19,254.0
+user_0033,home,2024-01-04 03:38:33,Mobile_App,user_0033_s1,,,
+user_0033,product_view,2024-01-04 03:44:27,Mobile_App,user_0033_s1,home,2024-01-04 03:38:33,354.0
+user_0033,add_to_cart,2024-01-04 03:52:30,Mobile_App,user_0033_s1,product_view,2024-01-04 03:44:27,483.0
+user_0033,checkout_click,2024-01-04 04:01:36,Mobile_App,user_0033_s1,add_to_cart,2024-01-04 03:52:30,546.0
+user_0033,purchase,2024-01-04 04:09:42,Mobile_App,user_0033_s1,checkout_click,2024-01-04 04:01:36,486.0
+user_0034,home,2024-01-02 05:56:23,Web_Desktop,user_0034_s1,,,
+user_0034,product_view,2024-01-02 06:00:57,Web_Desktop,user_0034_s1,home,2024-01-02 05:56:23,274.0
+user_0034,add_to_cart,2024-01-02 06:02:46,Web_Desktop,user_0034_s1,product_view,2024-01-02 06:00:57,109.0
+user_0035,home,2024-01-03 03:24:09,Tablet,user_0035_s1,,,
+user_0036,home,2024-01-03 13:21:50,Tablet,user_0036_s1,,,
+user_0036,product_view,2024-01-03 13:28:49,Tablet,user_0036_s1,home,2024-01-03 13:21:50,419.0
+user_0036,add_to_cart,2024-01-03 13:35:19,Tablet,user_0036_s1,product_view,2024-01-03 13:28:49,390.0
+user_0036,checkout_click,2024-01-03 13:42:58,Tablet,user_0036_s1,add_to_cart,2024-01-03 13:35:19,459.0
+user_0036,purchase,2024-01-03 13:47:13,Tablet,user_0036_s1,checkout_click,2024-01-03 13:42:58,255.0
+user_0037,home,2024-01-03 23:21:24,Web_Desktop,user_0037_s1,,,
+user_0037,product_view,2024-01-03 23:29:52,Web_Desktop,user_0037_s1,home,2024-01-03 23:21:24,508.0
+user_0037,add_to_cart,2024-01-03 23:39:28,Web_Desktop,user_0037_s1,product_view,2024-01-03 23:29:52,576.0
+user_0037,home,2024-01-03 23:40:28,Web_Desktop,user_0037_s1,add_to_cart,2024-01-03 23:39:28,60.0
+user_0037,product_view,2024-01-03 23:41:53,Web_Desktop,user_0037_s1,home,2024-01-03 23:40:28,85.0
+user_0037,add_to_cart,2024-01-03 23:43:15,Web_Desktop,user_0037_s1,product_view,2024-01-03 23:41:53,82.0
+user_0037,checkout_click,2024-01-03 23:45:10,Web_Desktop,user_0037_s1,add_to_cart,2024-01-03 23:43:15,115.0
+user_0038,home,2024-01-03 20:17:58,Mobile_App,user_0038_s1,,,
+user_0038,product_view,2024-01-03 20:25:39,Mobile_App,user_0038_s1,home,2024-01-03 20:17:58,461.0
+user_0038,add_to_cart,2024-01-03 20:27:32,Mobile_App,user_0038_s1,product_view,2024-01-03 20:25:39,113.0
+user_0038,checkout_click,2024-01-03 20:28:55,Mobile_App,user_0038_s1,add_to_cart,2024-01-03 20:27:32,83.0
+user_0038,purchase,2024-01-03 20:30:35,Mobile_App,user_0038_s1,checkout_click,2024-01-03 20:28:55,100.0
+user_0039,home,2024-01-01 14:52:34,Mobile_App,user_0039_s1,,,
+user_0040,home,2024-01-01 23:38:27,Mobile_App,user_0040_s1,,,
+user_0040,product_view,2024-01-01 23:41:44,Mobile_App,user_0040_s1,home,2024-01-01 23:38:27,197.0
+user_0040,add_to_cart,2024-01-01 23:44:04,Mobile_App,user_0040_s1,product_view,2024-01-01 23:41:44,140.0
+user_0040,checkout_click,2024-01-01 23:50:58,Mobile_App,user_0040_s1,add_to_cart,2024-01-01 23:44:04,414.0
+user_0040,purchase,2024-01-01 23:52:45,Mobile_App,user_0040_s1,checkout_click,2024-01-01 23:50:58,107.0
+user_0041,home,2024-01-02 16:07:12,Tablet,user_0041_s1,,,
+user_0041,product_view,2024-01-02 16:15:00,Tablet,user_0041_s1,home,2024-01-02 16:07:12,468.0
+user_0041,add_to_cart,2024-01-02 16:16:40,Tablet,user_0041_s1,product_view,2024-01-02 16:15:00,100.0
+user_0042,home,2024-01-03 14:55:06,Web_Desktop,user_0042_s1,,,
+user_0042,product_view,2024-01-03 15:04:30,Web_Desktop,user_0042_s1,home,2024-01-03 14:55:06,564.0
+user_0042,add_to_cart,2024-01-03 15:09:36,Web_Desktop,user_0042_s1,product_view,2024-01-03 15:04:30,306.0
+user_0042,checkout_click,2024-01-04 02:18:21,Mobile_App,user_0042_s2,add_to_cart,2024-01-03 15:09:36,40125.0
+user_0042,purchase,2024-01-04 02:23:25,Web_Desktop,user_0042_s2,checkout_click,2024-01-04 02:18:21,304.0
+user_0043,home,2024-01-03 03:02:25,Mobile_App,user_0043_s1,,,
+user_0043,product_view,2024-01-03 03:09:23,Mobile_App,user_0043_s1,home,2024-01-03 03:02:25,418.0
+user_0043,add_to_cart,2024-01-03 03:18:19,Mobile_App,user_0043_s1,product_view,2024-01-03 03:09:23,536.0
+user_0044,home,2024-01-02 12:25:45,Web_Desktop,user_0044_s1,,,
+user_0045,home,2024-01-03 13:31:47,Tablet,user_0045_s1,,,
+user_0046,home,2024-01-02 13:32:45,Tablet,user_0046_s1,,,
+user_0046,product_view,2024-01-02 13:42:38,Tablet,user_0046_s1,home,2024-01-02 13:32:45,593.0
+user_0046,add_to_cart,2024-01-02 13:50:52,Tablet,user_0046_s1,product_view,2024-01-02 13:42:38,494.0
+user_0047,home,2024-01-02 00:51:13,Mobile_App,user_0047_s1,,,
+user_0047,product_view,2024-01-02 01:00:40,Mobile_App,user_0047_s1,home,2024-01-02 00:51:13,567.0
+user_0047,add_to_cart,2024-01-02 01:02:52,Mobile_App,user_0047_s1,product_view,2024-01-02 01:00:40,132.0
+user_0048,home,2024-01-03 07:20:56,Web_Desktop,user_0048_s1,,,
+user_0048,product_view,2024-01-03 07:23:35,Web_Desktop,user_0048_s1,home,2024-01-03 07:20:56,159.0
+user_0048,add_to_cart,2024-01-03 12:32:27,Mobile_App,user_0048_s2,product_view,2024-01-03 07:23:35,18532.0
+user_0048,checkout_click,2024-01-03 12:40:57,Web_Desktop,user_0048_s2,add_to_cart,2024-01-03 12:32:27,510.0
+user_0048,purchase,2024-01-03 12:42:19,Web_Desktop,user_0048_s2,checkout_click,2024-01-03 12:40:57,82.0
+user_0049,home,2024-01-02 17:56:24,Web_Desktop,user_0049_s1,,,
+user_0049,product_view,2024-01-02 18:02:05,Web_Desktop,user_0049_s1,home,2024-01-02 17:56:24,341.0
+user_0050,home,2024-01-02 16:15:03,Tablet,user_0050_s1,,,
+user_0050,product_view,2024-01-02 16:22:52,Tablet,user_0050_s1,home,2024-01-02 16:15:03,469.0
+user_0050,add_to_cart,2024-01-02 16:24:23,Tablet,user_0050_s1,product_view,2024-01-02 16:22:52,91.0
+user_0050,checkout_click,2024-01-02 16:28:25,Tablet,user_0050_s1,add_to_cart,2024-01-02 16:24:23,242.0
+user_0051,home,2024-01-01 19:18:31,Mobile_App,user_0051_s1,,,
+user_0051,product_view,2024-01-01 19:22:58,Mobile_App,user_0051_s1,home,2024-01-01 19:18:31,267.0
+user_0051,add_to_cart,2024-01-01 19:28:17,Mobile_App,user_0051_s1,product_view,2024-01-01 19:22:58,319.0
+user_0051,checkout_click,2024-01-01 19:32:46,Mobile_App,user_0051_s1,add_to_cart,2024-01-01 19:28:17,269.0
+user_0051,purchase,2024-01-01 19:36:38,Mobile_App,user_0051_s1,checkout_click,2024-01-01 19:32:46,232.0
+user_0052,home,2024-01-03 15:08:43,Tablet,user_0052_s1,,,
+user_0053,home,2024-01-03 00:43:41,Tablet,user_0053_s1,,,
+user_0053,product_view,2024-01-03 00:48:49,Tablet,user_0053_s1,home,2024-01-03 00:43:41,308.0
+user_0053,add_to_cart,2024-01-03 00:57:44,Tablet,user_0053_s1,product_view,2024-01-03 00:48:49,535.0
+user_0053,checkout_click,2024-01-03 01:05:36,Tablet,user_0053_s1,add_to_cart,2024-01-03 00:57:44,472.0
+user_0053,purchase,2024-01-03 01:06:32,Tablet,user_0053_s1,checkout_click,2024-01-03 01:05:36,56.0
+user_0054,home,2024-01-01 20:19:05,Tablet,user_0054_s1,,,
+user_0054,product_view,2024-01-01 20:22:34,Tablet,user_0054_s1,home,2024-01-01 20:19:05,209.0
+user_0054,add_to_cart,2024-01-01 20:30:36,Tablet,user_0054_s1,product_view,2024-01-01 20:22:34,482.0
+user_0055,home,2024-01-03 16:42:17,Web_Desktop,user_0055_s1,,,
+user_0055,product_view,2024-01-03 16:48:24,Web_Desktop,user_0055_s1,home,2024-01-03 16:42:17,367.0
+user_0055,add_to_cart,2024-01-03 16:57:21,Web_Desktop,user_0055_s1,product_view,2024-01-03 16:48:24,537.0
+user_0055,checkout_click,2024-01-03 17:07:14,Web_Desktop,user_0055_s1,add_to_cart,2024-01-03 16:57:21,593.0
+user_0056,home,2024-01-01 23:56:33,Web_Desktop,user_0056_s1,,,
+user_0057,home,2024-01-04 03:32:52,Tablet,user_0057_s1,,,
+user_0058,home,2024-01-02 21:32:35,Tablet,user_0058_s1,,,
+user_0058,product_view,2024-01-02 21:38:23,Tablet,user_0058_s1,home,2024-01-02 21:32:35,348.0
+user_0058,add_to_cart,2024-01-02 21:48:18,Tablet,user_0058_s1,product_view,2024-01-02 21:38:23,595.0
+user_0059,home,2024-01-01 23:38:11,Mobile_App,user_0059_s1,,,
+user_0059,product_view,2024-01-01 23:45:46,Mobile_App,user_0059_s1,home,2024-01-01 23:38:11,455.0
+user_0059,add_to_cart,2024-01-01 23:54:19,Mobile_App,user_0059_s1,product_view,2024-01-01 23:45:46,513.0
+user_0059,checkout_click,2024-01-02 00:01:21,Mobile_App,user_0059_s1,add_to_cart,2024-01-01 23:54:19,422.0
+user_0060,home,2024-01-03 14:29:51,Tablet,user_0060_s1,,,
+user_0060,product_view,2024-01-03 14:37:58,Tablet,user_0060_s1,home,2024-01-03 14:29:51,487.0
+user_0060,add_to_cart,2024-01-03 14:44:21,Tablet,user_0060_s1,product_view,2024-01-03 14:37:58,383.0
+user_0060,checkout_click,2024-01-03 14:51:17,Tablet,user_0060_s1,add_to_cart,2024-01-03 14:44:21,416.0
+user_0060,purchase,2024-01-03 14:55:00,Tablet,user_0060_s1,checkout_click,2024-01-03 14:51:17,223.0
+user_0061,home,2024-01-02 15:43:00,Web_Desktop,user_0061_s1,,,
+user_0061,product_view,2024-01-02 15:46:05,Web_Desktop,user_0061_s1,home,2024-01-02 15:43:00,185.0
+user_0061,add_to_cart,2024-01-02 15:47:12,Web_Desktop,user_0061_s1,product_view,2024-01-02 15:46:05,67.0
+user_0061,home,2024-01-02 15:48:37,Web_Desktop,user_0061_s1,add_to_cart,2024-01-02 15:47:12,85.0
+user_0061,product_view,2024-01-02 15:49:29,Web_Desktop,user_0061_s1,home,2024-01-02 15:48:37,52.0
+user_0061,add_to_cart,2024-01-02 15:49:51,Web_Desktop,user_0061_s1,product_view,2024-01-02 15:49:29,22.0
+user_0061,checkout_click,2024-01-02 15:57:51,Web_Desktop,user_0061_s1,add_to_cart,2024-01-02 15:49:51,480.0
+user_0061,purchase,2024-01-02 16:05:23,Web_Desktop,user_0061_s1,checkout_click,2024-01-02 15:57:54,449.0
+user_0062,home,2024-01-02 04:05:52,Web_Desktop,user_0062_s1,,,
+user_0062,product_view,2024-01-02 04:15:28,Web_Desktop,user_0062_s1,home,2024-01-02 04:05:52,576.0
+user_0062,add_to_cart,2024-01-02 04:21:22,Web_Desktop,user_0062_s1,product_view,2024-01-02 04:15:28,354.0
+user_0062,checkout_click,2024-01-02 04:30:11,Web_Desktop,user_0062_s1,add_to_cart,2024-01-02 04:21:22,529.0
+user_0063,home,2024-01-01 17:22:54,Tablet,user_0063_s1,,,
+user_0063,product_view,2024-01-01 17:25:06,Tablet,user_0063_s1,home,2024-01-01 17:22:54,132.0
+user_0063,add_to_cart,2024-01-01 17:30:42,Tablet,user_0063_s1,product_view,2024-01-01 17:25:06,336.0
+user_0064,home,2024-01-01 16:21:34,Web_Desktop,user_0064_s1,,,
+user_0064,product_view,2024-01-01 16:23:24,Web_Desktop,user_0064_s1,home,2024-01-01 16:21:34,110.0
+user_0064,add_to_cart,2024-01-01 16:30:25,Web_Desktop,user_0064_s1,product_view,2024-01-01 16:23:24,421.0
+user_0066,home,2024-01-03 21:02:36,Web_Desktop,user_0066_s1,,,
+user_0066,product_view,2024-01-03 21:10:20,Web_Desktop,user_0066_s1,home,2024-01-03 21:02:36,464.0
+user_0066,add_to_cart,2024-01-03 21:18:37,Web_Desktop,user_0066_s1,product_view,2024-01-03 21:10:20,497.0
+user_0067,home,2024-01-03 10:59:32,Web_Desktop,user_0067_s1,,,
+user_0068,home,2024-01-03 11:22:23,Mobile_App,user_0068_s1,,,
+user_0068,product_view,2024-01-03 11:26:48,Mobile_App,user_0068_s1,home,2024-01-03 11:22:23,265.0
+user_0068,add_to_cart,2024-01-03 11:33:18,Mobile_App,user_0068_s1,product_view,2024-01-03 11:26:48,390.0
+user_0069,home,2024-01-02 17:44:10,Tablet,user_0069_s1,,,
+user_0069,product_view,2024-01-02 17:52:11,Tablet,user_0069_s1,home,2024-01-02 17:44:10,481.0
+user_0070,home,2024-01-03 07:49:55,Mobile_App,user_0070_s1,,,
+user_0071,home,2024-01-04 07:04:43,Web_Desktop,user_0071_s1,,,
+user_0071,product_view,2024-01-04 07:10:15,Web_Desktop,user_0071_s1,home,2024-01-04 07:04:43,332.0
+user_0071,add_to_cart,2024-01-04 07:16:31,Web_Desktop,user_0071_s1,product_view,2024-01-04 07:10:15,376.0
+user_0071,checkout_click,2024-01-04 07:18:18,Web_Desktop,user_0071_s1,add_to_cart,2024-01-04 07:16:31,107.0
+user_0071,purchase,2024-01-04 07:28:21,Web_Desktop,user_0071_s1,checkout_click,2024-01-04 07:18:21,600.0
+user_0072,home,2024-01-03 07:09:58,Web_Desktop,user_0072_s1,,,
+user_0072,product_view,2024-01-03 07:16:48,Web_Desktop,user_0072_s1,home,2024-01-03 07:09:58,410.0
+user_0073,home,2024-01-02 14:31:34,Mobile_App,user_0073_s1,,,
+user_0073,product_view,2024-01-02 14:39:59,Mobile_App,user_0073_s1,home,2024-01-02 14:31:34,505.0
+user_0073,add_to_cart,2024-01-02 14:45:38,Mobile_App,user_0073_s1,product_view,2024-01-02 14:39:59,339.0
+user_0074,home,2024-01-01 14:04:48,Web_Desktop,user_0074_s1,,,
+user_0074,product_view,2024-01-01 14:11:37,Web_Desktop,user_0074_s1,home,2024-01-01 14:04:48,409.0
+user_0074,add_to_cart,2024-01-01 14:21:20,Web_Desktop,user_0074_s1,product_view,2024-01-01 14:11:37,583.0
+user_0074,checkout_click,2024-01-01 14:24:28,Web_Desktop,user_0074_s1,add_to_cart,2024-01-01 14:21:20,188.0
+user_0074,purchase,2024-01-01 14:33:19,Web_Desktop,user_0074_s1,checkout_click,2024-01-01 14:24:28,531.0
+user_0075,home,2024-01-03 13:23:41,Mobile_App,user_0075_s1,,,
+user_0076,home,2024-01-03 08:42:15,Tablet,user_0076_s1,,,
+user_0077,home,2024-01-02 12:43:38,Tablet,user_0077_s1,,,
+user_0077,product_view,2024-01-02 12:47:38,Tablet,user_0077_s1,home,2024-01-02 12:43:38,240.0
+user_0078,home,2024-01-04 07:13:32,Tablet,user_0078_s1,,,
+user_0078,product_view,2024-01-04 07:16:30,Tablet,user_0078_s1,home,2024-01-04 07:13:32,178.0
+user_0078,add_to_cart,2024-01-04 07:26:13,Tablet,user_0078_s1,product_view,2024-01-04 07:16:30,583.0
+user_0080,home,2024-01-02 18:09:40,Mobile_App,user_0080_s1,,,
+user_0080,product_view,2024-01-02 18:12:01,Mobile_App,user_0080_s1,home,2024-01-02 18:09:40,141.0
+user_0080,add_to_cart,2024-01-02 18:16:17,Mobile_App,user_0080_s1,product_view,2024-01-02 18:12:01,256.0
+user_0081,home,2024-01-04 03:26:21,Web_Desktop,user_0081_s1,,,
+user_0081,product_view,2024-01-04 03:28:41,Web_Desktop,user_0081_s1,home,2024-01-04 03:26:21,140.0
+user_0081,add_to_cart,2024-01-04 03:36:45,Web_Desktop,user_0081_s1,product_view,2024-01-04 03:28:41,484.0
+user_0081,home,2024-01-04 03:37:05,Web_Desktop,user_0081_s1,add_to_cart,2024-01-04 03:36:45,20.0
+user_0081,product_view,2024-01-04 03:37:56,Web_Desktop,user_0081_s1,home,2024-01-04 03:37:05,51.0
+user_0081,add_to_cart,2024-01-04 03:39:23,Web_Desktop,user_0081_s1,product_view,2024-01-04 03:37:56,87.0
+user_0082,home,2024-01-02 01:22:31,Tablet,user_0082_s1,,,
+user_0082,product_view,2024-01-02 01:30:21,Tablet,user_0082_s1,home,2024-01-02 01:22:31,470.0
+user_0083,home,2024-01-02 00:01:33,Tablet,user_0083_s1,,,
+user_0083,product_view,2024-01-02 00:09:47,Tablet,user_0083_s1,home,2024-01-02 00:01:33,494.0
+user_0083,add_to_cart,2024-01-02 00:11:54,Tablet,user_0083_s1,product_view,2024-01-02 00:09:47,127.0
+user_0084,home,2024-01-02 17:25:05,Mobile_App,user_0084_s1,,,
+user_0084,product_view,2024-01-02 17:31:56,Mobile_App,user_0084_s1,home,2024-01-02 17:25:05,411.0
+user_0084,add_to_cart,2024-01-02 17:41:55,Mobile_App,user_0084_s1,product_view,2024-01-02 17:31:56,599.0
+user_0084,home,2024-01-02 17:43:16,Mobile_App,user_0084_s1,add_to_cart,2024-01-02 17:41:55,81.0
+user_0084,product_view,2024-01-02 17:44:37,Mobile_App,user_0084_s1,home,2024-01-02 17:43:16,81.0
+user_0084,add_to_cart,2024-01-02 17:45:29,Mobile_App,user_0084_s1,product_view,2024-01-02 17:44:37,52.0
+user_0084,checkout_click,2024-01-02 17:52:59,Mobile_App,user_0084_s1,add_to_cart,2024-01-02 17:45:29,450.0
+user_0084,purchase,2024-01-02 18:00:42,Mobile_App,user_0084_s1,checkout_click,2024-01-02 17:52:59,463.0
+user_0085,home,2024-01-01 15:26:43,Tablet,user_0085_s1,,,
+user_0085,product_view,2024-01-01 15:29:03,Tablet,user_0085_s1,home,2024-01-01 15:26:43,140.0
+user_0085,add_to_cart,2024-01-01 15:39:02,Tablet,user_0085_s1,product_view,2024-01-01 15:29:03,599.0
+user_0085,checkout_click,2024-01-01 15:43:23,Tablet,user_0085_s1,add_to_cart,2024-01-01 15:39:02,261.0
+user_0085,purchase,2024-01-01 15:53:23,Tablet,user_0085_s1,checkout_click,2024-01-01 15:43:23,600.0
+user_0086,purchase,2024-01-01 12:43:09,Tablet,user_0086_orphan,,,
+user_0087,home,2024-01-03 01:05:20,Web_Desktop,user_0087_s1,,,
+user_0088,home,2024-01-01 12:11:48,Tablet,user_0088_s1,,,
+user_0088,product_view,2024-01-01 12:17:50,Tablet,user_0088_s1,home,2024-01-01 12:11:48,362.0
+user_0088,add_to_cart,2024-01-01 12:19:46,Tablet,user_0088_s1,product_view,2024-01-01 12:17:50,116.0
+user_0089,home,2024-01-01 15:48:09,Mobile_App,user_0089_s1,,,
+user_0089,product_view,2024-01-01 15:57:23,Mobile_App,user_0089_s1,home,2024-01-01 15:48:09,554.0
+user_0090,home,2024-01-03 16:11:15,Web_Desktop,user_0090_s1,,,
+user_0090,product_view,2024-01-03 16:12:41,Web_Desktop,user_0090_s1,home,2024-01-03 16:11:15,86.0
+user_0092,home,2024-01-03 16:17:32,Mobile_App,user_0092_s1,,,
+user_0093,home,2024-01-01 14:34:24,Mobile_App,user_0093_s1,,,
+user_0093,product_view,2024-01-01 14:42:01,Mobile_App,user_0093_s1,home,2024-01-01 14:34:24,457.0
+user_0093,add_to_cart,2024-01-01 14:49:25,Mobile_App,user_0093_s1,product_view,2024-01-01 14:42:01,444.0
+user_0093,home,2024-01-01 14:50:16,Mobile_App,user_0093_s1,add_to_cart,2024-01-01 14:49:25,51.0
+user_0093,product_view,2024-01-01 14:50:47,Mobile_App,user_0093_s1,home,2024-01-01 14:50:16,31.0
+user_0093,add_to_cart,2024-01-01 14:52:39,Mobile_App,user_0093_s1,product_view,2024-01-01 14:50:47,112.0
+user_0093,checkout_click,2024-01-01 15:01:00,Mobile_App,user_0093_s1,add_to_cart,2024-01-01 14:52:39,501.0
+user_0093,purchase,2024-01-01 15:03:00,Mobile_App,user_0093_s1,checkout_click,2024-01-01 15:01:00,120.0
+user_0094,home,2024-01-03 16:59:47,Mobile_App,user_0094_s1,,,
+user_0094,product_view,2024-01-03 17:04:03,Mobile_App,user_0094_s1,home,2024-01-03 16:59:47,256.0
+user_0094,add_to_cart,2024-01-03 17:07:25,Mobile_App,user_0094_s1,product_view,2024-01-03 17:04:03,202.0
+user_0094,home,2024-01-03 17:08:56,Mobile_App,user_0094_s1,add_to_cart,2024-01-03 17:07:25,91.0
+user_0094,product_view,2024-01-03 17:09:20,Mobile_App,user_0094_s1,home,2024-01-03 17:08:56,24.0
+user_0094,add_to_cart,2024-01-03 17:10:37,Mobile_App,user_0094_s1,product_view,2024-01-03 17:09:20,77.0
+user_0094,checkout_click,2024-01-03 17:17:04,Mobile_App,user_0094_s1,add_to_cart,2024-01-03 17:10:37,387.0
+user_0094,purchase,2024-01-03 17:20:05,Mobile_App,user_0094_s1,checkout_click,2024-01-03 17:17:04,181.0
+user_0095,home,2024-01-02 15:07:47,Mobile_App,user_0095_s1,,,
+user_0095,product_view,2024-01-02 15:16:42,Mobile_App,user_0095_s1,home,2024-01-02 15:07:47,535.0
+user_0095,add_to_cart,2024-01-02 15:24:51,Mobile_App,user_0095_s1,product_view,2024-01-02 15:16:42,489.0
+user_0095,checkout_click,2024-01-02 15:30:51,Mobile_App,user_0095_s1,add_to_cart,2024-01-02 15:24:51,360.0
+user_0095,purchase,2024-01-02 15:33:55,Mobile_App,user_0095_s1,checkout_click,2024-01-02 15:30:51,184.0
+user_0096,home,2024-01-03 17:10:30,Web_Desktop,user_0096_s1,,,
+user_0096,product_view,2024-01-03 17:16:17,Web_Desktop,user_0096_s1,home,2024-01-03 17:10:30,347.0
+user_0096,add_to_cart,2024-01-03 17:17:25,Web_Desktop,user_0096_s1,product_view,2024-01-03 17:16:17,68.0
+user_0096,home,2024-01-03 17:19:21,Web_Desktop,user_0096_s1,add_to_cart,2024-01-03 17:17:25,116.0
+user_0096,product_view,2024-01-03 17:20:07,Web_Desktop,user_0096_s1,home,2024-01-03 17:19:21,46.0
+user_0096,add_to_cart,2024-01-03 17:20:26,Web_Desktop,user_0096_s1,product_view,2024-01-03 17:20:07,19.0
+user_0096,checkout_click,2024-01-03 17:22:28,Web_Desktop,user_0096_s1,add_to_cart,2024-01-03 17:20:26,122.0
+user_0096,purchase,2024-01-03 17:30:51,Web_Desktop,user_0096_s1,checkout_click,2024-01-03 17:22:28,503.0
+user_0097,home,2024-01-04 07:53:42,Tablet,user_0097_s1,,,
+user_0097,product_view,2024-01-04 08:02:19,Tablet,user_0097_s1,home,2024-01-04 07:53:42,517.0
+user_0097,add_to_cart,2024-01-04 08:03:52,Tablet,user_0097_s1,product_view,2024-01-04 08:02:19,93.0
+user_0097,checkout_click,2024-01-04 08:10:13,Tablet,user_0097_s1,add_to_cart,2024-01-04 08:03:52,381.0
+user_0098,home,2024-01-02 07:08:42,Mobile_App,user_0098_s1,,,
+user_0098,product_view,2024-01-02 07:14:01,Mobile_App,user_0098_s1,home,2024-01-02 07:08:42,319.0
+user_0098,add_to_cart,2024-01-02 07:20:17,Mobile_App,user_0098_s1,product_view,2024-01-02 07:14:01,376.0
+user_0099,home,2024-01-03 03:07:03,Web_Desktop,user_0099_s1,,,
+user_0099,product_view,2024-01-03 03:09:57,Web_Desktop,user_0099_s1,home,2024-01-03 03:07:03,174.0
+user_0099,add_to_cart,2024-01-03 03:15:44,Web_Desktop,user_0099_s1,product_view,2024-01-03 03:09:57,347.0
+user_0099,checkout_click,2024-01-03 09:22:55,Mobile_App,user_0099_s2,add_to_cart,2024-01-03 03:15:44,22031.0
+user_0099,purchase,2024-01-03 09:28:42,Web_Desktop,user_0099_s2,checkout_click,2024-01-03 09:22:55,347.0
+user_0100,home,2024-01-04 08:33:29,Tablet,user_0100_s1,,,
+user_0101,home,2024-01-03 15:40:47,Web_Desktop,user_0101_s1,,,
+user_0101,product_view,2024-01-03 15:43:37,Web_Desktop,user_0101_s1,home,2024-01-03 15:40:47,170.0
+user_0102,home,2024-01-02 22:56:44,Mobile_App,user_0102_s1,,,
+user_0102,product_view,2024-01-02 22:59:51,Mobile_App,user_0102_s1,home,2024-01-02 22:56:44,187.0
+user_0103,home,2024-01-02 06:54:04,Web_Desktop,user_0103_s1,,,
+user_0103,product_view,2024-01-02 07:02:13,Web_Desktop,user_0103_s1,home,2024-01-02 06:54:04,489.0
+user_0104,home,2024-01-02 15:27:01,Web_Desktop,user_0104_s1,,,
+user_0104,product_view,2024-01-02 15:32:19,Web_Desktop,user_0104_s1,home,2024-01-02 15:27:01,318.0
+user_0104,add_to_cart,2024-01-02 15:41:23,Web_Desktop,user_0104_s1,product_view,2024-01-02 15:32:19,544.0
+user_0104,checkout_click,2024-01-02 15:45:17,Web_Desktop,user_0104_s1,add_to_cart,2024-01-02 15:41:23,234.0
+user_0105,home,2024-01-02 17:12:18,Tablet,user_0105_s1,,,
+user_0105,product_view,2024-01-02 17:17:39,Tablet,user_0105_s1,home,2024-01-02 17:12:18,321.0
+user_0106,home,2024-01-02 05:21:17,Web_Desktop,user_0106_s1,,,
+user_0106,product_view,2024-01-02 05:27:44,Web_Desktop,user_0106_s1,home,2024-01-02 05:21:17,387.0
+user_0106,add_to_cart,2024-01-02 05:35:18,Web_Desktop,user_0106_s1,product_view,2024-01-02 05:27:44,454.0
+user_0106,home,2024-01-02 05:36:32,Web_Desktop,user_0106_s1,add_to_cart,2024-01-02 05:35:18,74.0
+user_0106,product_view,2024-01-02 05:37:29,Web_Desktop,user_0106_s1,home,2024-01-02 05:36:32,57.0
+user_0106,add_to_cart,2024-01-02 05:38:09,Web_Desktop,user_0106_s1,product_view,2024-01-02 05:37:29,40.0
+user_0106,checkout_click,2024-01-02 05:40:02,Web_Desktop,user_0106_s1,add_to_cart,2024-01-02 05:38:09,113.0
+user_0107,home,2024-01-01 22:01:33,Tablet,user_0107_s1,,,
+user_0107,product_view,2024-01-01 22:04:25,Tablet,user_0107_s1,home,2024-01-01 22:01:33,172.0
+user_0107,add_to_cart,2024-01-01 22:12:55,Tablet,user_0107_s1,product_view,2024-01-01 22:04:25,510.0
+user_0108,home,2024-01-01 19:10:30,Web_Desktop,user_0108_s1,,,
+user_0108,product_view,2024-01-01 19:15:55,Web_Desktop,user_0108_s1,home,2024-01-01 19:10:30,325.0
+user_0109,home,2024-01-02 00:12:01,Mobile_App,user_0109_s1,,,
+user_0109,product_view,2024-01-02 00:12:47,Mobile_App,user_0109_s1,home,2024-01-02 00:12:01,46.0
+user_0109,add_to_cart,2024-01-02 00:17:24,Mobile_App,user_0109_s1,product_view,2024-01-02 00:12:47,277.0
+user_0110,home,2024-01-01 09:48:26,Web_Desktop,user_0110_s1,,,
+user_0110,product_view,2024-01-01 09:50:05,Web_Desktop,user_0110_s1,home,2024-01-01 09:48:26,99.0
+user_0110,add_to_cart,2024-01-01 09:59:52,Web_Desktop,user_0110_s1,product_view,2024-01-01 09:50:05,587.0
+user_0110,checkout_click,2024-01-01 10:09:49,Web_Desktop,user_0110_s1,add_to_cart,2024-01-01 09:59:52,597.0
+user_0110,purchase,2024-01-01 10:16:44,Web_Desktop,user_0110_s1,checkout_click,2024-01-01 10:09:52,412.0
+user_0111,home,2024-01-02 17:49:16,Mobile_App,user_0111_s1,,,
+user_0111,product_view,2024-01-02 17:55:26,Mobile_App,user_0111_s1,home,2024-01-02 17:49:16,370.0
+user_0112,home,2024-01-03 06:42:40,Web_Desktop,user_0112_s1,,,
+user_0112,product_view,2024-01-03 06:45:28,Web_Desktop,user_0112_s1,home,2024-01-03 06:42:40,168.0
+user_0113,home,2024-01-03 19:07:47,Web_Desktop,user_0113_s1,,,
+user_0113,product_view,2024-01-03 19:17:33,Web_Desktop,user_0113_s1,home,2024-01-03 19:07:47,586.0
+user_0113,add_to_cart,2024-01-03 19:18:40,Web_Desktop,user_0113_s1,product_view,2024-01-03 19:17:33,67.0
+user_0114,home,2024-01-03 07:02:57,Mobile_App,user_0114_s1,,,
+user_0114,product_view,2024-01-03 07:10:57,Mobile_App,user_0114_s1,home,2024-01-03 07:02:57,480.0
+user_0114,add_to_cart,2024-01-03 07:18:02,Mobile_App,user_0114_s1,product_view,2024-01-03 07:10:57,425.0
+user_0115,home,2024-01-04 00:26:34,Tablet,user_0115_s1,,,
+user_0115,product_view,2024-01-04 00:32:32,Tablet,user_0115_s1,home,2024-01-04 00:26:34,358.0
+user_0116,home,2024-01-03 02:50:07,Web_Desktop,user_0116_s1,,,
+user_0117,home,2024-01-03 06:45:42,Web_Desktop,user_0117_s1,,,
+user_0117,product_view,2024-01-03 06:48:55,Web_Desktop,user_0117_s1,home,2024-01-03 06:45:42,193.0
+user_0117,add_to_cart,2024-01-03 06:51:51,Web_Desktop,user_0117_s1,product_view,2024-01-03 06:48:55,176.0
+user_0117,checkout_click,2024-01-03 06:59:49,Web_Desktop,user_0117_s1,add_to_cart,2024-01-03 06:51:51,478.0
+user_0117,purchase,2024-01-03 07:06:36,Web_Desktop,user_0117_s1,checkout_click,2024-01-03 06:59:51,405.0
+user_0118,home,2024-01-03 07:30:50,Tablet,user_0118_s1,,,
+user_0118,product_view,2024-01-03 07:32:38,Tablet,user_0118_s1,home,2024-01-03 07:30:50,108.0
+user_0118,add_to_cart,2024-01-03 16:42:10,Mobile_App,user_0118_s2,product_view,2024-01-03 07:32:38,32972.0
+user_0118,checkout_click,2024-01-03 16:46:55,Tablet,user_0118_s2,add_to_cart,2024-01-03 16:42:10,285.0
+user_0119,home,2024-01-02 08:39:06,Tablet,user_0119_s1,,,
+user_0119,product_view,2024-01-02 08:44:28,Tablet,user_0119_s1,home,2024-01-02 08:39:06,322.0
+user_0119,add_to_cart,2024-01-02 08:53:20,Tablet,user_0119_s1,product_view,2024-01-02 08:44:28,532.0
+user_0120,home,2024-01-01 18:33:57,Mobile_App,user_0120_s1,,,
+user_0120,product_view,2024-01-01 18:35:33,Mobile_App,user_0120_s1,home,2024-01-01 18:33:57,96.0
+user_0120,add_to_cart,2024-01-01 18:41:00,Mobile_App,user_0120_s1,product_view,2024-01-01 18:35:33,327.0
+user_0120,checkout_click,2024-01-01 18:44:28,Mobile_App,user_0120_s1,add_to_cart,2024-01-01 18:41:00,208.0
+user_0120,purchase,2024-01-01 18:47:02,Mobile_App,user_0120_s1,checkout_click,2024-01-01 18:44:28,154.0
+user_0121,purchase,2024-01-02 10:59:57,Mobile_App,user_0121_orphan,,,
+user_0122,home,2024-01-03 08:37:40,Tablet,user_0122_s1,,,
+user_0122,product_view,2024-01-03 08:45:09,Tablet,user_0122_s1,home,2024-01-03 08:37:40,449.0
+user_0122,add_to_cart,2024-01-03 14:46:54,Mobile_App,user_0122_s2,product_view,2024-01-03 08:45:09,21705.0
+user_0122,checkout_click,2024-01-03 14:55:04,Tablet,user_0122_s2,add_to_cart,2024-01-03 14:46:54,490.0
+user_0122,purchase,2024-01-03 14:57:45,Tablet,user_0122_s2,checkout_click,2024-01-03 14:55:04,161.0
+user_0123,home,2024-01-04 07:41:26,Tablet,user_0123_s1,,,
+user_0123,product_view,2024-01-04 07:50:46,Tablet,user_0123_s1,home,2024-01-04 07:41:26,560.0
+user_0124,home,2024-01-02 06:15:20,Web_Desktop,user_0124_s1,,,
+user_0124,product_view,2024-01-02 06:20:06,Web_Desktop,user_0124_s1,home,2024-01-02 06:15:20,286.0
+user_0125,home,2024-01-04 07:20:07,Mobile_App,user_0125_s1,,,
+user_0125,product_view,2024-01-04 07:26:22,Mobile_App,user_0125_s1,home,2024-01-04 07:20:07,375.0
+user_0125,add_to_cart,2024-01-04 07:27:34,Mobile_App,user_0125_s1,product_view,2024-01-04 07:26:22,72.0
+user_0126,home,2024-01-01 14:42:01,Tablet,user_0126_s1,,,
+user_0126,product_view,2024-01-01 14:51:49,Tablet,user_0126_s1,home,2024-01-01 14:42:01,588.0
+user_0126,add_to_cart,2024-01-01 14:57:28,Tablet,user_0126_s1,product_view,2024-01-01 14:51:49,339.0
+user_0126,checkout_click,2024-01-01 15:04:53,Tablet,user_0126_s1,add_to_cart,2024-01-01 14:57:28,445.0
+user_0127,home,2024-01-01 16:15:50,Web_Desktop,user_0127_s1,,,
+user_0127,product_view,2024-01-01 16:21:46,Web_Desktop,user_0127_s1,home,2024-01-01 16:15:50,356.0
+user_0127,add_to_cart,2024-01-01 16:28:09,Web_Desktop,user_0127_s1,product_view,2024-01-01 16:21:46,383.0
+user_0128,home,2024-01-03 08:36:43,Tablet,user_0128_s1,,,
+user_0129,home,2024-01-01 15:21:13,Web_Desktop,user_0129_s1,,,
+user_0129,product_view,2024-01-01 15:27:03,Web_Desktop,user_0129_s1,home,2024-01-01 15:21:13,350.0
+user_0130,home,2024-01-02 05:38:12,Tablet,user_0130_s1,,,
+user_0130,product_view,2024-01-02 05:42:48,Tablet,user_0130_s1,home,2024-01-02 05:38:12,276.0
+user_0132,home,2024-01-01 22:34:20,Mobile_App,user_0132_s1,,,
+user_0133,home,2024-01-04 08:21:53,Web_Desktop,user_0133_s1,,,
+user_0133,product_view,2024-01-04 08:24:24,Web_Desktop,user_0133_s1,home,2024-01-04 08:21:53,151.0
+user_0134,home,2024-01-01 21:27:57,Web_Desktop,user_0134_s1,,,
+user_0134,product_view,2024-01-01 21:37:08,Web_Desktop,user_0134_s1,home,2024-01-01 21:27:57,551.0
+user_0134,add_to_cart,2024-01-01 21:38:19,Web_Desktop,user_0134_s1,product_view,2024-01-01 21:37:08,71.0
+user_0134,home,2024-01-01 21:38:46,Web_Desktop,user_0134_s1,add_to_cart,2024-01-01 21:38:19,27.0
+user_0134,product_view,2024-01-01 21:40:27,Web_Desktop,user_0134_s1,home,2024-01-01 21:38:46,101.0
+user_0134,add_to_cart,2024-01-01 21:41:19,Web_Desktop,user_0134_s1,product_view,2024-01-01 21:40:27,52.0
+user_0134,checkout_click,2024-01-01 21:50:40,Web_Desktop,user_0134_s1,add_to_cart,2024-01-01 21:41:19,561.0
+user_0134,purchase,2024-01-01 21:59:57,Web_Desktop,user_0134_s1,checkout_click,2024-01-01 21:50:40,557.0
+user_0135,home,2024-01-02 02:25:36,Tablet,user_0135_s1,,,
+user_0135,product_view,2024-01-02 02:34:45,Tablet,user_0135_s1,home,2024-01-02 02:25:36,549.0
+user_0135,add_to_cart,2024-01-02 02:44:20,Tablet,user_0135_s1,product_view,2024-01-02 02:34:45,575.0
+user_0135,checkout_click,2024-01-02 02:52:56,Tablet,user_0135_s1,add_to_cart,2024-01-02 02:44:20,516.0
+user_0135,purchase,2024-01-02 02:55:18,Tablet,user_0135_s1,checkout_click,2024-01-02 02:52:56,142.0
+user_0136,home,2024-01-03 14:41:23,Web_Desktop,user_0136_s1,,,
+user_0136,product_view,2024-01-03 14:50:04,Web_Desktop,user_0136_s1,home,2024-01-03 14:41:23,521.0
+user_0137,home,2024-01-03 09:16:38,Tablet,user_0137_s1,,,
+user_0137,product_view,2024-01-03 09:20:36,Tablet,user_0137_s1,home,2024-01-03 09:16:38,238.0
+user_0137,add_to_cart,2024-01-03 09:29:08,Tablet,user_0137_s1,product_view,2024-01-03 09:20:36,512.0
+user_0137,checkout_click,2024-01-03 09:30:41,Tablet,user_0137_s1,add_to_cart,2024-01-03 09:29:08,93.0
+user_0137,purchase,2024-01-03 09:36:43,Tablet,user_0137_s1,checkout_click,2024-01-03 09:30:41,362.0
+user_0138,home,2024-01-03 22:42:49,Web_Desktop,user_0138_s1,,,
+user_0138,product_view,2024-01-03 22:47:49,Web_Desktop,user_0138_s1,home,2024-01-03 22:42:49,300.0
+user_0138,add_to_cart,2024-01-03 22:51:35,Web_Desktop,user_0138_s1,product_view,2024-01-03 22:47:49,226.0
+user_0139,home,2024-01-02 23:22:41,Web_Desktop,user_0139_s1,,,
+user_0139,product_view,2024-01-02 23:27:51,Web_Desktop,user_0139_s1,home,2024-01-02 23:22:41,310.0
+user_0139,add_to_cart,2024-01-02 23:37:37,Web_Desktop,user_0139_s1,product_view,2024-01-02 23:27:51,586.0
+user_0139,checkout_click,2024-01-02 23:44:00,Web_Desktop,user_0139_s1,add_to_cart,2024-01-02 23:37:37,383.0
+user_0139,purchase,2024-01-02 23:49:27,Web_Desktop,user_0139_s1,checkout_click,2024-01-02 23:44:00,327.0
+user_0140,home,2024-01-01 14:22:09,Tablet,user_0140_s1,,,
+user_0140,product_view,2024-01-01 14:31:50,Tablet,user_0140_s1,home,2024-01-01 14:22:09,581.0
+user_0140,add_to_cart,2024-01-01 14:36:58,Tablet,user_0140_s1,product_view,2024-01-01 14:31:50,308.0
+user_0140,home,2024-01-01 14:38:26,Tablet,user_0140_s1,add_to_cart,2024-01-01 14:36:58,88.0
+user_0140,product_view,2024-01-01 14:40:10,Tablet,user_0140_s1,home,2024-01-01 14:38:26,104.0
+user_0140,add_to_cart,2024-01-01 14:41:35,Tablet,user_0140_s1,product_view,2024-01-01 14:40:10,85.0
+user_0141,home,2024-01-01 15:50:33,Tablet,user_0141_s1,,,
+user_0142,home,2024-01-02 02:08:37,Tablet,user_0142_s1,,,
+user_0142,product_view,2024-01-02 02:12:31,Tablet,user_0142_s1,home,2024-01-02 02:08:37,234.0
+user_0142,add_to_cart,2024-01-02 02:17:55,Tablet,user_0142_s1,product_view,2024-01-02 02:12:31,324.0
+user_0142,checkout_click,2024-01-02 02:19:56,Tablet,user_0142_s1,add_to_cart,2024-01-02 02:17:55,121.0
+user_0145,home,2024-01-04 09:47:46,Mobile_App,user_0145_s1,,,
+user_0145,product_view,2024-01-04 09:50:33,Mobile_App,user_0145_s1,home,2024-01-04 09:47:46,167.0
+user_0145,add_to_cart,2024-01-04 09:59:02,Mobile_App,user_0145_s1,product_view,2024-01-04 09:50:33,509.0
+user_0145,checkout_click,2024-01-04 10:05:10,Mobile_App,user_0145_s1,add_to_cart,2024-01-04 09:59:02,368.0
+user_0145,purchase,2024-01-04 10:05:58,Mobile_App,user_0145_s1,checkout_click,2024-01-04 10:05:14,44.0
+user_0146,home,2024-01-03 04:57:25,Web_Desktop,user_0146_s1,,,
+user_0146,product_view,2024-01-03 05:06:42,Web_Desktop,user_0146_s1,home,2024-01-03 04:57:25,557.0
+user_0146,add_to_cart,2024-01-03 05:14:02,Web_Desktop,user_0146_s1,product_view,2024-01-03 05:06:42,440.0
+user_0147,home,2024-01-02 02:35:03,Web_Desktop,user_0147_s1,,,
+user_0147,product_view,2024-01-02 02:40:42,Web_Desktop,user_0147_s1,home,2024-01-02 02:35:03,339.0
+user_0147,add_to_cart,2024-01-02 02:41:23,Web_Desktop,user_0147_s1,product_view,2024-01-02 02:40:42,41.0
+user_0147,checkout_click,2024-01-02 02:45:54,Web_Desktop,user_0147_s1,add_to_cart,2024-01-02 02:41:23,271.0
+user_0147,purchase,2024-01-02 02:53:22,Web_Desktop,user_0147_s1,checkout_click,2024-01-02 02:45:57,445.0
+user_0148,home,2024-01-04 02:05:46,Tablet,user_0148_s1,,,
+user_0148,product_view,2024-01-04 02:10:00,Tablet,user_0148_s1,home,2024-01-04 02:05:46,254.0
+user_0148,add_to_cart,2024-01-04 02:18:39,Tablet,user_0148_s1,product_view,2024-01-04 02:10:00,519.0
+user_0148,home,2024-01-04 02:20:24,Tablet,user_0148_s1,add_to_cart,2024-01-04 02:18:39,105.0
+user_0148,product_view,2024-01-04 02:21:51,Tablet,user_0148_s1,home,2024-01-04 02:20:24,87.0
+user_0148,add_to_cart,2024-01-04 02:22:48,Tablet,user_0148_s1,product_view,2024-01-04 02:21:51,57.0
+user_0148,checkout_click,2024-01-04 02:32:40,Tablet,user_0148_s1,add_to_cart,2024-01-04 02:22:48,592.0
+user_0148,purchase,2024-01-04 02:36:53,Tablet,user_0148_s1,checkout_click,2024-01-04 02:32:40,253.0
+user_0149,home,2024-01-02 16:49:40,Tablet,user_0149_s1,,,
+user_0150,home,2024-01-04 09:13:05,Mobile_App,user_0150_s1,,,
+user_0150,product_view,2024-01-04 09:21:07,Mobile_App,user_0150_s1,home,2024-01-04 09:13:05,482.0
+user_0151,home,2024-01-02 11:54:15,Tablet,user_0151_s1,,,
+user_0151,product_view,2024-01-02 11:55:44,Tablet,user_0151_s1,home,2024-01-02 11:54:15,89.0
+user_0151,add_to_cart,2024-01-02 12:01:29,Tablet,user_0151_s1,product_view,2024-01-02 11:55:44,345.0
+user_0151,checkout_click,2024-01-02 12:02:02,Tablet,user_0151_s1,add_to_cart,2024-01-02 12:01:29,33.0
+user_0151,purchase,2024-01-02 12:03:18,Tablet,user_0151_s1,checkout_click,2024-01-02 12:02:02,76.0
+user_0152,home,2024-01-03 15:30:33,Tablet,user_0152_s1,,,
+user_0153,home,2024-01-03 13:19:09,Mobile_App,user_0153_s1,,,
+user_0153,product_view,2024-01-03 13:26:05,Mobile_App,user_0153_s1,home,2024-01-03 13:19:09,416.0
+user_0153,add_to_cart,2024-01-03 13:35:47,Mobile_App,user_0153_s1,product_view,2024-01-03 13:26:05,582.0
+user_0153,home,2024-01-03 13:37:47,Mobile_App,user_0153_s1,add_to_cart,2024-01-03 13:35:47,120.0
+user_0153,product_view,2024-01-03 13:38:41,Mobile_App,user_0153_s1,home,2024-01-03 13:37:47,54.0
+user_0153,add_to_cart,2024-01-03 13:39:06,Mobile_App,user_0153_s1,product_view,2024-01-03 13:38:41,25.0
+user_0154,home,2024-01-04 05:30:35,Tablet,user_0154_s1,,,
+user_0154,product_view,2024-01-04 05:40:22,Tablet,user_0154_s1,home,2024-01-04 05:30:35,587.0
+user_0154,add_to_cart,2024-01-04 12:47:20,Mobile_App,user_0154_s2,product_view,2024-01-04 05:40:22,25618.0
+user_0155,home,2024-01-02 20:12:46,Tablet,user_0155_s1,,,
+user_0155,product_view,2024-01-02 20:14:24,Tablet,user_0155_s1,home,2024-01-02 20:12:46,98.0
+user_0157,home,2024-01-03 17:18:29,Tablet,user_0157_s1,,,
+user_0157,product_view,2024-01-03 17:24:25,Tablet,user_0157_s1,home,2024-01-03 17:18:29,356.0
+user_0157,add_to_cart,2024-01-03 17:30:23,Tablet,user_0157_s1,product_view,2024-01-03 17:24:25,358.0
+user_0157,checkout_click,2024-01-03 17:39:46,Tablet,user_0157_s1,add_to_cart,2024-01-03 17:30:23,563.0
+user_0158,home,2024-01-02 07:47:00,Tablet,user_0158_s1,,,
+user_0158,product_view,2024-01-02 07:52:56,Tablet,user_0158_s1,home,2024-01-02 07:47:00,356.0
+user_0158,add_to_cart,2024-01-02 08:00:24,Tablet,user_0158_s1,product_view,2024-01-02 07:52:56,448.0
+user_0158,home,2024-01-02 08:01:22,Tablet,user_0158_s1,add_to_cart,2024-01-02 08:00:24,58.0
+user_0158,product_view,2024-01-02 08:01:55,Tablet,user_0158_s1,home,2024-01-02 08:01:22,33.0
+user_0158,add_to_cart,2024-01-02 08:03:41,Tablet,user_0158_s1,product_view,2024-01-02 08:01:55,106.0
+user_0158,checkout_click,2024-01-02 08:08:17,Tablet,user_0158_s1,add_to_cart,2024-01-02 08:03:41,276.0
+user_0158,purchase,2024-01-02 08:11:14,Tablet,user_0158_s1,checkout_click,2024-01-02 08:08:17,177.0
+user_0159,home,2024-01-03 21:02:38,Mobile_App,user_0159_s1,,,
+user_0159,product_view,2024-01-03 21:08:46,Mobile_App,user_0159_s1,home,2024-01-03 21:02:38,368.0
+user_0159,add_to_cart,2024-01-03 21:16:56,Mobile_App,user_0159_s1,product_view,2024-01-03 21:08:46,490.0
+user_0160,home,2024-01-02 09:07:12,Web_Desktop,user_0160_s1,,,
+user_0160,product_view,2024-01-02 09:13:22,Web_Desktop,user_0160_s1,home,2024-01-02 09:07:12,370.0
+user_0160,add_to_cart,2024-01-02 09:14:07,Web_Desktop,user_0160_s1,product_view,2024-01-02 09:13:22,45.0
+user_0161,home,2024-01-02 00:52:59,Web_Desktop,user_0161_s1,,,
+user_0161,product_view,2024-01-02 00:59:58,Web_Desktop,user_0161_s1,home,2024-01-02 00:52:59,419.0
+user_0161,add_to_cart,2024-01-02 01:06:35,Web_Desktop,user_0161_s1,product_view,2024-01-02 00:59:58,397.0
+user_0161,checkout_click,2024-01-02 01:15:34,Web_Desktop,user_0161_s1,add_to_cart,2024-01-02 01:06:35,539.0
+user_0161,purchase,2024-01-02 01:24:04,Web_Desktop,user_0161_s1,checkout_click,2024-01-02 01:15:34,510.0
+user_0162,home,2024-01-03 02:00:59,Mobile_App,user_0162_s1,,,
+user_0163,home,2024-01-04 08:03:25,Tablet,user_0163_s1,,,
+user_0163,product_view,2024-01-04 08:08:06,Tablet,user_0163_s1,home,2024-01-04 08:03:25,281.0
+user_0163,add_to_cart,2024-01-04 08:14:21,Tablet,user_0163_s1,product_view,2024-01-04 08:08:06,375.0
+user_0163,checkout_click,2024-01-04 08:23:13,Tablet,user_0163_s1,add_to_cart,2024-01-04 08:14:21,532.0
+user_0163,purchase,2024-01-04 08:29:43,Tablet,user_0163_s1,checkout_click,2024-01-04 08:23:13,390.0
+user_0164,home,2024-01-02 06:09:30,Tablet,user_0164_s1,,,
+user_0164,product_view,2024-01-02 06:11:16,Tablet,user_0164_s1,home,2024-01-02 06:09:30,106.0
+user_0164,add_to_cart,2024-01-02 06:12:35,Tablet,user_0164_s1,product_view,2024-01-02 06:11:16,79.0
+user_0164,checkout_click,2024-01-02 06:17:01,Tablet,user_0164_s1,add_to_cart,2024-01-02 06:12:35,266.0
+user_0166,home,2024-01-04 05:44:04,Web_Desktop,user_0166_s1,,,
+user_0166,product_view,2024-01-04 05:51:54,Web_Desktop,user_0166_s1,home,2024-01-04 05:44:04,470.0
+user_0166,add_to_cart,2024-01-04 05:55:27,Web_Desktop,user_0166_s1,product_view,2024-01-04 05:51:54,213.0
+user_0166,home,2024-01-04 05:55:49,Web_Desktop,user_0166_s1,add_to_cart,2024-01-04 05:55:27,22.0
+user_0166,product_view,2024-01-04 05:57:06,Web_Desktop,user_0166_s1,home,2024-01-04 05:55:49,77.0
+user_0166,add_to_cart,2024-01-04 05:57:35,Web_Desktop,user_0166_s1,product_view,2024-01-04 05:57:06,29.0
+user_0167,home,2024-01-04 04:24:20,Web_Desktop,user_0167_s1,,,
+user_0167,product_view,2024-01-04 04:28:41,Web_Desktop,user_0167_s1,home,2024-01-04 04:24:20,261.0
+user_0167,add_to_cart,2024-01-04 04:30:33,Web_Desktop,user_0167_s1,product_view,2024-01-04 04:28:41,112.0
+user_0167,checkout_click,2024-01-04 04:31:35,Web_Desktop,user_0167_s1,add_to_cart,2024-01-04 04:30:33,62.0
+user_0167,purchase,2024-01-04 04:33:06,Web_Desktop,user_0167_s1,checkout_click,2024-01-04 04:31:39,87.0
+user_0168,home,2024-01-01 10:46:07,Mobile_App,user_0168_s1,,,
+user_0168,product_view,2024-01-01 10:47:20,Mobile_App,user_0168_s1,home,2024-01-01 10:46:07,73.0
+user_0169,home,2024-01-04 09:39:46,Web_Desktop,user_0169_s1,,,
+user_0169,product_view,2024-01-04 09:40:49,Web_Desktop,user_0169_s1,home,2024-01-04 09:39:46,63.0
+user_0170,home,2024-01-03 01:05:36,Mobile_App,user_0170_s1,,,
+user_0170,product_view,2024-01-03 01:12:44,Mobile_App,user_0170_s1,home,2024-01-03 01:05:36,428.0
+user_0170,add_to_cart,2024-01-03 01:22:27,Mobile_App,user_0170_s1,product_view,2024-01-03 01:12:44,583.0
+user_0170,checkout_click,2024-01-03 01:25:20,Mobile_App,user_0170_s1,add_to_cart,2024-01-03 01:22:27,173.0
+user_0170,purchase,2024-01-03 01:27:10,Mobile_App,user_0170_s1,checkout_click,2024-01-03 01:25:20,110.0
+user_0171,home,2024-01-04 01:54:16,Web_Desktop,user_0171_s1,,,
+user_0171,product_view,2024-01-04 02:00:20,Web_Desktop,user_0171_s1,home,2024-01-04 01:54:16,364.0
+user_0172,home,2024-01-02 19:53:40,Web_Desktop,user_0172_s1,,,
+user_0172,product_view,2024-01-02 20:00:39,Web_Desktop,user_0172_s1,home,2024-01-02 19:53:40,419.0
+user_0173,home,2024-01-02 22:54:07,Mobile_App,user_0173_s1,,,
+user_0173,product_view,2024-01-02 23:00:01,Mobile_App,user_0173_s1,home,2024-01-02 22:54:07,354.0
+user_0173,add_to_cart,2024-01-02 23:02:04,Mobile_App,user_0173_s1,product_view,2024-01-02 23:00:01,123.0
+user_0173,home,2024-01-02 23:02:53,Mobile_App,user_0173_s1,add_to_cart,2024-01-02 23:02:04,49.0
+user_0173,product_view,2024-01-02 23:03:59,Mobile_App,user_0173_s1,home,2024-01-02 23:02:53,66.0
+user_0173,add_to_cart,2024-01-02 23:04:55,Mobile_App,user_0173_s1,product_view,2024-01-02 23:03:59,56.0
+user_0173,checkout_click,2024-01-02 23:07:09,Mobile_App,user_0173_s1,add_to_cart,2024-01-02 23:04:55,134.0
+user_0173,purchase,2024-01-02 23:17:10,Mobile_App,user_0173_s1,checkout_click,2024-01-02 23:07:12,598.0
+user_0174,home,2024-01-04 02:32:02,Mobile_App,user_0174_s1,,,
+user_0174,product_view,2024-01-04 02:32:44,Mobile_App,user_0174_s1,home,2024-01-04 02:32:02,42.0
+user_0174,add_to_cart,2024-01-04 02:39:51,Mobile_App,user_0174_s1,product_view,2024-01-04 02:32:44,427.0
+user_0174,checkout_click,2024-01-04 14:44:29,Web_Desktop,user_0174_s2,add_to_cart,2024-01-04 02:39:51,43478.0
+user_0175,home,2024-01-02 23:25:45,Web_Desktop,user_0175_s1,,,
+user_0175,product_view,2024-01-02 23:32:24,Web_Desktop,user_0175_s1,home,2024-01-02 23:25:45,399.0
+user_0175,add_to_cart,2024-01-03 10:37:06,Mobile_App,user_0175_s2,product_view,2024-01-02 23:32:24,39882.0
+user_0176,home,2024-01-01 22:14:07,Web_Desktop,user_0176_s1,,,
+user_0176,product_view,2024-01-01 22:21:57,Web_Desktop,user_0176_s1,home,2024-01-01 22:14:07,470.0
+user_0176,add_to_cart,2024-01-01 22:24:46,Web_Desktop,user_0176_s1,product_view,2024-01-01 22:21:57,169.0
+user_0176,checkout_click,2024-01-02 09:28:41,Mobile_App,user_0176_s2,add_to_cart,2024-01-01 22:24:46,39835.0
+user_0176,purchase,2024-01-02 09:34:37,Web_Desktop,user_0176_s2,checkout_click,2024-01-02 09:28:41,356.0
+user_0177,home,2024-01-02 22:54:12,Tablet,user_0177_s1,,,
+user_0177,product_view,2024-01-02 22:58:06,Tablet,user_0177_s1,home,2024-01-02 22:54:12,234.0
+user_0177,add_to_cart,2024-01-02 23:07:54,Tablet,user_0177_s1,product_view,2024-01-02 22:58:06,588.0
+user_0177,home,2024-01-02 23:09:42,Tablet,user_0177_s1,add_to_cart,2024-01-02 23:07:54,108.0
+user_0177,product_view,2024-01-02 23:11:02,Tablet,user_0177_s1,home,2024-01-02 23:09:42,80.0
+user_0177,add_to_cart,2024-01-02 23:11:15,Tablet,user_0177_s1,product_view,2024-01-02 23:11:02,13.0
+user_0177,checkout_click,2024-01-02 23:19:37,Tablet,user_0177_s1,add_to_cart,2024-01-02 23:11:15,502.0
+user_0178,home,2024-01-02 22:58:40,Tablet,user_0178_s1,,,
+user_0178,product_view,2024-01-02 23:01:47,Tablet,user_0178_s1,home,2024-01-02 22:58:40,187.0
+user_0178,add_to_cart,2024-01-02 23:08:43,Tablet,user_0178_s1,product_view,2024-01-02 23:01:47,416.0
+user_0178,home,2024-01-02 23:10:09,Tablet,user_0178_s1,add_to_cart,2024-01-02 23:08:43,86.0
+user_0178,product_view,2024-01-02 23:11:20,Tablet,user_0178_s1,home,2024-01-02 23:10:09,71.0
+user_0178,add_to_cart,2024-01-02 23:12:44,Tablet,user_0178_s1,product_view,2024-01-02 23:11:20,84.0
+user_0178,checkout_click,2024-01-03 09:21:52,Mobile_App,user_0178_s2,add_to_cart,2024-01-02 23:12:44,36548.0
+user_0178,purchase,2024-01-03 09:28:30,Tablet,user_0178_s2,checkout_click,2024-01-03 09:21:52,398.0
+user_0179,home,2024-01-04 05:44:33,Tablet,user_0179_s1,,,
+user_0179,product_view,2024-01-04 05:45:48,Tablet,user_0179_s1,home,2024-01-04 05:44:33,75.0
+user_0179,add_to_cart,2024-01-04 05:53:07,Tablet,user_0179_s1,product_view,2024-01-04 05:45:48,439.0
+user_0180,home,2024-01-03 16:10:16,Mobile_App,user_0180_s1,,,
+user_0180,product_view,2024-01-03 16:17:26,Mobile_App,user_0180_s1,home,2024-01-03 16:10:16,430.0
+user_0180,add_to_cart,2024-01-03 22:26:28,Web_Desktop,user_0180_s2,product_view,2024-01-03 16:17:26,22142.0
+user_0181,home,2024-01-01 22:20:55,Web_Desktop,user_0181_s1,,,
+user_0181,product_view,2024-01-01 22:27:16,Web_Desktop,user_0181_s1,home,2024-01-01 22:20:55,381.0
+user_0181,add_to_cart,2024-01-01 22:31:17,Web_Desktop,user_0181_s1,product_view,2024-01-01 22:27:16,241.0
+user_0183,home,2024-01-01 23:10:18,Web_Desktop,user_0183_s1,,,
+user_0183,product_view,2024-01-01 23:13:31,Web_Desktop,user_0183_s1,home,2024-01-01 23:10:18,193.0
+user_0183,add_to_cart,2024-01-01 23:21:17,Web_Desktop,user_0183_s1,product_view,2024-01-01 23:13:31,466.0
+user_0184,home,2024-01-03 12:43:52,Mobile_App,user_0184_s1,,,
+user_0184,product_view,2024-01-03 12:51:41,Mobile_App,user_0184_s1,home,2024-01-03 12:43:52,469.0
+user_0184,add_to_cart,2024-01-03 12:55:50,Mobile_App,user_0184_s1,product_view,2024-01-03 12:51:41,249.0
+user_0184,checkout_click,2024-01-03 12:57:24,Mobile_App,user_0184_s1,add_to_cart,2024-01-03 12:55:50,94.0
+user_0184,purchase,2024-01-03 13:07:03,Mobile_App,user_0184_s1,checkout_click,2024-01-03 12:57:24,579.0
+user_0185,home,2024-01-02 08:32:30,Web_Desktop,user_0185_s1,,,
+user_0185,product_view,2024-01-02 08:38:20,Web_Desktop,user_0185_s1,home,2024-01-02 08:32:30,350.0
+user_0185,add_to_cart,2024-01-02 08:45:31,Web_Desktop,user_0185_s1,product_view,2024-01-02 08:38:20,431.0
+user_0186,home,2024-01-03 19:41:47,Mobile_App,user_0186_s1,,,
+user_0186,product_view,2024-01-03 19:46:21,Mobile_App,user_0186_s1,home,2024-01-03 19:41:47,274.0
+user_0186,add_to_cart,2024-01-03 19:49:58,Mobile_App,user_0186_s1,product_view,2024-01-03 19:46:21,217.0
+user_0187,home,2024-01-03 10:35:40,Tablet,user_0187_s1,,,
+user_0187,product_view,2024-01-03 10:39:07,Tablet,user_0187_s1,home,2024-01-03 10:35:40,207.0
+user_0187,add_to_cart,2024-01-03 10:47:58,Tablet,user_0187_s1,product_view,2024-01-03 10:39:07,531.0
+user_0188,home,2024-01-03 18:46:03,Mobile_App,user_0188_s1,,,
+user_0188,product_view,2024-01-03 18:55:10,Mobile_App,user_0188_s1,home,2024-01-03 18:46:03,547.0
+user_0188,add_to_cart,2024-01-03 19:02:38,Mobile_App,user_0188_s1,product_view,2024-01-03 18:55:10,448.0
+user_0188,checkout_click,2024-01-03 19:10:42,Mobile_App,user_0188_s1,add_to_cart,2024-01-03 19:02:38,484.0
+user_0189,home,2024-01-01 12:58:18,Mobile_App,user_0189_s1,,,
+user_0189,product_view,2024-01-01 13:07:15,Mobile_App,user_0189_s1,home,2024-01-01 12:58:18,537.0
+user_0189,add_to_cart,2024-01-01 13:09:40,Mobile_App,user_0189_s1,product_view,2024-01-01 13:07:15,145.0
+user_0190,home,2024-01-04 06:56:13,Web_Desktop,user_0190_s1,,,
+user_0190,product_view,2024-01-04 06:58:27,Web_Desktop,user_0190_s1,home,2024-01-04 06:56:13,134.0
+user_0190,add_to_cart,2024-01-04 07:03:10,Web_Desktop,user_0190_s1,product_view,2024-01-04 06:58:27,283.0
+user_0190,checkout_click,2024-01-04 07:11:20,Web_Desktop,user_0190_s1,add_to_cart,2024-01-04 07:03:10,490.0
+user_0190,purchase,2024-01-04 07:13:19,Web_Desktop,user_0190_s1,checkout_click,2024-01-04 07:11:20,119.0
+user_0191,home,2024-01-03 18:01:29,Mobile_App,user_0191_s1,,,
+user_0191,product_view,2024-01-03 18:09:17,Mobile_App,user_0191_s1,home,2024-01-03 18:01:29,468.0
+user_0192,home,2024-01-02 02:59:41,Mobile_App,user_0192_s1,,,
+user_0192,product_view,2024-01-02 03:05:10,Mobile_App,user_0192_s1,home,2024-01-02 02:59:41,329.0
+user_0192,add_to_cart,2024-01-02 03:10:13,Mobile_App,user_0192_s1,product_view,2024-01-02 03:05:10,303.0
+user_0192,checkout_click,2024-01-02 03:12:20,Mobile_App,user_0192_s1,add_to_cart,2024-01-02 03:10:13,127.0
+user_0192,purchase,2024-01-02 03:15:02,Mobile_App,user_0192_s1,checkout_click,2024-01-02 03:12:23,159.0
+user_0193,home,2024-01-02 01:23:51,Mobile_App,user_0193_s1,,,
+user_0194,home,2024-01-02 19:42:05,Web_Desktop,user_0194_s1,,,
+user_0194,product_view,2024-01-02 19:47:19,Web_Desktop,user_0194_s1,home,2024-01-02 19:42:05,314.0
+user_0194,add_to_cart,2024-01-02 19:54:06,Web_Desktop,user_0194_s1,product_view,2024-01-02 19:47:19,407.0
+user_0194,checkout_click,2024-01-02 19:54:38,Web_Desktop,user_0194_s1,add_to_cart,2024-01-02 19:54:06,32.0
+user_0194,purchase,2024-01-02 19:56:43,Web_Desktop,user_0194_s1,checkout_click,2024-01-02 19:54:38,125.0
+user_0195,home,2024-01-03 19:47:49,Tablet,user_0195_s1,,,
+user_0195,product_view,2024-01-03 19:56:45,Tablet,user_0195_s1,home,2024-01-03 19:47:49,536.0
+user_0195,add_to_cart,2024-01-03 20:02:05,Tablet,user_0195_s1,product_view,2024-01-03 19:56:45,320.0
+user_0195,checkout_click,2024-01-03 20:10:51,Tablet,user_0195_s1,add_to_cart,2024-01-03 20:02:05,526.0
+user_0195,purchase,2024-01-03 20:12:10,Tablet,user_0195_s1,checkout_click,2024-01-03 20:10:51,79.0
+user_0196,purchase,2024-01-01 14:09:11,Tablet,user_0196_orphan,,,
+user_0197,home,2024-01-03 17:31:45,Mobile_App,user_0197_s1,,,
+user_0197,product_view,2024-01-03 17:37:24,Mobile_App,user_0197_s1,home,2024-01-03 17:31:45,339.0
+user_0198,home,2024-01-02 20:08:19,Tablet,user_0198_s1,,,
+user_0199,home,2024-01-03 00:46:31,Tablet,user_0199_s1,,,
+user_0199,product_view,2024-01-03 00:48:20,Tablet,user_0199_s1,home,2024-01-03 00:46:31,109.0
+user_0200,home,2024-01-02 13:40:42,Tablet,user_0200_s1,,,
+user_0200,product_view,2024-01-02 13:49:21,Tablet,user_0200_s1,home,2024-01-02 13:40:42,519.0
+user_0201,home,2024-01-03 10:07:50,Tablet,user_0201_s1,,,
+user_0201,product_view,2024-01-03 10:10:36,Tablet,user_0201_s1,home,2024-01-03 10:07:50,166.0
+user_0201,add_to_cart,2024-01-03 10:13:32,Tablet,user_0201_s1,product_view,2024-01-03 10:10:36,176.0
+user_0201,home,2024-01-03 10:14:54,Tablet,user_0201_s1,add_to_cart,2024-01-03 10:13:32,82.0
+user_0201,product_view,2024-01-03 10:15:05,Tablet,user_0201_s1,home,2024-01-03 10:14:54,11.0
+user_0201,add_to_cart,2024-01-03 10:16:33,Tablet,user_0201_s1,product_view,2024-01-03 10:15:05,88.0
+user_0201,checkout_click,2024-01-03 10:24:33,Tablet,user_0201_s1,add_to_cart,2024-01-03 10:16:33,480.0
+user_0202,home,2024-01-02 05:00:12,Web_Desktop,user_0202_s1,,,
+user_0203,home,2024-01-02 00:42:13,Tablet,user_0203_s1,,,
+user_0203,product_view,2024-01-02 00:46:57,Tablet,user_0203_s1,home,2024-01-02 00:42:13,284.0
+user_0203,add_to_cart,2024-01-02 00:52:18,Tablet,user_0203_s1,product_view,2024-01-02 00:46:57,321.0
+user_0203,checkout_click,2024-01-02 00:57:56,Tablet,user_0203_s1,add_to_cart,2024-01-02 00:52:18,338.0
+user_0204,home,2024-01-01 15:51:42,Mobile_App,user_0204_s1,,,
+user_0204,product_view,2024-01-01 15:52:24,Mobile_App,user_0204_s1,home,2024-01-01 15:51:42,42.0
+user_0204,add_to_cart,2024-01-01 15:58:18,Mobile_App,user_0204_s1,product_view,2024-01-01 15:52:24,354.0
+user_0204,home,2024-01-01 16:00:18,Mobile_App,user_0204_s1,add_to_cart,2024-01-01 15:58:18,120.0
+user_0204,product_view,2024-01-01 16:02:15,Mobile_App,user_0204_s1,home,2024-01-01 16:00:18,117.0
+user_0204,add_to_cart,2024-01-01 16:03:37,Mobile_App,user_0204_s1,product_view,2024-01-01 16:02:15,82.0
+user_0204,checkout_click,2024-01-01 16:13:26,Mobile_App,user_0204_s1,add_to_cart,2024-01-01 16:03:37,589.0
+user_0204,purchase,2024-01-01 16:15:10,Mobile_App,user_0204_s1,checkout_click,2024-01-01 16:13:26,104.0
+user_0205,home,2024-01-01 11:44:17,Mobile_App,user_0205_s1,,,
+user_0205,product_view,2024-01-01 11:53:20,Mobile_App,user_0205_s1,home,2024-01-01 11:44:17,543.0
+user_0205,add_to_cart,2024-01-01 22:01:03,Web_Desktop,user_0205_s2,product_view,2024-01-01 11:53:20,36463.0
+user_0205,home,2024-01-01 22:02:21,Web_Desktop,user_0205_s2,add_to_cart,2024-01-01 22:01:03,78.0
+user_0205,product_view,2024-01-01 22:03:39,Web_Desktop,user_0205_s2,home,2024-01-01 22:02:21,78.0
+user_0205,add_to_cart,2024-01-01 22:05:07,Web_Desktop,user_0205_s2,product_view,2024-01-01 22:03:39,88.0
+user_0206,home,2024-01-01 19:25:04,Mobile_App,user_0206_s1,,,
+user_0206,product_view,2024-01-01 19:26:41,Mobile_App,user_0206_s1,home,2024-01-01 19:25:04,97.0
+user_0206,add_to_cart,2024-01-01 19:34:38,Mobile_App,user_0206_s1,product_view,2024-01-01 19:26:41,477.0
+user_0206,checkout_click,2024-01-01 19:36:07,Mobile_App,user_0206_s1,add_to_cart,2024-01-01 19:34:38,89.0
+user_0206,purchase,2024-01-01 19:37:36,Mobile_App,user_0206_s1,checkout_click,2024-01-01 19:36:10,86.0
+user_0207,home,2024-01-03 00:42:41,Tablet,user_0207_s1,,,
+user_0207,product_view,2024-01-03 00:49:06,Tablet,user_0207_s1,home,2024-01-03 00:42:41,385.0
+user_0207,add_to_cart,2024-01-03 00:54:01,Tablet,user_0207_s1,product_view,2024-01-03 00:49:06,295.0
+user_0207,home,2024-01-03 00:54:27,Tablet,user_0207_s1,add_to_cart,2024-01-03 00:54:01,26.0
+user_0207,product_view,2024-01-03 00:56:12,Tablet,user_0207_s1,home,2024-01-03 00:54:27,105.0
+user_0207,add_to_cart,2024-01-03 00:58:01,Tablet,user_0207_s1,product_view,2024-01-03 00:56:12,109.0
+user_0207,checkout_click,2024-01-03 01:00:31,Tablet,user_0207_s1,add_to_cart,2024-01-03 00:58:01,150.0
+user_0208,home,2024-01-03 15:18:26,Tablet,user_0208_s1,,,
+user_0208,product_view,2024-01-03 15:21:46,Tablet,user_0208_s1,home,2024-01-03 15:18:26,200.0
+user_0208,add_to_cart,2024-01-03 20:26:37,Mobile_App,user_0208_s2,product_view,2024-01-03 15:21:46,18291.0
+user_0208,checkout_click,2024-01-03 20:29:05,Tablet,user_0208_s2,add_to_cart,2024-01-03 20:26:37,148.0
+user_0208,purchase,2024-01-03 20:29:49,Tablet,user_0208_s2,checkout_click,2024-01-03 20:29:07,42.0
+user_0209,home,2024-01-02 16:03:06,Web_Desktop,user_0209_s1,,,
+user_0209,product_view,2024-01-02 16:10:45,Web_Desktop,user_0209_s1,home,2024-01-02 16:03:06,459.0
+user_0210,home,2024-01-02 16:27:23,Tablet,user_0210_s1,,,
+user_0210,product_view,2024-01-02 16:36:41,Tablet,user_0210_s1,home,2024-01-02 16:27:23,558.0
+user_0210,add_to_cart,2024-01-02 16:44:01,Tablet,user_0210_s1,product_view,2024-01-02 16:36:41,440.0
+user_0210,home,2024-01-02 16:45:10,Tablet,user_0210_s1,add_to_cart,2024-01-02 16:44:01,69.0
+user_0210,product_view,2024-01-02 16:47:10,Tablet,user_0210_s1,home,2024-01-02 16:45:10,120.0
+user_0210,add_to_cart,2024-01-02 16:47:56,Tablet,user_0210_s1,product_view,2024-01-02 16:47:10,46.0
+user_0210,checkout_click,2024-01-02 16:53:44,Tablet,user_0210_s1,add_to_cart,2024-01-02 16:47:56,348.0
+user_0210,purchase,2024-01-02 16:54:22,Tablet,user_0210_s1,checkout_click,2024-01-02 16:53:44,38.0
+user_0211,home,2024-01-03 08:18:47,Web_Desktop,user_0211_s1,,,
+user_0211,product_view,2024-01-03 08:27:42,Web_Desktop,user_0211_s1,home,2024-01-03 08:18:47,535.0
+user_0211,add_to_cart,2024-01-03 08:31:32,Web_Desktop,user_0211_s1,product_view,2024-01-03 08:27:42,230.0
+user_0211,checkout_click,2024-01-03 08:36:13,Web_Desktop,user_0211_s1,add_to_cart,2024-01-03 08:31:32,281.0
+user_0212,purchase,2024-01-03 05:46:55,Tablet,user_0212_orphan,,,
+user_0213,home,2024-01-03 00:08:55,Mobile_App,user_0213_s1,,,
+user_0213,product_view,2024-01-03 00:11:00,Mobile_App,user_0213_s1,home,2024-01-03 00:08:55,125.0
+user_0214,home,2024-01-02 14:59:07,Tablet,user_0214_s1,,,
+user_0214,product_view,2024-01-02 15:06:20,Tablet,user_0214_s1,home,2024-01-02 14:59:07,433.0
+user_0215,home,2024-01-04 09:08:52,Web_Desktop,user_0215_s1,,,
+user_0215,product_view,2024-01-04 09:16:04,Web_Desktop,user_0215_s1,home,2024-01-04 09:08:52,432.0
+user_0215,add_to_cart,2024-01-04 09:22:08,Web_Desktop,user_0215_s1,product_view,2024-01-04 09:16:04,364.0
+user_0216,home,2024-01-01 18:20:27,Mobile_App,user_0216_s1,,,
+user_0216,product_view,2024-01-01 18:23:00,Mobile_App,user_0216_s1,home,2024-01-01 18:20:27,153.0
+user_0216,add_to_cart,2024-01-01 18:27:02,Mobile_App,user_0216_s1,product_view,2024-01-01 18:23:00,242.0
+user_0216,checkout_click,2024-01-01 18:29:34,Mobile_App,user_0216_s1,add_to_cart,2024-01-01 18:27:02,152.0
+user_0218,home,2024-01-02 23:25:53,Mobile_App,user_0218_s1,,,
+user_0218,product_view,2024-01-02 23:34:16,Mobile_App,user_0218_s1,home,2024-01-02 23:25:53,503.0
+user_0219,home,2024-01-02 02:13:51,Mobile_App,user_0219_s1,,,
+user_0219,product_view,2024-01-02 02:15:47,Mobile_App,user_0219_s1,home,2024-01-02 02:13:51,116.0
+user_0219,add_to_cart,2024-01-02 07:20:42,Web_Desktop,user_0219_s2,product_view,2024-01-02 02:15:47,18295.0
+user_0219,home,2024-01-02 07:21:00,Web_Desktop,user_0219_s2,add_to_cart,2024-01-02 07:20:42,18.0
+user_0219,product_view,2024-01-02 07:21:35,Web_Desktop,user_0219_s2,home,2024-01-02 07:21:00,35.0
+user_0219,add_to_cart,2024-01-02 07:23:07,Web_Desktop,user_0219_s2,product_view,2024-01-02 07:21:35,92.0
+user_0219,checkout_click,2024-01-02 07:25:48,Mobile_App,user_0219_s2,add_to_cart,2024-01-02 07:23:07,161.0
+user_0220,home,2024-01-03 20:04:00,Mobile_App,user_0220_s1,,,
+user_0220,product_view,2024-01-03 20:11:46,Mobile_App,user_0220_s1,home,2024-01-03 20:04:00,466.0
+user_0222,home,2024-01-02 16:43:50,Web_Desktop,user_0222_s1,,,
+user_0222,product_view,2024-01-02 16:53:18,Web_Desktop,user_0222_s1,home,2024-01-02 16:43:50,568.0
+user_0223,home,2024-01-04 06:56:22,Mobile_App,user_0223_s1,,,
+user_0223,product_view,2024-01-04 07:05:26,Mobile_App,user_0223_s1,home,2024-01-04 06:56:22,544.0
+user_0223,add_to_cart,2024-01-04 07:10:32,Mobile_App,user_0223_s1,product_view,2024-01-04 07:05:26,306.0
+user_0223,home,2024-01-04 07:11:22,Mobile_App,user_0223_s1,add_to_cart,2024-01-04 07:10:32,50.0
+user_0223,product_view,2024-01-04 07:12:48,Mobile_App,user_0223_s1,home,2024-01-04 07:11:22,86.0
+user_0223,add_to_cart,2024-01-04 07:13:26,Mobile_App,user_0223_s1,product_view,2024-01-04 07:12:48,38.0
+user_0224,home,2024-01-02 20:07:36,Web_Desktop,user_0224_s1,,,
+user_0224,product_view,2024-01-02 20:09:03,Web_Desktop,user_0224_s1,home,2024-01-02 20:07:36,87.0
+user_0224,add_to_cart,2024-01-02 20:13:17,Web_Desktop,user_0224_s1,product_view,2024-01-02 20:09:03,254.0
+user_0224,checkout_click,2024-01-02 20:20:24,Web_Desktop,user_0224_s1,add_to_cart,2024-01-02 20:13:17,427.0
+user_0224,purchase,2024-01-02 20:23:51,Web_Desktop,user_0224_s1,checkout_click,2024-01-02 20:20:24,207.0
+user_0226,home,2024-01-03 06:44:54,Tablet,user_0226_s1,,,
+user_0226,product_view,2024-01-03 06:48:23,Tablet,user_0226_s1,home,2024-01-03 06:44:54,209.0
+user_0226,add_to_cart,2024-01-03 10:50:25,Mobile_App,user_0226_s2,product_view,2024-01-03 06:48:23,14522.0
+user_0227,home,2024-01-04 04:33:31,Mobile_App,user_0227_s1,,,
+user_0227,product_view,2024-01-04 04:39:32,Mobile_App,user_0227_s1,home,2024-01-04 04:33:31,361.0
+user_0228,home,2024-01-02 03:38:44,Tablet,user_0228_s1,,,
+user_0228,product_view,2024-01-02 03:45:59,Tablet,user_0228_s1,home,2024-01-02 03:38:44,435.0
+user_0228,add_to_cart,2024-01-02 03:52:13,Tablet,user_0228_s1,product_view,2024-01-02 03:45:59,374.0
+user_0229,home,2024-01-02 05:52:35,Web_Desktop,user_0229_s1,,,
+user_0229,product_view,2024-01-02 05:56:04,Web_Desktop,user_0229_s1,home,2024-01-02 05:52:35,209.0
+user_0229,add_to_cart,2024-01-02 06:01:35,Web_Desktop,user_0229_s1,product_view,2024-01-02 05:56:04,331.0
+user_0229,home,2024-01-02 06:03:18,Web_Desktop,user_0229_s1,add_to_cart,2024-01-02 06:01:35,103.0
+user_0229,product_view,2024-01-02 06:03:28,Web_Desktop,user_0229_s1,home,2024-01-02 06:03:18,10.0
+user_0229,add_to_cart,2024-01-02 06:05:07,Web_Desktop,user_0229_s1,product_view,2024-01-02 06:03:28,99.0
+user_0229,checkout_click,2024-01-02 06:12:17,Web_Desktop,user_0229_s1,add_to_cart,2024-01-02 06:05:07,430.0
+user_0229,purchase,2024-01-02 06:13:20,Web_Desktop,user_0229_s1,checkout_click,2024-01-02 06:12:17,63.0
+user_0230,home,2024-01-02 08:46:58,Web_Desktop,user_0230_s1,,,
+user_0231,home,2024-01-01 18:21:13,Web_Desktop,user_0231_s1,,,
+user_0231,product_view,2024-01-01 18:26:14,Web_Desktop,user_0231_s1,home,2024-01-01 18:21:13,301.0
+user_0232,home,2024-01-01 17:29:39,Web_Desktop,user_0232_s1,,,
+user_0232,product_view,2024-01-01 17:37:12,Web_Desktop,user_0232_s1,home,2024-01-01 17:29:39,453.0
+user_0232,add_to_cart,2024-01-01 17:44:09,Web_Desktop,user_0232_s1,product_view,2024-01-01 17:37:12,417.0
+user_0232,checkout_click,2024-01-01 17:52:49,Web_Desktop,user_0232_s1,add_to_cart,2024-01-01 17:44:09,520.0
+user_0232,purchase,2024-01-01 17:57:09,Web_Desktop,user_0232_s1,checkout_click,2024-01-01 17:52:49,260.0
+user_0233,home,2024-01-02 05:30:17,Mobile_App,user_0233_s1,,,
+user_0234,home,2024-01-02 06:58:05,Web_Desktop,user_0234_s1,,,
+user_0234,product_view,2024-01-02 07:06:49,Web_Desktop,user_0234_s1,home,2024-01-02 06:58:05,524.0
+user_0234,add_to_cart,2024-01-02 07:14:40,Web_Desktop,user_0234_s1,product_view,2024-01-02 07:06:49,471.0
+user_0235,home,2024-01-03 16:19:57,Mobile_App,user_0235_s1,,,
+user_0235,product_view,2024-01-03 16:29:40,Mobile_App,user_0235_s1,home,2024-01-03 16:19:57,583.0
+user_0235,add_to_cart,2024-01-04 00:34:58,Web_Desktop,user_0235_s2,product_view,2024-01-03 16:29:40,29118.0
+user_0236,purchase,2024-01-04 07:54:59,Web_Desktop,user_0236_orphan,,,
+user_0238,home,2024-01-02 06:47:17,Web_Desktop,user_0238_s1,,,
+user_0238,product_view,2024-01-02 06:52:18,Web_Desktop,user_0238_s1,home,2024-01-02 06:47:17,301.0
+user_0239,home,2024-01-04 06:28:59,Mobile_App,user_0239_s1,,,
+user_0239,product_view,2024-01-04 06:33:58,Mobile_App,user_0239_s1,home,2024-01-04 06:28:59,299.0
+user_0240,home,2024-01-02 19:45:44,Mobile_App,user_0240_s1,,,
+user_0240,product_view,2024-01-02 19:50:06,Mobile_App,user_0240_s1,home,2024-01-02 19:45:44,262.0
+user_0240,add_to_cart,2024-01-02 19:57:12,Mobile_App,user_0240_s1,product_view,2024-01-02 19:50:06,426.0
+user_0240,checkout_click,2024-01-02 20:06:50,Mobile_App,user_0240_s1,add_to_cart,2024-01-02 19:57:12,578.0
+user_0240,purchase,2024-01-02 20:11:21,Mobile_App,user_0240_s1,checkout_click,2024-01-02 20:06:50,271.0
+user_0241,home,2024-01-03 21:22:00,Mobile_App,user_0241_s1,,,
+user_0242,home,2024-01-03 18:18:55,Mobile_App,user_0242_s1,,,
+user_0242,product_view,2024-01-03 18:21:56,Mobile_App,user_0242_s1,home,2024-01-03 18:18:55,181.0
+user_0242,add_to_cart,2024-01-03 18:26:50,Mobile_App,user_0242_s1,product_view,2024-01-03 18:21:56,294.0
+user_0242,checkout_click,2024-01-03 18:28:28,Mobile_App,user_0242_s1,add_to_cart,2024-01-03 18:26:50,98.0
+user_0242,purchase,2024-01-03 18:37:54,Mobile_App,user_0242_s1,checkout_click,2024-01-03 18:28:32,562.0
+user_0243,home,2024-01-03 20:00:12,Mobile_App,user_0243_s1,,,
+user_0243,product_view,2024-01-03 20:02:25,Mobile_App,user_0243_s1,home,2024-01-03 20:00:12,133.0
+user_0243,add_to_cart,2024-01-03 20:12:03,Mobile_App,user_0243_s1,product_view,2024-01-03 20:02:25,578.0
+user_0243,checkout_click,2024-01-03 20:17:03,Mobile_App,user_0243_s1,add_to_cart,2024-01-03 20:12:03,300.0
+user_0243,purchase,2024-01-03 20:25:37,Mobile_App,user_0243_s1,checkout_click,2024-01-03 20:17:03,514.0
+user_0244,home,2024-01-01 13:17:09,Web_Desktop,user_0244_s1,,,
+user_0244,product_view,2024-01-01 13:18:29,Web_Desktop,user_0244_s1,home,2024-01-01 13:17:09,80.0
+user_0244,add_to_cart,2024-01-01 13:23:34,Web_Desktop,user_0244_s1,product_view,2024-01-01 13:18:29,305.0
+user_0245,home,2024-01-02 23:24:37,Web_Desktop,user_0245_s1,,,
+user_0245,product_view,2024-01-02 23:32:40,Web_Desktop,user_0245_s1,home,2024-01-02 23:24:37,483.0
+user_0245,add_to_cart,2024-01-02 23:38:38,Web_Desktop,user_0245_s1,product_view,2024-01-02 23:32:40,358.0
+user_0245,checkout_click,2024-01-02 23:40:39,Web_Desktop,user_0245_s1,add_to_cart,2024-01-02 23:38:38,121.0
+user_0245,purchase,2024-01-02 23:50:00,Web_Desktop,user_0245_s1,checkout_click,2024-01-02 23:40:42,558.0
+user_0246,home,2024-01-03 08:59:23,Mobile_App,user_0246_s1,,,
+user_0247,home,2024-01-04 04:57:29,Tablet,user_0247_s1,,,
+user_0247,product_view,2024-01-04 05:05:46,Tablet,user_0247_s1,home,2024-01-04 04:57:29,497.0
+user_0248,home,2024-01-03 07:47:36,Mobile_App,user_0248_s1,,,
+user_0248,product_view,2024-01-03 07:52:13,Mobile_App,user_0248_s1,home,2024-01-03 07:47:36,277.0
+user_0248,add_to_cart,2024-01-03 08:00:19,Mobile_App,user_0248_s1,product_view,2024-01-03 07:52:13,486.0
+user_0248,home,2024-01-03 08:01:29,Mobile_App,user_0248_s1,add_to_cart,2024-01-03 08:00:19,70.0
+user_0248,product_view,2024-01-03 08:02:54,Mobile_App,user_0248_s1,home,2024-01-03 08:01:29,85.0
+user_0248,add_to_cart,2024-01-03 08:04:14,Mobile_App,user_0248_s1,product_view,2024-01-03 08:02:54,80.0
+user_0249,home,2024-01-02 05:56:16,Web_Desktop,user_0249_s1,,,
+user_0249,product_view,2024-01-02 06:00:25,Web_Desktop,user_0249_s1,home,2024-01-02 05:56:16,249.0
+user_0249,add_to_cart,2024-01-02 06:04:45,Web_Desktop,user_0249_s1,product_view,2024-01-02 06:00:25,260.0
+user_0250,home,2024-01-03 13:35:27,Mobile_App,user_0250_s1,,,
+user_0250,product_view,2024-01-03 13:36:05,Mobile_App,user_0250_s1,home,2024-01-03 13:35:27,38.0
+user_0251,home,2024-01-03 00:53:20,Tablet,user_0251_s1,,,
+user_0251,product_view,2024-01-03 01:01:47,Tablet,user_0251_s1,home,2024-01-03 00:53:20,507.0
+user_0251,add_to_cart,2024-01-03 01:11:10,Tablet,user_0251_s1,product_view,2024-01-03 01:01:47,563.0
+user_0251,checkout_click,2024-01-03 01:13:24,Tablet,user_0251_s1,add_to_cart,2024-01-03 01:11:10,134.0
+user_0252,home,2024-01-01 22:34:57,Mobile_App,user_0252_s1,,,
+user_0252,product_view,2024-01-01 22:40:32,Mobile_App,user_0252_s1,home,2024-01-01 22:34:57,335.0
+user_0253,home,2024-01-04 03:48:56,Mobile_App,user_0253_s1,,,
+user_0253,product_view,2024-01-04 03:54:28,Mobile_App,user_0253_s1,home,2024-01-04 03:48:56,332.0
+user_0253,add_to_cart,2024-01-04 04:02:06,Mobile_App,user_0253_s1,product_view,2024-01-04 03:54:28,458.0
+user_0253,checkout_click,2024-01-04 04:05:50,Mobile_App,user_0253_s1,add_to_cart,2024-01-04 04:02:06,224.0
+user_0253,purchase,2024-01-04 04:15:27,Mobile_App,user_0253_s1,checkout_click,2024-01-04 04:05:50,577.0
+user_0254,home,2024-01-03 22:01:35,Tablet,user_0254_s1,,,
+user_0254,product_view,2024-01-03 22:10:07,Tablet,user_0254_s1,home,2024-01-03 22:01:35,512.0
+user_0255,home,2024-01-02 18:48:01,Tablet,user_0255_s1,,,
+user_0255,product_view,2024-01-02 18:52:19,Tablet,user_0255_s1,home,2024-01-02 18:48:01,258.0
+user_0255,add_to_cart,2024-01-02 18:58:03,Tablet,user_0255_s1,product_view,2024-01-02 18:52:19,344.0
+user_0255,checkout_click,2024-01-02 19:04:53,Tablet,user_0255_s1,add_to_cart,2024-01-02 18:58:03,410.0
+user_0256,home,2024-01-02 00:32:32,Mobile_App,user_0256_s1,,,
+user_0256,product_view,2024-01-02 00:39:32,Mobile_App,user_0256_s1,home,2024-01-02 00:32:32,420.0
+user_0256,add_to_cart,2024-01-02 00:47:05,Mobile_App,user_0256_s1,product_view,2024-01-02 00:39:32,453.0
+user_0256,home,2024-01-02 00:49:04,Mobile_App,user_0256_s1,add_to_cart,2024-01-02 00:47:05,119.0
+user_0256,product_view,2024-01-02 00:49:33,Mobile_App,user_0256_s1,home,2024-01-02 00:49:04,29.0
+user_0256,add_to_cart,2024-01-02 00:50:00,Mobile_App,user_0256_s1,product_view,2024-01-02 00:49:33,27.0
+user_0256,checkout_click,2024-01-02 00:56:20,Mobile_App,user_0256_s1,add_to_cart,2024-01-02 00:50:00,380.0
+user_0256,purchase,2024-01-02 01:04:38,Mobile_App,user_0256_s1,checkout_click,2024-01-02 00:56:20,498.0
+user_0257,home,2024-01-02 03:23:31,Tablet,user_0257_s1,,,
+user_0257,product_view,2024-01-02 03:25:00,Tablet,user_0257_s1,home,2024-01-02 03:23:31,89.0
+user_0258,home,2024-01-02 20:15:00,Mobile_App,user_0258_s1,,,
+user_0260,home,2024-01-02 10:46:48,Web_Desktop,user_0260_s1,,,
+user_0260,product_view,2024-01-02 10:51:32,Web_Desktop,user_0260_s1,home,2024-01-02 10:46:48,284.0
+user_0261,home,2024-01-03 05:24:35,Mobile_App,user_0261_s1,,,
+user_0261,product_view,2024-01-03 05:32:51,Mobile_App,user_0261_s1,home,2024-01-03 05:24:35,496.0
+user_0261,add_to_cart,2024-01-03 05:42:17,Mobile_App,user_0261_s1,product_view,2024-01-03 05:32:51,566.0
+user_0261,checkout_click,2024-01-03 14:45:04,Web_Desktop,user_0261_s2,add_to_cart,2024-01-03 05:42:17,32567.0
+user_0261,purchase,2024-01-03 14:48:46,Mobile_App,user_0261_s2,checkout_click,2024-01-03 14:45:04,222.0
+user_0262,home,2024-01-02 06:58:52,Web_Desktop,user_0262_s1,,,
+user_0262,product_view,2024-01-02 07:02:15,Web_Desktop,user_0262_s1,home,2024-01-02 06:58:52,203.0
+user_0264,home,2024-01-01 22:50:50,Mobile_App,user_0264_s1,,,
+user_0264,product_view,2024-01-01 22:53:56,Mobile_App,user_0264_s1,home,2024-01-01 22:50:50,186.0
+user_0265,home,2024-01-01 10:26:38,Web_Desktop,user_0265_s1,,,
+user_0265,product_view,2024-01-01 10:28:55,Web_Desktop,user_0265_s1,home,2024-01-01 10:26:38,137.0
+user_0265,add_to_cart,2024-01-01 10:31:25,Web_Desktop,user_0265_s1,product_view,2024-01-01 10:28:55,150.0
+user_0265,checkout_click,2024-01-01 10:40:24,Web_Desktop,user_0265_s1,add_to_cart,2024-01-01 10:31:25,539.0
+user_0265,purchase,2024-01-01 10:44:23,Web_Desktop,user_0265_s1,checkout_click,2024-01-01 10:40:27,236.0
+user_0266,home,2024-01-03 06:53:42,Web_Desktop,user_0266_s1,,,
+user_0266,product_view,2024-01-03 06:54:14,Web_Desktop,user_0266_s1,home,2024-01-03 06:53:42,32.0
+user_0267,home,2024-01-01 21:07:13,Mobile_App,user_0267_s1,,,
+user_0268,home,2024-01-01 22:05:25,Web_Desktop,user_0268_s1,,,
+user_0269,home,2024-01-02 07:57:28,Mobile_App,user_0269_s1,,,
+user_0270,home,2024-01-01 14:05:04,Mobile_App,user_0270_s1,,,
+user_0270,product_view,2024-01-01 14:07:09,Mobile_App,user_0270_s1,home,2024-01-01 14:05:04,125.0
+user_0270,add_to_cart,2024-01-01 14:13:29,Mobile_App,user_0270_s1,product_view,2024-01-01 14:07:09,380.0
+user_0270,home,2024-01-01 14:14:30,Mobile_App,user_0270_s1,add_to_cart,2024-01-01 14:13:29,61.0
+user_0270,product_view,2024-01-01 14:15:31,Mobile_App,user_0270_s1,home,2024-01-01 14:14:30,61.0
+user_0270,add_to_cart,2024-01-01 14:16:39,Mobile_App,user_0270_s1,product_view,2024-01-01 14:15:31,68.0
+user_0271,home,2024-01-03 10:45:30,Web_Desktop,user_0271_s1,,,
+user_0271,product_view,2024-01-03 10:48:43,Web_Desktop,user_0271_s1,home,2024-01-03 10:45:30,193.0
+user_0272,home,2024-01-03 22:51:59,Tablet,user_0272_s1,,,
+user_0272,product_view,2024-01-03 22:54:42,Tablet,user_0272_s1,home,2024-01-03 22:51:59,163.0
+user_0272,add_to_cart,2024-01-03 23:03:31,Tablet,user_0272_s1,product_view,2024-01-03 22:54:42,529.0
+user_0272,home,2024-01-03 23:04:33,Tablet,user_0272_s1,add_to_cart,2024-01-03 23:03:31,62.0
+user_0272,product_view,2024-01-03 23:05:39,Tablet,user_0272_s1,home,2024-01-03 23:04:33,66.0
+user_0272,add_to_cart,2024-01-03 23:05:54,Tablet,user_0272_s1,product_view,2024-01-03 23:05:39,15.0
+user_0273,home,2024-01-03 01:06:16,Tablet,user_0273_s1,,,
+user_0273,product_view,2024-01-03 01:08:23,Tablet,user_0273_s1,home,2024-01-03 01:06:16,127.0
+user_0273,add_to_cart,2024-01-03 01:13:07,Tablet,user_0273_s1,product_view,2024-01-03 01:08:23,284.0
+user_0273,checkout_click,2024-01-03 01:20:11,Tablet,user_0273_s1,add_to_cart,2024-01-03 01:13:07,424.0
+user_0273,purchase,2024-01-03 01:23:23,Tablet,user_0273_s1,checkout_click,2024-01-03 01:20:13,190.0
+user_0274,home,2024-01-04 01:58:36,Web_Desktop,user_0274_s1,,,
+user_0274,product_view,2024-01-04 02:03:50,Web_Desktop,user_0274_s1,home,2024-01-04 01:58:36,314.0
+user_0275,home,2024-01-02 13:43:08,Tablet,user_0275_s1,,,
+user_0277,home,2024-01-03 12:31:41,Mobile_App,user_0277_s1,,,
+user_0277,product_view,2024-01-03 12:35:42,Mobile_App,user_0277_s1,home,2024-01-03 12:31:41,241.0
+user_0277,add_to_cart,2024-01-03 12:43:59,Mobile_App,user_0277_s1,product_view,2024-01-03 12:35:42,497.0
+user_0277,checkout_click,2024-01-03 12:45:24,Mobile_App,user_0277_s1,add_to_cart,2024-01-03 12:43:59,85.0
+user_0277,purchase,2024-01-03 12:51:33,Mobile_App,user_0277_s1,checkout_click,2024-01-03 12:45:24,369.0
+user_0278,home,2024-01-04 08:53:17,Tablet,user_0278_s1,,,
+user_0279,home,2024-01-03 06:55:18,Tablet,user_0279_s1,,,
+user_0280,home,2024-01-02 06:34:42,Mobile_App,user_0280_s1,,,
+user_0281,home,2024-01-03 11:20:34,Web_Desktop,user_0281_s1,,,
+user_0283,home,2024-01-01 15:38:31,Web_Desktop,user_0283_s1,,,
+user_0283,product_view,2024-01-01 15:41:58,Web_Desktop,user_0283_s1,home,2024-01-01 15:38:31,207.0
+user_0283,add_to_cart,2024-01-01 15:44:39,Web_Desktop,user_0283_s1,product_view,2024-01-01 15:41:58,161.0
+user_0283,home,2024-01-01 15:46:13,Web_Desktop,user_0283_s1,add_to_cart,2024-01-01 15:44:39,94.0
+user_0283,product_view,2024-01-01 15:47:39,Web_Desktop,user_0283_s1,home,2024-01-01 15:46:13,86.0
+user_0283,add_to_cart,2024-01-01 15:49:06,Web_Desktop,user_0283_s1,product_view,2024-01-01 15:47:39,87.0
+user_0283,checkout_click,2024-01-01 15:58:12,Web_Desktop,user_0283_s1,add_to_cart,2024-01-01 15:49:06,546.0
+user_0283,purchase,2024-01-01 16:02:56,Web_Desktop,user_0283_s1,checkout_click,2024-01-01 15:58:12,284.0
+user_0284,home,2024-01-02 20:34:14,Web_Desktop,user_0284_s1,,,
+user_0284,product_view,2024-01-02 20:44:04,Web_Desktop,user_0284_s1,home,2024-01-02 20:34:14,590.0
+user_0284,add_to_cart,2024-01-02 20:54:00,Web_Desktop,user_0284_s1,product_view,2024-01-02 20:44:04,596.0
+user_0285,home,2024-01-02 22:46:32,Web_Desktop,user_0285_s1,,,
+user_0285,product_view,2024-01-02 22:52:32,Web_Desktop,user_0285_s1,home,2024-01-02 22:46:32,360.0
+user_0285,add_to_cart,2024-01-02 22:59:02,Web_Desktop,user_0285_s1,product_view,2024-01-02 22:52:32,390.0
+user_0285,checkout_click,2024-01-02 23:06:39,Web_Desktop,user_0285_s1,add_to_cart,2024-01-02 22:59:02,457.0
+user_0285,purchase,2024-01-02 23:16:15,Web_Desktop,user_0285_s1,checkout_click,2024-01-02 23:06:39,576.0
+user_0286,purchase,2024-01-02 21:58:58,Web_Desktop,user_0286_orphan,,,
+user_0287,home,2024-01-01 15:44:59,Mobile_App,user_0287_s1,,,
+user_0287,product_view,2024-01-01 15:50:31,Mobile_App,user_0287_s1,home,2024-01-01 15:44:59,332.0
+user_0288,home,2024-01-04 06:06:19,Web_Desktop,user_0288_s1,,,
+user_0288,product_view,2024-01-04 06:13:27,Web_Desktop,user_0288_s1,home,2024-01-04 06:06:19,428.0
+user_0289,home,2024-01-02 21:49:50,Tablet,user_0289_s1,,,
+user_0289,product_view,2024-01-02 21:51:15,Tablet,user_0289_s1,home,2024-01-02 21:49:50,85.0
+user_0290,home,2024-01-02 17:18:46,Tablet,user_0290_s1,,,
+user_0290,product_view,2024-01-02 17:28:35,Tablet,user_0290_s1,home,2024-01-02 17:18:46,589.0
+user_0290,add_to_cart,2024-01-02 17:32:26,Tablet,user_0290_s1,product_view,2024-01-02 17:28:35,231.0
+user_0290,checkout_click,2024-01-02 17:37:57,Tablet,user_0290_s1,add_to_cart,2024-01-02 17:32:26,331.0
+user_0290,purchase,2024-01-02 17:39:43,Tablet,user_0290_s1,checkout_click,2024-01-02 17:37:57,106.0
+user_0291,home,2024-01-02 08:16:00,Tablet,user_0291_s1,,,
+user_0292,home,2024-01-02 17:01:22,Web_Desktop,user_0292_s1,,,
+user_0292,product_view,2024-01-02 17:07:00,Web_Desktop,user_0292_s1,home,2024-01-02 17:01:22,338.0
+user_0292,add_to_cart,2024-01-02 17:16:53,Web_Desktop,user_0292_s1,product_view,2024-01-02 17:07:00,593.0
+user_0292,checkout_click,2024-01-02 17:22:48,Web_Desktop,user_0292_s1,add_to_cart,2024-01-02 17:16:53,355.0
+user_0292,purchase,2024-01-02 17:32:11,Web_Desktop,user_0292_s1,checkout_click,2024-01-02 17:22:48,563.0
+user_0293,home,2024-01-01 17:54:08,Tablet,user_0293_s1,,,
+user_0293,product_view,2024-01-01 18:00:17,Tablet,user_0293_s1,home,2024-01-01 17:54:08,369.0
+user_0293,add_to_cart,2024-01-01 18:04:30,Tablet,user_0293_s1,product_view,2024-01-01 18:00:17,253.0
+user_0293,checkout_click,2024-01-01 18:13:06,Tablet,user_0293_s1,add_to_cart,2024-01-01 18:04:30,516.0
+user_0293,purchase,2024-01-01 18:13:45,Tablet,user_0293_s1,checkout_click,2024-01-01 18:13:06,39.0
+user_0294,home,2024-01-01 23:47:58,Web_Desktop,user_0294_s1,,,
+user_0294,product_view,2024-01-01 23:50:24,Web_Desktop,user_0294_s1,home,2024-01-01 23:47:58,146.0
+user_0294,add_to_cart,2024-01-02 00:00:07,Web_Desktop,user_0294_s1,product_view,2024-01-01 23:50:24,583.0
+user_0295,home,2024-01-04 03:55:47,Web_Desktop,user_0295_s1,,,
+user_0295,product_view,2024-01-04 03:57:41,Web_Desktop,user_0295_s1,home,2024-01-04 03:55:47,114.0
+user_0295,add_to_cart,2024-01-04 04:01:02,Web_Desktop,user_0295_s1,product_view,2024-01-04 03:57:41,201.0
+user_0295,checkout_click,2024-01-04 04:10:38,Web_Desktop,user_0295_s1,add_to_cart,2024-01-04 04:01:02,576.0
+user_0295,purchase,2024-01-04 04:14:48,Web_Desktop,user_0295_s1,checkout_click,2024-01-04 04:10:40,248.0
+user_0296,home,2024-01-03 15:56:07,Mobile_App,user_0296_s1,,,
+user_0297,home,2024-01-03 03:06:23,Mobile_App,user_0297_s1,,,
+user_0297,product_view,2024-01-03 03:13:50,Mobile_App,user_0297_s1,home,2024-01-03 03:06:23,447.0
+user_0297,add_to_cart,2024-01-03 13:21:14,Web_Desktop,user_0297_s2,product_view,2024-01-03 03:13:50,36444.0
+user_0297,checkout_click,2024-01-03 13:23:45,Mobile_App,user_0297_s2,add_to_cart,2024-01-03 13:21:14,151.0
+user_0297,purchase,2024-01-03 13:25:19,Mobile_App,user_0297_s2,checkout_click,2024-01-03 13:23:45,94.0
+user_0298,home,2024-01-01 14:45:58,Mobile_App,user_0298_s1,,,
+user_0298,product_view,2024-01-01 14:53:56,Mobile_App,user_0298_s1,home,2024-01-01 14:45:58,478.0
+user_0298,add_to_cart,2024-01-01 14:54:57,Mobile_App,user_0298_s1,product_view,2024-01-01 14:53:56,61.0
+user_0298,checkout_click,2024-01-01 14:57:46,Mobile_App,user_0298_s1,add_to_cart,2024-01-01 14:54:57,169.0
+user_0298,purchase,2024-01-01 15:07:34,Mobile_App,user_0298_s1,checkout_click,2024-01-01 14:57:46,588.0
+user_0300,home,2024-01-04 08:14:42,Mobile_App,user_0300_s1,,,
+user_0300,product_view,2024-01-04 08:21:04,Mobile_App,user_0300_s1,home,2024-01-04 08:14:42,382.0
+user_0301,home,2024-01-04 02:10:25,Mobile_App,user_0301_s1,,,
+user_0301,product_view,2024-01-04 02:20:17,Mobile_App,user_0301_s1,home,2024-01-04 02:10:25,592.0
+user_0301,add_to_cart,2024-01-04 02:30:09,Mobile_App,user_0301_s1,product_view,2024-01-04 02:20:17,592.0
+user_0301,home,2024-01-04 02:31:44,Mobile_App,user_0301_s1,add_to_cart,2024-01-04 02:30:09,95.0
+user_0301,product_view,2024-01-04 02:32:02,Mobile_App,user_0301_s1,home,2024-01-04 02:31:44,18.0
+user_0301,add_to_cart,2024-01-04 02:32:44,Mobile_App,user_0301_s1,product_view,2024-01-04 02:32:02,42.0
+user_0302,home,2024-01-03 23:24:48,Web_Desktop,user_0302_s1,,,
+user_0302,product_view,2024-01-03 23:32:59,Web_Desktop,user_0302_s1,home,2024-01-03 23:24:48,491.0
+user_0302,add_to_cart,2024-01-04 05:38:42,Mobile_App,user_0302_s2,product_view,2024-01-03 23:32:59,21943.0
+user_0302,checkout_click,2024-01-04 05:44:35,Web_Desktop,user_0302_s2,add_to_cart,2024-01-04 05:38:42,353.0
+user_0303,home,2024-01-03 01:21:09,Mobile_App,user_0303_s1,,,
+user_0303,product_view,2024-01-03 01:29:32,Mobile_App,user_0303_s1,home,2024-01-03 01:21:09,503.0
+user_0303,add_to_cart,2024-01-03 01:35:14,Mobile_App,user_0303_s1,product_view,2024-01-03 01:29:32,342.0
+user_0304,home,2024-01-01 19:54:48,Web_Desktop,user_0304_s1,,,
+user_0304,product_view,2024-01-01 19:55:37,Web_Desktop,user_0304_s1,home,2024-01-01 19:54:48,49.0
+user_0304,add_to_cart,2024-01-01 19:56:38,Web_Desktop,user_0304_s1,product_view,2024-01-01 19:55:37,61.0
+user_0304,checkout_click,2024-01-01 20:00:45,Web_Desktop,user_0304_s1,add_to_cart,2024-01-01 19:56:38,247.0
+user_0304,purchase,2024-01-01 20:10:31,Web_Desktop,user_0304_s1,checkout_click,2024-01-01 20:00:45,586.0
+user_0305,home,2024-01-04 06:35:27,Tablet,user_0305_s1,,,
+user_0306,home,2024-01-04 01:35:19,Mobile_App,user_0306_s1,,,
+user_0306,product_view,2024-01-04 01:38:12,Mobile_App,user_0306_s1,home,2024-01-04 01:35:19,173.0
+user_0306,add_to_cart,2024-01-04 01:41:45,Mobile_App,user_0306_s1,product_view,2024-01-04 01:38:12,213.0
+user_0306,checkout_click,2024-01-04 01:44:44,Mobile_App,user_0306_s1,add_to_cart,2024-01-04 01:41:45,179.0
+user_0306,purchase,2024-01-04 01:51:21,Mobile_App,user_0306_s1,checkout_click,2024-01-04 01:44:44,397.0
+user_0309,home,2024-01-03 02:15:47,Tablet,user_0309_s1,,,
+user_0309,product_view,2024-01-03 02:22:42,Tablet,user_0309_s1,home,2024-01-03 02:15:47,415.0
+user_0309,add_to_cart,2024-01-03 02:29:26,Tablet,user_0309_s1,product_view,2024-01-03 02:22:42,404.0
+user_0309,checkout_click,2024-01-03 02:31:15,Tablet,user_0309_s1,add_to_cart,2024-01-03 02:29:26,109.0
+user_0309,purchase,2024-01-03 02:35:33,Tablet,user_0309_s1,checkout_click,2024-01-03 02:31:15,258.0
+user_0310,home,2024-01-04 03:25:36,Web_Desktop,user_0310_s1,,,
+user_0310,product_view,2024-01-04 03:28:28,Web_Desktop,user_0310_s1,home,2024-01-04 03:25:36,172.0
+user_0310,add_to_cart,2024-01-04 03:32:53,Web_Desktop,user_0310_s1,product_view,2024-01-04 03:28:28,265.0
+user_0310,home,2024-01-04 03:34:25,Web_Desktop,user_0310_s1,add_to_cart,2024-01-04 03:32:53,92.0
+user_0310,product_view,2024-01-04 03:35:10,Web_Desktop,user_0310_s1,home,2024-01-04 03:34:25,45.0
+user_0310,add_to_cart,2024-01-04 03:35:47,Web_Desktop,user_0310_s1,product_view,2024-01-04 03:35:10,37.0
+user_0311,home,2024-01-02 05:29:08,Tablet,user_0311_s1,,,
+user_0311,product_view,2024-01-02 05:37:51,Tablet,user_0311_s1,home,2024-01-02 05:29:08,523.0
+user_0311,add_to_cart,2024-01-02 05:46:31,Tablet,user_0311_s1,product_view,2024-01-02 05:37:51,520.0
+user_0312,home,2024-01-03 13:04:00,Mobile_App,user_0312_s1,,,
+user_0313,home,2024-01-02 18:59:49,Mobile_App,user_0313_s1,,,
+user_0313,product_view,2024-01-02 19:05:09,Mobile_App,user_0313_s1,home,2024-01-02 18:59:49,320.0
+user_0313,add_to_cart,2024-01-02 19:09:20,Mobile_App,user_0313_s1,product_view,2024-01-02 19:05:09,251.0
+user_0313,checkout_click,2024-01-02 19:18:03,Mobile_App,user_0313_s1,add_to_cart,2024-01-02 19:09:20,523.0
+user_0313,purchase,2024-01-02 19:21:42,Mobile_App,user_0313_s1,checkout_click,2024-01-02 19:18:06,216.0
+user_0314,home,2024-01-04 02:17:40,Mobile_App,user_0314_s1,,,
+user_0314,product_view,2024-01-04 02:24:44,Mobile_App,user_0314_s1,home,2024-01-04 02:17:40,424.0
+user_0315,home,2024-01-01 11:15:31,Tablet,user_0315_s1,,,
+user_0315,product_view,2024-01-01 11:16:40,Tablet,user_0315_s1,home,2024-01-01 11:15:31,69.0
+user_0315,add_to_cart,2024-01-01 11:26:14,Tablet,user_0315_s1,product_view,2024-01-01 11:16:40,574.0
+user_0316,home,2024-01-03 22:49:51,Mobile_App,user_0316_s1,,,
+user_0316,product_view,2024-01-03 22:56:40,Mobile_App,user_0316_s1,home,2024-01-03 22:49:51,409.0
+user_0316,add_to_cart,2024-01-03 23:06:12,Mobile_App,user_0316_s1,product_view,2024-01-03 22:56:40,572.0
+user_0316,checkout_click,2024-01-03 23:14:55,Mobile_App,user_0316_s1,add_to_cart,2024-01-03 23:06:12,523.0
+user_0316,purchase,2024-01-03 23:17:05,Mobile_App,user_0316_s1,checkout_click,2024-01-03 23:14:55,130.0
+user_0317,home,2024-01-03 15:17:46,Web_Desktop,user_0317_s1,,,
+user_0317,product_view,2024-01-03 15:21:29,Web_Desktop,user_0317_s1,home,2024-01-03 15:17:46,223.0
+user_0318,home,2024-01-01 09:41:53,Tablet,user_0318_s1,,,
+user_0318,product_view,2024-01-01 09:44:12,Tablet,user_0318_s1,home,2024-01-01 09:41:53,139.0
+user_0319,home,2024-01-02 17:23:16,Tablet,user_0319_s1,,,
+user_0319,product_view,2024-01-02 17:30:49,Tablet,user_0319_s1,home,2024-01-02 17:23:16,453.0
+user_0319,add_to_cart,2024-01-02 17:40:49,Tablet,user_0319_s1,product_view,2024-01-02 17:30:49,600.0
+user_0319,checkout_click,2024-01-02 17:50:47,Tablet,user_0319_s1,add_to_cart,2024-01-02 17:40:49,598.0
+user_0319,purchase,2024-01-02 17:57:09,Tablet,user_0319_s1,checkout_click,2024-01-02 17:50:47,382.0
+user_0320,home,2024-01-03 11:50:15,Mobile_App,user_0320_s1,,,
+user_0321,home,2024-01-04 02:25:35,Web_Desktop,user_0321_s1,,,
+user_0321,product_view,2024-01-04 02:28:33,Web_Desktop,user_0321_s1,home,2024-01-04 02:25:35,178.0
+user_0321,add_to_cart,2024-01-04 02:36:28,Web_Desktop,user_0321_s1,product_view,2024-01-04 02:28:33,475.0
+user_0321,home,2024-01-04 02:37:11,Web_Desktop,user_0321_s1,add_to_cart,2024-01-04 02:36:28,43.0
+user_0321,product_view,2024-01-04 02:37:49,Web_Desktop,user_0321_s1,home,2024-01-04 02:37:11,38.0
+user_0321,add_to_cart,2024-01-04 02:38:46,Web_Desktop,user_0321_s1,product_view,2024-01-04 02:37:49,57.0
+user_0322,home,2024-01-01 13:47:28,Web_Desktop,user_0322_s1,,,
+user_0322,product_view,2024-01-01 13:50:57,Web_Desktop,user_0322_s1,home,2024-01-01 13:47:28,209.0
+user_0322,add_to_cart,2024-01-01 13:58:56,Web_Desktop,user_0322_s1,product_view,2024-01-01 13:50:57,479.0
+user_0322,home,2024-01-01 14:00:54,Web_Desktop,user_0322_s1,add_to_cart,2024-01-01 13:58:56,118.0
+user_0322,product_view,2024-01-01 14:02:28,Web_Desktop,user_0322_s1,home,2024-01-01 14:00:54,94.0
+user_0322,add_to_cart,2024-01-01 14:04:20,Web_Desktop,user_0322_s1,product_view,2024-01-01 14:02:28,112.0
+user_0322,checkout_click,2024-01-01 14:08:09,Web_Desktop,user_0322_s1,add_to_cart,2024-01-01 14:04:20,229.0
+user_0322,purchase,2024-01-01 14:14:49,Web_Desktop,user_0322_s1,checkout_click,2024-01-01 14:08:11,398.0
+user_0323,home,2024-01-02 15:47:31,Mobile_App,user_0323_s1,,,
+user_0323,product_view,2024-01-02 15:54:56,Mobile_App,user_0323_s1,home,2024-01-02 15:47:31,445.0
+user_0323,add_to_cart,2024-01-02 16:04:16,Mobile_App,user_0323_s1,product_view,2024-01-02 15:54:56,560.0
+user_0323,home,2024-01-02 16:05:56,Mobile_App,user_0323_s1,add_to_cart,2024-01-02 16:04:16,100.0
+user_0323,product_view,2024-01-02 16:06:14,Mobile_App,user_0323_s1,home,2024-01-02 16:05:56,18.0
+user_0323,add_to_cart,2024-01-02 16:06:35,Mobile_App,user_0323_s1,product_view,2024-01-02 16:06:14,21.0
+user_0323,checkout_click,2024-01-02 16:13:01,Mobile_App,user_0323_s1,add_to_cart,2024-01-02 16:06:35,386.0
+user_0323,purchase,2024-01-02 16:17:22,Mobile_App,user_0323_s1,checkout_click,2024-01-02 16:13:01,261.0
+user_0324,home,2024-01-02 09:30:44,Web_Desktop,user_0324_s1,,,
+user_0324,product_view,2024-01-02 09:37:02,Web_Desktop,user_0324_s1,home,2024-01-02 09:30:44,378.0
+user_0324,add_to_cart,2024-01-02 09:46:17,Web_Desktop,user_0324_s1,product_view,2024-01-02 09:37:02,555.0
+user_0324,checkout_click,2024-01-02 09:51:03,Web_Desktop,user_0324_s1,add_to_cart,2024-01-02 09:46:17,286.0
+user_0324,purchase,2024-01-02 09:59:48,Web_Desktop,user_0324_s1,checkout_click,2024-01-02 09:51:03,525.0
+user_0325,home,2024-01-02 16:48:58,Web_Desktop,user_0325_s1,,,
+user_0325,product_view,2024-01-02 16:53:52,Web_Desktop,user_0325_s1,home,2024-01-02 16:48:58,294.0
+user_0326,home,2024-01-02 13:52:38,Tablet,user_0326_s1,,,
+user_0327,home,2024-01-02 18:23:37,Web_Desktop,user_0327_s1,,,
+user_0327,product_view,2024-01-02 18:27:50,Web_Desktop,user_0327_s1,home,2024-01-02 18:23:37,253.0
+user_0327,add_to_cart,2024-01-02 18:32:55,Web_Desktop,user_0327_s1,product_view,2024-01-02 18:27:50,305.0
+user_0327,home,2024-01-02 18:34:40,Web_Desktop,user_0327_s1,add_to_cart,2024-01-02 18:32:55,105.0
+user_0327,product_view,2024-01-02 18:36:17,Web_Desktop,user_0327_s1,home,2024-01-02 18:34:40,97.0
+user_0327,add_to_cart,2024-01-02 18:36:51,Web_Desktop,user_0327_s1,product_view,2024-01-02 18:36:17,34.0
+user_0327,checkout_click,2024-01-03 01:40:45,Mobile_App,user_0327_s2,add_to_cart,2024-01-02 18:36:51,25434.0
+user_0327,purchase,2024-01-03 01:44:46,Web_Desktop,user_0327_s2,checkout_click,2024-01-03 01:40:45,241.0
+user_0328,home,2024-01-02 14:13:50,Mobile_App,user_0328_s1,,,
+user_0328,product_view,2024-01-02 14:22:44,Mobile_App,user_0328_s1,home,2024-01-02 14:13:50,534.0
+user_0328,add_to_cart,2024-01-02 14:32:28,Mobile_App,user_0328_s1,product_view,2024-01-02 14:22:44,584.0
+user_0328,checkout_click,2024-01-02 14:39:18,Mobile_App,user_0328_s1,add_to_cart,2024-01-02 14:32:28,410.0
+user_0328,purchase,2024-01-02 14:44:29,Mobile_App,user_0328_s1,checkout_click,2024-01-02 14:39:18,311.0
+user_0329,home,2024-01-03 23:20:28,Tablet,user_0329_s1,,,
+user_0329,product_view,2024-01-03 23:29:07,Tablet,user_0329_s1,home,2024-01-03 23:20:28,519.0
+user_0329,add_to_cart,2024-01-03 23:30:10,Tablet,user_0329_s1,product_view,2024-01-03 23:29:07,63.0
+user_0329,checkout_click,2024-01-03 23:33:38,Tablet,user_0329_s1,add_to_cart,2024-01-03 23:30:10,208.0
+user_0330,home,2024-01-04 03:31:13,Web_Desktop,user_0330_s1,,,
+user_0330,product_view,2024-01-04 03:36:08,Web_Desktop,user_0330_s1,home,2024-01-04 03:31:13,295.0
+user_0331,home,2024-01-02 18:19:05,Web_Desktop,user_0331_s1,,,
+user_0331,product_view,2024-01-02 18:25:56,Web_Desktop,user_0331_s1,home,2024-01-02 18:19:05,411.0
+user_0331,add_to_cart,2024-01-02 18:33:16,Web_Desktop,user_0331_s1,product_view,2024-01-02 18:25:56,440.0
+user_0332,home,2024-01-02 01:45:58,Tablet,user_0332_s1,,,
+user_0332,product_view,2024-01-02 01:52:58,Tablet,user_0332_s1,home,2024-01-02 01:45:58,420.0
+user_0333,home,2024-01-02 04:39:19,Mobile_App,user_0333_s1,,,
+user_0333,product_view,2024-01-02 04:45:12,Mobile_App,user_0333_s1,home,2024-01-02 04:39:19,353.0
+user_0333,add_to_cart,2024-01-02 04:50:49,Mobile_App,user_0333_s1,product_view,2024-01-02 04:45:12,337.0
+user_0333,checkout_click,2024-01-02 04:52:07,Mobile_App,user_0333_s1,add_to_cart,2024-01-02 04:50:49,78.0
+user_0333,purchase,2024-01-02 04:53:38,Mobile_App,user_0333_s1,checkout_click,2024-01-02 04:52:07,91.0
+user_0334,home,2024-01-02 12:58:39,Web_Desktop,user_0334_s1,,,
+user_0334,product_view,2024-01-02 13:08:39,Web_Desktop,user_0334_s1,home,2024-01-02 12:58:39,600.0
+user_0334,add_to_cart,2024-01-02 13:13:32,Web_Desktop,user_0334_s1,product_view,2024-01-02 13:08:39,293.0
+user_0334,checkout_click,2024-01-02 13:20:01,Web_Desktop,user_0334_s1,add_to_cart,2024-01-02 13:13:32,389.0
+user_0334,purchase,2024-01-02 13:23:54,Web_Desktop,user_0334_s1,checkout_click,2024-01-02 13:20:01,233.0
+user_0335,home,2024-01-04 05:12:50,Web_Desktop,user_0335_s1,,,
+user_0335,product_view,2024-01-04 05:18:13,Web_Desktop,user_0335_s1,home,2024-01-04 05:12:50,323.0
+user_0335,add_to_cart,2024-01-04 05:21:11,Web_Desktop,user_0335_s1,product_view,2024-01-04 05:18:13,178.0
+user_0335,checkout_click,2024-01-04 05:27:26,Web_Desktop,user_0335_s1,add_to_cart,2024-01-04 05:21:11,375.0
+user_0335,purchase,2024-01-04 05:34:50,Web_Desktop,user_0335_s1,checkout_click,2024-01-04 05:27:26,444.0
+user_0336,home,2024-01-01 18:10:03,Mobile_App,user_0336_s1,,,
+user_0336,product_view,2024-01-01 18:17:17,Mobile_App,user_0336_s1,home,2024-01-01 18:10:03,434.0
+user_0336,add_to_cart,2024-01-01 18:25:22,Mobile_App,user_0336_s1,product_view,2024-01-01 18:17:17,485.0
+user_0336,checkout_click,2024-01-01 18:34:45,Mobile_App,user_0336_s1,add_to_cart,2024-01-01 18:25:22,563.0
+user_0336,purchase,2024-01-01 18:38:23,Mobile_App,user_0336_s1,checkout_click,2024-01-01 18:34:45,218.0
+user_0337,home,2024-01-01 11:09:51,Tablet,user_0337_s1,,,
+user_0337,product_view,2024-01-01 11:17:07,Tablet,user_0337_s1,home,2024-01-01 11:09:51,436.0
+user_0338,home,2024-01-01 18:00:55,Web_Desktop,user_0338_s1,,,
+user_0339,home,2024-01-02 04:10:20,Tablet,user_0339_s1,,,
+user_0339,product_view,2024-01-02 04:12:59,Tablet,user_0339_s1,home,2024-01-02 04:10:20,159.0
+user_0340,home,2024-01-02 06:10:43,Mobile_App,user_0340_s1,,,
+user_0340,product_view,2024-01-02 06:20:34,Mobile_App,user_0340_s1,home,2024-01-02 06:10:43,591.0
+user_0340,add_to_cart,2024-01-02 06:30:16,Mobile_App,user_0340_s1,product_view,2024-01-02 06:20:34,582.0
+user_0340,home,2024-01-02 06:31:42,Mobile_App,user_0340_s1,add_to_cart,2024-01-02 06:30:16,86.0
+user_0340,product_view,2024-01-02 06:32:50,Mobile_App,user_0340_s1,home,2024-01-02 06:31:42,68.0
+user_0340,add_to_cart,2024-01-02 06:34:20,Mobile_App,user_0340_s1,product_view,2024-01-02 06:32:50,90.0
+user_0340,checkout_click,2024-01-02 06:42:15,Mobile_App,user_0340_s1,add_to_cart,2024-01-02 06:34:20,475.0
+user_0340,purchase,2024-01-02 06:48:02,Mobile_App,user_0340_s1,checkout_click,2024-01-02 06:42:15,347.0
+user_0341,home,2024-01-03 05:34:56,Tablet,user_0341_s1,,,
+user_0341,product_view,2024-01-03 05:35:36,Tablet,user_0341_s1,home,2024-01-03 05:34:56,40.0
+user_0342,home,2024-01-02 02:30:38,Web_Desktop,user_0342_s1,,,
+user_0342,product_view,2024-01-02 02:38:28,Web_Desktop,user_0342_s1,home,2024-01-02 02:30:38,470.0
+user_0342,add_to_cart,2024-01-02 02:42:54,Web_Desktop,user_0342_s1,product_view,2024-01-02 02:38:28,266.0
+user_0342,checkout_click,2024-01-02 02:46:37,Web_Desktop,user_0342_s1,add_to_cart,2024-01-02 02:42:54,223.0
+user_0342,purchase,2024-01-02 02:53:51,Web_Desktop,user_0342_s1,checkout_click,2024-01-02 02:46:37,434.0
+user_0343,home,2024-01-02 16:11:51,Tablet,user_0343_s1,,,
+user_0343,product_view,2024-01-02 16:16:26,Tablet,user_0343_s1,home,2024-01-02 16:11:51,275.0
+user_0343,add_to_cart,2024-01-02 16:21:34,Tablet,user_0343_s1,product_view,2024-01-02 16:16:26,308.0
+user_0343,checkout_click,2024-01-02 16:26:39,Tablet,user_0343_s1,add_to_cart,2024-01-02 16:21:34,305.0
+user_0343,purchase,2024-01-02 16:30:15,Tablet,user_0343_s1,checkout_click,2024-01-02 16:26:39,216.0
+user_0344,home,2024-01-02 02:21:42,Mobile_App,user_0344_s1,,,
+user_0344,product_view,2024-01-02 02:24:47,Mobile_App,user_0344_s1,home,2024-01-02 02:21:42,185.0
+user_0345,home,2024-01-04 05:01:38,Mobile_App,user_0345_s1,,,
+user_0345,product_view,2024-01-04 05:04:42,Mobile_App,user_0345_s1,home,2024-01-04 05:01:38,184.0
+user_0346,home,2024-01-02 12:22:02,Web_Desktop,user_0346_s1,,,
+user_0346,product_view,2024-01-02 12:25:01,Web_Desktop,user_0346_s1,home,2024-01-02 12:22:02,179.0
+user_0347,home,2024-01-03 11:11:00,Tablet,user_0347_s1,,,
+user_0347,product_view,2024-01-03 11:13:34,Tablet,user_0347_s1,home,2024-01-03 11:11:00,154.0
+user_0347,add_to_cart,2024-01-03 11:18:18,Tablet,user_0347_s1,product_view,2024-01-03 11:13:34,284.0
+user_0347,checkout_click,2024-01-03 11:23:01,Tablet,user_0347_s1,add_to_cart,2024-01-03 11:18:18,283.0
+user_0348,home,2024-01-03 19:52:49,Mobile_App,user_0348_s1,,,
+user_0348,product_view,2024-01-03 19:56:01,Mobile_App,user_0348_s1,home,2024-01-03 19:52:49,192.0
+user_0348,add_to_cart,2024-01-03 19:57:14,Mobile_App,user_0348_s1,product_view,2024-01-03 19:56:01,73.0
+user_0348,checkout_click,2024-01-03 19:59:49,Mobile_App,user_0348_s1,add_to_cart,2024-01-03 19:57:14,155.0
+user_0348,purchase,2024-01-03 20:03:42,Mobile_App,user_0348_s1,checkout_click,2024-01-03 19:59:49,233.0
+user_0349,home,2024-01-03 08:03:54,Mobile_App,user_0349_s1,,,
+user_0349,product_view,2024-01-03 08:07:15,Mobile_App,user_0349_s1,home,2024-01-03 08:03:54,201.0
+user_0349,add_to_cart,2024-01-03 08:09:47,Mobile_App,user_0349_s1,product_view,2024-01-03 08:07:15,152.0
+user_0350,home,2024-01-01 14:40:11,Tablet,user_0350_s1,,,
+user_0350,product_view,2024-01-01 14:46:27,Tablet,user_0350_s1,home,2024-01-01 14:40:11,376.0
+user_0350,add_to_cart,2024-01-01 14:47:58,Tablet,user_0350_s1,product_view,2024-01-01 14:46:27,91.0
+user_0350,home,2024-01-01 14:49:30,Tablet,user_0350_s1,add_to_cart,2024-01-01 14:47:58,92.0
+user_0350,product_view,2024-01-01 14:49:59,Tablet,user_0350_s1,home,2024-01-01 14:49:30,29.0
+user_0350,add_to_cart,2024-01-01 14:51:38,Tablet,user_0350_s1,product_view,2024-01-01 14:49:59,99.0
+user_0350,checkout_click,2024-01-01 14:53:57,Tablet,user_0350_s1,add_to_cart,2024-01-01 14:51:38,139.0
+user_0350,purchase,2024-01-01 15:00:25,Tablet,user_0350_s1,checkout_click,2024-01-01 14:54:00,385.0
+user_0351,home,2024-01-03 17:47:10,Mobile_App,user_0351_s1,,,
+user_0351,product_view,2024-01-03 17:55:08,Mobile_App,user_0351_s1,home,2024-01-03 17:47:10,478.0
+user_0351,add_to_cart,2024-01-03 18:04:53,Mobile_App,user_0351_s1,product_view,2024-01-03 17:55:08,585.0
+user_0352,home,2024-01-02 08:43:57,Web_Desktop,user_0352_s1,,,
+user_0352,product_view,2024-01-02 08:53:30,Web_Desktop,user_0352_s1,home,2024-01-02 08:43:57,573.0
+user_0353,purchase,2024-01-02 23:01:08,Web_Desktop,user_0353_orphan,,,
+user_0354,home,2024-01-03 09:47:34,Mobile_App,user_0354_s1,,,
+user_0354,product_view,2024-01-03 09:57:15,Mobile_App,user_0354_s1,home,2024-01-03 09:47:34,581.0
+user_0354,add_to_cart,2024-01-03 10:00:59,Mobile_App,user_0354_s1,product_view,2024-01-03 09:57:15,224.0
+user_0354,checkout_click,2024-01-03 10:10:53,Mobile_App,user_0354_s1,add_to_cart,2024-01-03 10:00:59,594.0
+user_0354,purchase,2024-01-03 10:16:56,Mobile_App,user_0354_s1,checkout_click,2024-01-03 10:10:57,359.0
+user_0355,home,2024-01-01 23:07:02,Tablet,user_0355_s1,,,
+user_0355,product_view,2024-01-01 23:15:49,Tablet,user_0355_s1,home,2024-01-01 23:07:02,527.0
+user_0356,home,2024-01-01 13:40:52,Tablet,user_0356_s1,,,
+user_0357,home,2024-01-02 13:39:51,Tablet,user_0357_s1,,,
+user_0357,product_view,2024-01-02 13:41:23,Tablet,user_0357_s1,home,2024-01-02 13:39:51,92.0
+user_0357,add_to_cart,2024-01-02 22:48:58,Mobile_App,user_0357_s2,product_view,2024-01-02 13:41:23,32855.0
+user_0358,home,2024-01-02 19:42:21,Mobile_App,user_0358_s1,,,
+user_0359,home,2024-01-02 14:41:35,Web_Desktop,user_0359_s1,,,
+user_0359,product_view,2024-01-02 14:48:11,Web_Desktop,user_0359_s1,home,2024-01-02 14:41:35,396.0
+user_0359,add_to_cart,2024-01-02 14:55:58,Web_Desktop,user_0359_s1,product_view,2024-01-02 14:48:11,467.0
+user_0360,home,2024-01-02 08:41:30,Web_Desktop,user_0360_s1,,,
+user_0360,product_view,2024-01-02 08:51:23,Web_Desktop,user_0360_s1,home,2024-01-02 08:41:30,593.0
+user_0360,add_to_cart,2024-01-02 08:57:25,Web_Desktop,user_0360_s1,product_view,2024-01-02 08:51:23,362.0
+user_0360,checkout_click,2024-01-02 09:05:15,Web_Desktop,user_0360_s1,add_to_cart,2024-01-02 08:57:25,470.0
+user_0360,purchase,2024-01-02 09:09:51,Web_Desktop,user_0360_s1,checkout_click,2024-01-02 09:05:15,276.0
+user_0361,home,2024-01-04 09:41:16,Mobile_App,user_0361_s1,,,
+user_0362,home,2024-01-01 13:23:37,Tablet,user_0362_s1,,,
+user_0362,product_view,2024-01-01 13:27:46,Tablet,user_0362_s1,home,2024-01-01 13:23:37,249.0
+user_0362,add_to_cart,2024-01-01 21:28:38,Mobile_App,user_0362_s2,product_view,2024-01-01 13:27:46,28852.0
+user_0362,checkout_click,2024-01-01 21:31:46,Tablet,user_0362_s2,add_to_cart,2024-01-01 21:28:38,188.0
+user_0363,home,2024-01-02 18:30:19,Tablet,user_0363_s1,,,
+user_0363,product_view,2024-01-02 18:34:31,Tablet,user_0363_s1,home,2024-01-02 18:30:19,252.0
+user_0363,add_to_cart,2024-01-02 18:40:33,Tablet,user_0363_s1,product_view,2024-01-02 18:34:31,362.0
+user_0364,home,2024-01-01 21:44:12,Tablet,user_0364_s1,,,
+user_0364,product_view,2024-01-01 21:52:06,Tablet,user_0364_s1,home,2024-01-01 21:44:12,474.0
+user_0364,add_to_cart,2024-01-01 21:54:39,Tablet,user_0364_s1,product_view,2024-01-01 21:52:06,153.0
+user_0365,home,2024-01-01 10:43:03,Tablet,user_0365_s1,,,
+user_0365,product_view,2024-01-01 10:47:19,Tablet,user_0365_s1,home,2024-01-01 10:43:03,256.0
+user_0366,home,2024-01-03 11:35:13,Tablet,user_0366_s1,,,
+user_0367,home,2024-01-03 04:12:18,Web_Desktop,user_0367_s1,,,
+user_0367,product_view,2024-01-03 04:15:01,Web_Desktop,user_0367_s1,home,2024-01-03 04:12:18,163.0
+user_0367,add_to_cart,2024-01-03 04:23:43,Web_Desktop,user_0367_s1,product_view,2024-01-03 04:15:01,522.0
+user_0367,checkout_click,2024-01-03 04:27:33,Web_Desktop,user_0367_s1,add_to_cart,2024-01-03 04:23:43,230.0
+user_0367,purchase,2024-01-03 04:36:59,Web_Desktop,user_0367_s1,checkout_click,2024-01-03 04:27:33,566.0
+user_0368,home,2024-01-02 16:17:01,Mobile_App,user_0368_s1,,,
+user_0369,home,2024-01-03 13:32:42,Web_Desktop,user_0369_s1,,,
+user_0369,product_view,2024-01-03 13:39:10,Web_Desktop,user_0369_s1,home,2024-01-03 13:32:42,388.0
+user_0369,add_to_cart,2024-01-03 13:47:12,Web_Desktop,user_0369_s1,product_view,2024-01-03 13:39:10,482.0
+user_0369,checkout_click,2024-01-03 13:51:41,Web_Desktop,user_0369_s1,add_to_cart,2024-01-03 13:47:12,269.0
+user_0369,purchase,2024-01-03 13:53:41,Web_Desktop,user_0369_s1,checkout_click,2024-01-03 13:51:44,117.0
+user_0370,home,2024-01-01 23:47:44,Mobile_App,user_0370_s1,,,
+user_0370,product_view,2024-01-01 23:50:07,Mobile_App,user_0370_s1,home,2024-01-01 23:47:44,143.0
+user_0370,add_to_cart,2024-01-01 23:58:39,Mobile_App,user_0370_s1,product_view,2024-01-01 23:50:07,512.0
+user_0370,home,2024-01-01 23:59:15,Mobile_App,user_0370_s1,add_to_cart,2024-01-01 23:58:39,36.0
+user_0370,product_view,2024-01-02 00:00:59,Mobile_App,user_0370_s1,home,2024-01-01 23:59:15,104.0
+user_0370,add_to_cart,2024-01-02 00:02:17,Mobile_App,user_0370_s1,product_view,2024-01-02 00:00:59,78.0
+user_0371,home,2024-01-04 06:39:55,Web_Desktop,user_0371_s1,,,
+user_0371,product_view,2024-01-04 06:49:24,Web_Desktop,user_0371_s1,home,2024-01-04 06:39:55,569.0
+user_0372,home,2024-01-02 06:03:38,Web_Desktop,user_0372_s1,,,
+user_0373,purchase,2024-01-02 19:49:05,Tablet,user_0373_orphan,,,
+user_0374,home,2024-01-02 14:33:34,Tablet,user_0374_s1,,,
+user_0375,home,2024-01-02 10:37:42,Web_Desktop,user_0375_s1,,,
+user_0375,product_view,2024-01-02 10:44:54,Web_Desktop,user_0375_s1,home,2024-01-02 10:37:42,432.0
+user_0375,add_to_cart,2024-01-02 10:45:42,Web_Desktop,user_0375_s1,product_view,2024-01-02 10:44:54,48.0
+user_0375,checkout_click,2024-01-02 10:51:21,Web_Desktop,user_0375_s1,add_to_cart,2024-01-02 10:45:42,339.0
+user_0375,purchase,2024-01-02 10:58:30,Web_Desktop,user_0375_s1,checkout_click,2024-01-02 10:51:24,426.0
+user_0376,home,2024-01-01 12:36:59,Web_Desktop,user_0376_s1,,,
+user_0376,product_view,2024-01-01 12:46:22,Web_Desktop,user_0376_s1,home,2024-01-01 12:36:59,563.0
+user_0376,add_to_cart,2024-01-01 12:50:44,Web_Desktop,user_0376_s1,product_view,2024-01-01 12:46:22,262.0
+user_0376,checkout_click,2024-01-01 12:58:30,Web_Desktop,user_0376_s1,add_to_cart,2024-01-01 12:50:44,466.0
+user_0376,purchase,2024-01-01 13:04:37,Web_Desktop,user_0376_s1,checkout_click,2024-01-01 12:58:30,367.0
+user_0377,home,2024-01-03 18:37:57,Mobile_App,user_0377_s1,,,
+user_0377,product_view,2024-01-03 18:43:43,Mobile_App,user_0377_s1,home,2024-01-03 18:37:57,346.0
+user_0377,add_to_cart,2024-01-03 18:53:09,Mobile_App,user_0377_s1,product_view,2024-01-03 18:43:43,566.0
+user_0377,checkout_click,2024-01-03 18:56:07,Mobile_App,user_0377_s1,add_to_cart,2024-01-03 18:53:09,178.0
+user_0377,purchase,2024-01-03 18:59:18,Mobile_App,user_0377_s1,checkout_click,2024-01-03 18:56:07,191.0
+user_0378,home,2024-01-03 01:06:59,Tablet,user_0378_s1,,,
+user_0378,product_view,2024-01-03 01:12:55,Tablet,user_0378_s1,home,2024-01-03 01:06:59,356.0
+user_0378,add_to_cart,2024-01-03 01:20:28,Tablet,user_0378_s1,product_view,2024-01-03 01:12:55,453.0
+user_0379,purchase,2024-01-02 20:14:03,Mobile_App,user_0379_orphan,,,
+user_0380,home,2024-01-04 09:47:38,Mobile_App,user_0380_s1,,,
+user_0381,home,2024-01-03 21:48:47,Tablet,user_0381_s1,,,
+user_0381,product_view,2024-01-03 21:56:15,Tablet,user_0381_s1,home,2024-01-03 21:48:47,448.0
+user_0381,add_to_cart,2024-01-03 21:57:00,Tablet,user_0381_s1,product_view,2024-01-03 21:56:15,45.0
+user_0381,checkout_click,2024-01-03 22:01:17,Tablet,user_0381_s1,add_to_cart,2024-01-03 21:57:00,257.0
+user_0381,purchase,2024-01-03 22:05:16,Tablet,user_0381_s1,checkout_click,2024-01-03 22:01:17,239.0
+user_0382,home,2024-01-01 17:15:42,Web_Desktop,user_0382_s1,,,
+user_0382,product_view,2024-01-01 17:16:54,Web_Desktop,user_0382_s1,home,2024-01-01 17:15:42,72.0
+user_0382,add_to_cart,2024-01-01 17:23:53,Web_Desktop,user_0382_s1,product_view,2024-01-01 17:16:54,419.0
+user_0382,checkout_click,2024-01-01 17:33:32,Web_Desktop,user_0382_s1,add_to_cart,2024-01-01 17:23:53,579.0
+user_0382,purchase,2024-01-01 17:34:41,Web_Desktop,user_0382_s1,checkout_click,2024-01-01 17:33:32,69.0
+user_0383,home,2024-01-04 03:15:40,Web_Desktop,user_0383_s1,,,
+user_0383,product_view,2024-01-04 03:16:50,Web_Desktop,user_0383_s1,home,2024-01-04 03:15:40,70.0
+user_0383,add_to_cart,2024-01-04 03:26:08,Web_Desktop,user_0383_s1,product_view,2024-01-04 03:16:50,558.0
+user_0383,checkout_click,2024-01-04 03:29:52,Web_Desktop,user_0383_s1,add_to_cart,2024-01-04 03:26:08,224.0
+user_0383,purchase,2024-01-04 03:35:33,Web_Desktop,user_0383_s1,checkout_click,2024-01-04 03:29:52,341.0
+user_0384,home,2024-01-02 21:37:24,Mobile_App,user_0384_s1,,,
+user_0384,product_view,2024-01-02 21:45:36,Mobile_App,user_0384_s1,home,2024-01-02 21:37:24,492.0
+user_0385,home,2024-01-04 01:07:55,Mobile_App,user_0385_s1,,,
+user_0385,product_view,2024-01-04 01:11:51,Mobile_App,user_0385_s1,home,2024-01-04 01:07:55,236.0
+user_0385,add_to_cart,2024-01-04 01:13:53,Mobile_App,user_0385_s1,product_view,2024-01-04 01:11:51,122.0
+user_0385,checkout_click,2024-01-04 01:17:10,Mobile_App,user_0385_s1,add_to_cart,2024-01-04 01:13:53,197.0
+user_0386,home,2024-01-01 23:54:13,Web_Desktop,user_0386_s1,,,
+user_0386,product_view,2024-01-01 23:57:26,Web_Desktop,user_0386_s1,home,2024-01-01 23:54:13,193.0
+user_0386,add_to_cart,2024-01-02 00:04:25,Web_Desktop,user_0386_s1,product_view,2024-01-01 23:57:26,419.0
+user_0386,home,2024-01-02 00:04:56,Web_Desktop,user_0386_s1,add_to_cart,2024-01-02 00:04:25,31.0
+user_0386,product_view,2024-01-02 00:05:48,Web_Desktop,user_0386_s1,home,2024-01-02 00:04:56,52.0
+user_0386,add_to_cart,2024-01-02 00:07:10,Web_Desktop,user_0386_s1,product_view,2024-01-02 00:05:48,82.0
+user_0386,checkout_click,2024-01-02 00:10:13,Web_Desktop,user_0386_s1,add_to_cart,2024-01-02 00:07:10,183.0
+user_0386,purchase,2024-01-02 00:11:37,Web_Desktop,user_0386_s1,checkout_click,2024-01-02 00:10:15,82.0
+user_0387,home,2024-01-03 14:21:44,Web_Desktop,user_0387_s1,,,
+user_0387,product_view,2024-01-03 14:22:17,Web_Desktop,user_0387_s1,home,2024-01-03 14:21:44,33.0
+user_0387,add_to_cart,2024-01-03 14:27:06,Web_Desktop,user_0387_s1,product_view,2024-01-03 14:22:17,289.0
+user_0387,home,2024-01-03 14:28:19,Web_Desktop,user_0387_s1,add_to_cart,2024-01-03 14:27:06,73.0
+user_0387,product_view,2024-01-03 14:30:18,Web_Desktop,user_0387_s1,home,2024-01-03 14:28:19,119.0
+user_0387,add_to_cart,2024-01-03 14:31:31,Web_Desktop,user_0387_s1,product_view,2024-01-03 14:30:18,73.0
+user_0387,checkout_click,2024-01-03 14:32:06,Web_Desktop,user_0387_s1,add_to_cart,2024-01-03 14:31:31,35.0
+user_0387,purchase,2024-01-03 14:36:18,Web_Desktop,user_0387_s1,checkout_click,2024-01-03 14:32:06,252.0
+user_0388,home,2024-01-03 21:39:00,Web_Desktop,user_0388_s1,,,
+user_0388,product_view,2024-01-03 21:43:02,Web_Desktop,user_0388_s1,home,2024-01-03 21:39:00,242.0
+user_0389,home,2024-01-02 03:08:35,Tablet,user_0389_s1,,,
+user_0389,product_view,2024-01-02 03:10:34,Tablet,user_0389_s1,home,2024-01-02 03:08:35,119.0
+user_0390,home,2024-01-03 14:17:38,Mobile_App,user_0390_s1,,,
+user_0390,product_view,2024-01-03 14:19:43,Mobile_App,user_0390_s1,home,2024-01-03 14:17:38,125.0
+user_0390,add_to_cart,2024-01-03 14:25:43,Mobile_App,user_0390_s1,product_view,2024-01-03 14:19:43,360.0
+user_0390,checkout_click,2024-01-03 14:27:22,Mobile_App,user_0390_s1,add_to_cart,2024-01-03 14:25:43,99.0
+user_0390,purchase,2024-01-03 14:28:58,Mobile_App,user_0390_s1,checkout_click,2024-01-03 14:27:22,96.0
+user_0391,home,2024-01-02 22:34:04,Mobile_App,user_0391_s1,,,
+user_0391,product_view,2024-01-02 22:35:33,Mobile_App,user_0391_s1,home,2024-01-02 22:34:04,89.0
+user_0392,home,2024-01-04 04:09:55,Web_Desktop,user_0392_s1,,,
+user_0392,product_view,2024-01-04 04:16:27,Web_Desktop,user_0392_s1,home,2024-01-04 04:09:55,392.0
+user_0392,add_to_cart,2024-01-04 04:25:25,Web_Desktop,user_0392_s1,product_view,2024-01-04 04:16:27,538.0
+user_0392,checkout_click,2024-01-04 04:34:19,Web_Desktop,user_0392_s1,add_to_cart,2024-01-04 04:25:25,534.0
+user_0392,purchase,2024-01-04 04:38:47,Web_Desktop,user_0392_s1,checkout_click,2024-01-04 04:34:19,268.0
+user_0393,home,2024-01-02 22:16:02,Mobile_App,user_0393_s1,,,
+user_0393,product_view,2024-01-02 22:23:36,Mobile_App,user_0393_s1,home,2024-01-02 22:16:02,454.0
+user_0393,add_to_cart,2024-01-02 22:29:47,Mobile_App,user_0393_s1,product_view,2024-01-02 22:23:36,371.0
+user_0393,checkout_click,2024-01-03 02:33:54,Web_Desktop,user_0393_s2,add_to_cart,2024-01-02 22:29:47,14647.0
+user_0393,purchase,2024-01-03 02:38:44,Mobile_App,user_0393_s2,checkout_click,2024-01-03 02:33:54,290.0
+user_0394,home,2024-01-01 17:25:11,Web_Desktop,user_0394_s1,,,
+user_0394,product_view,2024-01-01 17:26:10,Web_Desktop,user_0394_s1,home,2024-01-01 17:25:11,59.0
+user_0394,add_to_cart,2024-01-01 17:29:58,Web_Desktop,user_0394_s1,product_view,2024-01-01 17:26:10,228.0
+user_0395,home,2024-01-03 23:07:39,Web_Desktop,user_0395_s1,,,
+user_0395,product_view,2024-01-03 23:16:02,Web_Desktop,user_0395_s1,home,2024-01-03 23:07:39,503.0
+user_0395,add_to_cart,2024-01-03 23:23:35,Web_Desktop,user_0395_s1,product_view,2024-01-03 23:16:02,453.0
+user_0398,home,2024-01-03 09:45:45,Tablet,user_0398_s1,,,
+user_0398,product_view,2024-01-03 09:51:37,Tablet,user_0398_s1,home,2024-01-03 09:45:45,352.0
+user_0398,add_to_cart,2024-01-03 09:56:45,Tablet,user_0398_s1,product_view,2024-01-03 09:51:37,308.0
+user_0398,checkout_click,2024-01-03 10:01:18,Tablet,user_0398_s1,add_to_cart,2024-01-03 09:56:45,273.0
+user_0398,purchase,2024-01-03 10:06:57,Tablet,user_0398_s1,checkout_click,2024-01-03 10:01:18,339.0
+user_0399,home,2024-01-02 12:35:04,Web_Desktop,user_0399_s1,,,
+user_0399,product_view,2024-01-02 12:35:59,Web_Desktop,user_0399_s1,home,2024-01-02 12:35:04,55.0
+user_0399,add_to_cart,2024-01-02 12:45:01,Web_Desktop,user_0399_s1,product_view,2024-01-02 12:35:59,542.0
+user_0399,home,2024-01-02 12:45:54,Web_Desktop,user_0399_s1,add_to_cart,2024-01-02 12:45:01,53.0
+user_0399,product_view,2024-01-02 12:47:05,Web_Desktop,user_0399_s1,home,2024-01-02 12:45:54,71.0
+user_0399,add_to_cart,2024-01-02 12:48:48,Web_Desktop,user_0399_s1,product_view,2024-01-02 12:47:05,103.0
+user_0399,checkout_click,2024-01-02 12:54:35,Web_Desktop,user_0399_s1,add_to_cart,2024-01-02 12:48:48,347.0
+user_0401,home,2024-01-03 10:46:59,Tablet,user_0401_s1,,,
+user_0401,product_view,2024-01-03 10:48:16,Tablet,user_0401_s1,home,2024-01-03 10:46:59,77.0
+user_0402,home,2024-01-03 00:06:13,Tablet,user_0402_s1,,,
+user_0402,product_view,2024-01-03 00:14:14,Tablet,user_0402_s1,home,2024-01-03 00:06:13,481.0
+user_0402,add_to_cart,2024-01-03 00:19:23,Tablet,user_0402_s1,product_view,2024-01-03 00:14:14,309.0
+user_0402,home,2024-01-03 00:20:08,Tablet,user_0402_s1,add_to_cart,2024-01-03 00:19:23,45.0
+user_0402,product_view,2024-01-03 00:20:32,Tablet,user_0402_s1,home,2024-01-03 00:20:08,24.0
+user_0402,add_to_cart,2024-01-03 00:20:43,Tablet,user_0402_s1,product_view,2024-01-03 00:20:32,11.0
+user_0402,checkout_click,2024-01-03 00:29:59,Tablet,user_0402_s1,add_to_cart,2024-01-03 00:20:43,556.0
+user_0403,home,2024-01-02 21:44:04,Mobile_App,user_0403_s1,,,
+user_0404,home,2024-01-01 12:33:33,Tablet,user_0404_s1,,,
+user_0404,product_view,2024-01-01 12:41:39,Tablet,user_0404_s1,home,2024-01-01 12:33:33,486.0
+user_0404,add_to_cart,2024-01-01 12:47:28,Tablet,user_0404_s1,product_view,2024-01-01 12:41:39,349.0
+user_0405,home,2024-01-04 05:13:29,Web_Desktop,user_0405_s1,,,
+user_0406,home,2024-01-03 00:45:57,Tablet,user_0406_s1,,,
+user_0406,product_view,2024-01-03 00:50:51,Tablet,user_0406_s1,home,2024-01-03 00:45:57,294.0
+user_0406,add_to_cart,2024-01-03 00:58:02,Tablet,user_0406_s1,product_view,2024-01-03 00:50:51,431.0
+user_0406,home,2024-01-03 00:59:37,Tablet,user_0406_s1,add_to_cart,2024-01-03 00:58:02,95.0
+user_0406,product_view,2024-01-03 01:00:29,Tablet,user_0406_s1,home,2024-01-03 00:59:37,52.0
+user_0406,add_to_cart,2024-01-03 01:02:19,Tablet,user_0406_s1,product_view,2024-01-03 01:00:29,110.0
+user_0406,checkout_click,2024-01-03 01:08:21,Tablet,user_0406_s1,add_to_cart,2024-01-03 01:02:19,362.0
+user_0407,home,2024-01-03 21:09:40,Web_Desktop,user_0407_s1,,,
+user_0407,product_view,2024-01-03 21:17:05,Web_Desktop,user_0407_s1,home,2024-01-03 21:09:40,445.0
+user_0407,add_to_cart,2024-01-03 21:19:24,Web_Desktop,user_0407_s1,product_view,2024-01-03 21:17:05,139.0
+user_0407,checkout_click,2024-01-03 21:25:03,Web_Desktop,user_0407_s1,add_to_cart,2024-01-03 21:19:24,339.0
+user_0407,purchase,2024-01-03 21:32:36,Web_Desktop,user_0407_s1,checkout_click,2024-01-03 21:25:03,453.0
+user_0408,home,2024-01-02 15:46:51,Mobile_App,user_0408_s1,,,
+user_0408,product_view,2024-01-02 15:54:46,Mobile_App,user_0408_s1,home,2024-01-02 15:46:51,475.0
+user_0408,add_to_cart,2024-01-02 16:01:06,Mobile_App,user_0408_s1,product_view,2024-01-02 15:54:46,380.0
+user_0409,home,2024-01-01 18:53:03,Tablet,user_0409_s1,,,
+user_0409,product_view,2024-01-01 19:01:08,Tablet,user_0409_s1,home,2024-01-01 18:53:03,485.0
+user_0410,home,2024-01-03 12:05:32,Tablet,user_0410_s1,,,
+user_0411,home,2024-01-02 03:04:13,Tablet,user_0411_s1,,,
+user_0411,product_view,2024-01-02 03:11:22,Tablet,user_0411_s1,home,2024-01-02 03:04:13,429.0
+user_0411,add_to_cart,2024-01-02 03:19:29,Tablet,user_0411_s1,product_view,2024-01-02 03:11:22,487.0
+user_0411,home,2024-01-02 03:21:06,Tablet,user_0411_s1,add_to_cart,2024-01-02 03:19:29,97.0
+user_0411,product_view,2024-01-02 03:21:56,Tablet,user_0411_s1,home,2024-01-02 03:21:06,50.0
+user_0411,add_to_cart,2024-01-02 03:22:44,Tablet,user_0411_s1,product_view,2024-01-02 03:21:56,48.0
+user_0411,checkout_click,2024-01-02 03:28:25,Tablet,user_0411_s1,add_to_cart,2024-01-02 03:22:44,341.0
+user_0411,purchase,2024-01-02 03:34:47,Tablet,user_0411_s1,checkout_click,2024-01-02 03:28:25,382.0
+user_0412,home,2024-01-01 20:38:33,Mobile_App,user_0412_s1,,,
+user_0412,product_view,2024-01-01 20:48:25,Mobile_App,user_0412_s1,home,2024-01-01 20:38:33,592.0
+user_0412,add_to_cart,2024-01-01 20:48:55,Mobile_App,user_0412_s1,product_view,2024-01-01 20:48:25,30.0
+user_0412,checkout_click,2024-01-01 20:55:32,Mobile_App,user_0412_s1,add_to_cart,2024-01-01 20:48:55,397.0
+user_0413,home,2024-01-03 11:43:27,Web_Desktop,user_0413_s1,,,
+user_0413,product_view,2024-01-03 11:47:09,Web_Desktop,user_0413_s1,home,2024-01-03 11:43:27,222.0
+user_0413,add_to_cart,2024-01-03 11:53:47,Web_Desktop,user_0413_s1,product_view,2024-01-03 11:47:09,398.0
+user_0414,home,2024-01-02 01:15:57,Mobile_App,user_0414_s1,,,
+user_0414,product_view,2024-01-02 01:18:46,Mobile_App,user_0414_s1,home,2024-01-02 01:15:57,169.0
+user_0415,home,2024-01-03 15:02:44,Web_Desktop,user_0415_s1,,,
+user_0415,product_view,2024-01-03 15:10:54,Web_Desktop,user_0415_s1,home,2024-01-03 15:02:44,490.0
+user_0415,add_to_cart,2024-01-03 15:15:15,Web_Desktop,user_0415_s1,product_view,2024-01-03 15:10:54,261.0
+user_0415,home,2024-01-03 15:16:42,Web_Desktop,user_0415_s1,add_to_cart,2024-01-03 15:15:15,87.0
+user_0415,product_view,2024-01-03 15:16:52,Web_Desktop,user_0415_s1,home,2024-01-03 15:16:42,10.0
+user_0415,add_to_cart,2024-01-03 15:18:15,Web_Desktop,user_0415_s1,product_view,2024-01-03 15:16:52,83.0
+user_0415,checkout_click,2024-01-03 15:22:47,Web_Desktop,user_0415_s1,add_to_cart,2024-01-03 15:18:15,272.0
+user_0416,home,2024-01-04 06:38:25,Web_Desktop,user_0416_s1,,,
+user_0416,product_view,2024-01-04 06:40:16,Web_Desktop,user_0416_s1,home,2024-01-04 06:38:25,111.0
+user_0417,home,2024-01-04 04:58:41,Web_Desktop,user_0417_s1,,,
+user_0417,product_view,2024-01-04 05:00:30,Web_Desktop,user_0417_s1,home,2024-01-04 04:58:41,109.0
+user_0417,add_to_cart,2024-01-04 05:10:12,Web_Desktop,user_0417_s1,product_view,2024-01-04 05:00:30,582.0
+user_0418,home,2024-01-01 16:05:30,Web_Desktop,user_0418_s1,,,
+user_0418,product_view,2024-01-01 16:11:39,Web_Desktop,user_0418_s1,home,2024-01-01 16:05:30,369.0
+user_0418,add_to_cart,2024-01-01 16:17:10,Web_Desktop,user_0418_s1,product_view,2024-01-01 16:11:39,331.0
+user_0419,home,2024-01-02 23:51:28,Tablet,user_0419_s1,,,
+user_0419,product_view,2024-01-02 23:52:25,Tablet,user_0419_s1,home,2024-01-02 23:51:28,57.0
+user_0419,add_to_cart,2024-01-02 23:54:19,Tablet,user_0419_s1,product_view,2024-01-02 23:52:25,114.0
+user_0419,home,2024-01-02 23:54:38,Tablet,user_0419_s1,add_to_cart,2024-01-02 23:54:19,19.0
+user_0419,product_view,2024-01-02 23:56:36,Tablet,user_0419_s1,home,2024-01-02 23:54:38,118.0
+user_0419,add_to_cart,2024-01-02 23:58:26,Tablet,user_0419_s1,product_view,2024-01-02 23:56:36,110.0
+user_0420,purchase,2024-01-02 01:41:24,Web_Desktop,user_0420_orphan,,,
+user_0421,home,2024-01-02 08:02:31,Tablet,user_0421_s1,,,
+user_0421,product_view,2024-01-02 08:12:01,Tablet,user_0421_s1,home,2024-01-02 08:02:31,570.0
+user_0421,add_to_cart,2024-01-02 08:18:22,Tablet,user_0421_s1,product_view,2024-01-02 08:12:01,381.0
+user_0421,checkout_click,2024-01-02 08:21:29,Tablet,user_0421_s1,add_to_cart,2024-01-02 08:18:22,187.0
+user_0421,purchase,2024-01-02 08:29:01,Tablet,user_0421_s1,checkout_click,2024-01-02 08:21:29,452.0
+user_0422,home,2024-01-03 10:21:23,Tablet,user_0422_s1,,,
+user_0423,home,2024-01-02 18:57:35,Mobile_App,user_0423_s1,,,
+user_0423,product_view,2024-01-02 19:04:44,Mobile_App,user_0423_s1,home,2024-01-02 18:57:35,429.0
+user_0423,add_to_cart,2024-01-02 19:07:42,Mobile_App,user_0423_s1,product_view,2024-01-02 19:04:44,178.0
+user_0423,checkout_click,2024-01-03 06:13:07,Web_Desktop,user_0423_s2,add_to_cart,2024-01-02 19:07:42,39925.0
+user_0423,purchase,2024-01-03 06:22:39,Mobile_App,user_0423_s2,checkout_click,2024-01-03 06:13:07,572.0
+user_0424,home,2024-01-01 14:11:09,Tablet,user_0424_s1,,,
+user_0424,product_view,2024-01-01 14:16:12,Tablet,user_0424_s1,home,2024-01-01 14:11:09,303.0
+user_0424,add_to_cart,2024-01-01 14:21:03,Tablet,user_0424_s1,product_view,2024-01-01 14:16:12,291.0
+user_0424,checkout_click,2024-01-01 14:25:40,Tablet,user_0424_s1,add_to_cart,2024-01-01 14:21:03,277.0
+user_0424,purchase,2024-01-01 14:29:29,Tablet,user_0424_s1,checkout_click,2024-01-01 14:25:40,229.0
+user_0426,home,2024-01-01 10:59:29,Mobile_App,user_0426_s1,,,
+user_0426,product_view,2024-01-01 11:04:49,Mobile_App,user_0426_s1,home,2024-01-01 10:59:29,320.0
+user_0426,add_to_cart,2024-01-01 15:05:53,Web_Desktop,user_0426_s2,product_view,2024-01-01 11:04:49,14464.0
+user_0427,home,2024-01-02 12:44:54,Tablet,user_0427_s1,,,
+user_0427,product_view,2024-01-02 12:48:33,Tablet,user_0427_s1,home,2024-01-02 12:44:54,219.0
+user_0427,add_to_cart,2024-01-02 20:52:11,Mobile_App,user_0427_s2,product_view,2024-01-02 12:48:33,29018.0
+user_0427,checkout_click,2024-01-02 20:53:58,Tablet,user_0427_s2,add_to_cart,2024-01-02 20:52:11,107.0
+user_0427,purchase,2024-01-02 20:59:11,Tablet,user_0427_s2,checkout_click,2024-01-02 20:53:58,313.0
+user_0428,home,2024-01-03 15:49:13,Tablet,user_0428_s1,,,
+user_0428,product_view,2024-01-03 15:56:14,Tablet,user_0428_s1,home,2024-01-03 15:49:13,421.0
+user_0428,add_to_cart,2024-01-03 15:57:45,Tablet,user_0428_s1,product_view,2024-01-03 15:56:14,91.0
+user_0428,checkout_click,2024-01-03 16:01:17,Tablet,user_0428_s1,add_to_cart,2024-01-03 15:57:45,212.0
+user_0428,purchase,2024-01-03 16:05:12,Tablet,user_0428_s1,checkout_click,2024-01-03 16:01:17,235.0
+user_0429,home,2024-01-03 11:13:18,Tablet,user_0429_s1,,,
+user_0429,product_view,2024-01-03 11:18:13,Tablet,user_0429_s1,home,2024-01-03 11:13:18,295.0
+user_0430,purchase,2024-01-01 18:12:59,Tablet,user_0430_orphan,,,
+user_0431,home,2024-01-02 04:47:07,Tablet,user_0431_s1,,,
+user_0431,product_view,2024-01-02 04:47:40,Tablet,user_0431_s1,home,2024-01-02 04:47:07,33.0
+user_0431,add_to_cart,2024-01-02 15:56:32,Mobile_App,user_0431_s2,product_view,2024-01-02 04:47:40,40132.0
+user_0431,checkout_click,2024-01-02 15:58:13,Tablet,user_0431_s2,add_to_cart,2024-01-02 15:56:32,101.0
+user_0432,home,2024-01-03 22:08:26,Tablet,user_0432_s1,,,
+user_0432,product_view,2024-01-03 22:10:28,Tablet,user_0432_s1,home,2024-01-03 22:08:26,122.0
+user_0432,add_to_cart,2024-01-03 22:16:46,Tablet,user_0432_s1,product_view,2024-01-03 22:10:28,378.0
+user_0432,home,2024-01-03 22:17:54,Tablet,user_0432_s1,add_to_cart,2024-01-03 22:16:46,68.0
+user_0432,product_view,2024-01-03 22:19:41,Tablet,user_0432_s1,home,2024-01-03 22:17:54,107.0
+user_0432,add_to_cart,2024-01-03 22:21:29,Tablet,user_0432_s1,product_view,2024-01-03 22:19:41,108.0
+user_0433,home,2024-01-02 10:18:09,Tablet,user_0433_s1,,,
+user_0433,product_view,2024-01-02 10:24:46,Tablet,user_0433_s1,home,2024-01-02 10:18:09,397.0
+user_0433,add_to_cart,2024-01-02 10:32:44,Tablet,user_0433_s1,product_view,2024-01-02 10:24:46,478.0
+user_0434,home,2024-01-02 09:10:43,Tablet,user_0434_s1,,,
+user_0434,product_view,2024-01-02 09:19:44,Tablet,user_0434_s1,home,2024-01-02 09:10:43,541.0
+user_0434,add_to_cart,2024-01-02 09:27:54,Tablet,user_0434_s1,product_view,2024-01-02 09:19:44,490.0
+user_0435,home,2024-01-03 04:12:25,Web_Desktop,user_0435_s1,,,
+user_0435,product_view,2024-01-03 04:22:04,Web_Desktop,user_0435_s1,home,2024-01-03 04:12:25,579.0
+user_0438,home,2024-01-03 00:54:18,Mobile_App,user_0438_s1,,,
+user_0439,home,2024-01-02 13:13:48,Mobile_App,user_0439_s1,,,
+user_0440,home,2024-01-02 12:55:35,Mobile_App,user_0440_s1,,,
+user_0440,product_view,2024-01-02 13:02:23,Mobile_App,user_0440_s1,home,2024-01-02 12:55:35,408.0
+user_0440,add_to_cart,2024-01-02 13:10:22,Mobile_App,user_0440_s1,product_view,2024-01-02 13:02:23,479.0
+user_0440,checkout_click,2024-01-02 13:13:08,Mobile_App,user_0440_s1,add_to_cart,2024-01-02 13:10:22,166.0
+user_0441,home,2024-01-03 23:10:20,Mobile_App,user_0441_s1,,,
+user_0441,product_view,2024-01-03 23:18:57,Mobile_App,user_0441_s1,home,2024-01-03 23:10:20,517.0
+user_0441,add_to_cart,2024-01-04 05:22:58,Web_Desktop,user_0441_s2,product_view,2024-01-03 23:18:57,21841.0
+user_0441,checkout_click,2024-01-04 05:30:29,Mobile_App,user_0441_s2,add_to_cart,2024-01-04 05:22:58,451.0
+user_0441,purchase,2024-01-04 05:39:32,Mobile_App,user_0441_s2,checkout_click,2024-01-04 05:30:31,541.0
+user_0442,home,2024-01-01 20:49:32,Web_Desktop,user_0442_s1,,,
+user_0442,product_view,2024-01-01 20:56:12,Web_Desktop,user_0442_s1,home,2024-01-01 20:49:32,400.0
+user_0442,add_to_cart,2024-01-01 21:05:54,Web_Desktop,user_0442_s1,product_view,2024-01-01 20:56:12,582.0
+user_0442,checkout_click,2024-01-01 21:09:57,Web_Desktop,user_0442_s1,add_to_cart,2024-01-01 21:05:54,243.0
+user_0444,home,2024-01-03 07:26:14,Mobile_App,user_0444_s1,,,
+user_0445,home,2024-01-01 16:03:30,Tablet,user_0445_s1,,,
+user_0445,product_view,2024-01-01 16:09:33,Tablet,user_0445_s1,home,2024-01-01 16:03:30,363.0
+user_0445,add_to_cart,2024-01-01 16:15:36,Tablet,user_0445_s1,product_view,2024-01-01 16:09:33,363.0
+user_0446,home,2024-01-02 14:14:32,Mobile_App,user_0446_s1,,,
+user_0446,product_view,2024-01-02 14:15:57,Mobile_App,user_0446_s1,home,2024-01-02 14:14:32,85.0
+user_0446,add_to_cart,2024-01-02 14:18:55,Mobile_App,user_0446_s1,product_view,2024-01-02 14:15:57,178.0
+user_0446,checkout_click,2024-01-02 14:22:27,Mobile_App,user_0446_s1,add_to_cart,2024-01-02 14:18:55,212.0
+user_0448,home,2024-01-04 09:09:21,Web_Desktop,user_0448_s1,,,
+user_0448,product_view,2024-01-04 09:14:53,Web_Desktop,user_0448_s1,home,2024-01-04 09:09:21,332.0
+user_0448,add_to_cart,2024-01-04 09:18:17,Web_Desktop,user_0448_s1,product_view,2024-01-04 09:14:53,204.0
+user_0448,checkout_click,2024-01-04 14:22:42,Mobile_App,user_0448_s2,add_to_cart,2024-01-04 09:18:17,18265.0
+user_0448,purchase,2024-01-04 14:26:53,Web_Desktop,user_0448_s2,checkout_click,2024-01-04 14:22:42,251.0
+user_0449,home,2024-01-03 21:59:05,Web_Desktop,user_0449_s1,,,
+user_0449,product_view,2024-01-03 22:03:22,Web_Desktop,user_0449_s1,home,2024-01-03 21:59:05,257.0
+user_0449,add_to_cart,2024-01-03 22:06:24,Web_Desktop,user_0449_s1,product_view,2024-01-03 22:03:22,182.0
+user_0449,checkout_click,2024-01-03 22:14:01,Web_Desktop,user_0449_s1,add_to_cart,2024-01-03 22:06:24,457.0
+user_0450,home,2024-01-03 21:48:10,Tablet,user_0450_s1,,,
+user_0450,product_view,2024-01-03 21:52:46,Tablet,user_0450_s1,home,2024-01-03 21:48:10,276.0
+user_0451,home,2024-01-01 10:46:02,Tablet,user_0451_s1,,,
+user_0452,home,2024-01-03 00:12:51,Tablet,user_0452_s1,,,
+user_0452,product_view,2024-01-03 00:20:16,Tablet,user_0452_s1,home,2024-01-03 00:12:51,445.0
+user_0453,home,2024-01-03 08:46:10,Web_Desktop,user_0453_s1,,,
+user_0453,product_view,2024-01-03 08:51:43,Web_Desktop,user_0453_s1,home,2024-01-03 08:46:10,333.0
+user_0453,add_to_cart,2024-01-03 08:56:49,Web_Desktop,user_0453_s1,product_view,2024-01-03 08:51:43,306.0
+user_0453,checkout_click,2024-01-03 09:00:51,Web_Desktop,user_0453_s1,add_to_cart,2024-01-03 08:56:49,242.0
+user_0454,home,2024-01-03 03:53:44,Mobile_App,user_0454_s1,,,
+user_0454,product_view,2024-01-03 03:54:55,Mobile_App,user_0454_s1,home,2024-01-03 03:53:44,71.0
+user_0454,add_to_cart,2024-01-03 03:58:24,Mobile_App,user_0454_s1,product_view,2024-01-03 03:54:55,209.0
+user_0454,checkout_click,2024-01-03 04:02:23,Mobile_App,user_0454_s1,add_to_cart,2024-01-03 03:58:24,239.0
+user_0454,purchase,2024-01-03 04:11:05,Mobile_App,user_0454_s1,checkout_click,2024-01-03 04:02:26,519.0
+user_0455,home,2024-01-02 11:55:43,Tablet,user_0455_s1,,,
+user_0455,product_view,2024-01-02 11:57:17,Tablet,user_0455_s1,home,2024-01-02 11:55:43,94.0
+user_0455,add_to_cart,2024-01-02 12:05:30,Tablet,user_0455_s1,product_view,2024-01-02 11:57:17,493.0
+user_0455,checkout_click,2024-01-02 12:08:05,Tablet,user_0455_s1,add_to_cart,2024-01-02 12:05:30,155.0
+user_0455,purchase,2024-01-02 12:17:40,Tablet,user_0455_s1,checkout_click,2024-01-02 12:08:05,575.0
+user_0456,home,2024-01-02 22:29:59,Tablet,user_0456_s1,,,
+user_0457,home,2024-01-02 07:21:04,Mobile_App,user_0457_s1,,,
+user_0457,product_view,2024-01-02 07:30:27,Mobile_App,user_0457_s1,home,2024-01-02 07:21:04,563.0
+user_0457,add_to_cart,2024-01-02 07:31:20,Mobile_App,user_0457_s1,product_view,2024-01-02 07:30:27,53.0
+user_0457,checkout_click,2024-01-02 13:41:04,Web_Desktop,user_0457_s2,add_to_cart,2024-01-02 07:31:20,22184.0
+user_0457,purchase,2024-01-02 13:41:55,Mobile_App,user_0457_s2,checkout_click,2024-01-02 13:41:04,51.0
+user_0458,home,2024-01-02 22:18:13,Mobile_App,user_0458_s1,,,
+user_0458,product_view,2024-01-02 22:24:34,Mobile_App,user_0458_s1,home,2024-01-02 22:18:13,381.0
+user_0458,add_to_cart,2024-01-03 09:30:38,Web_Desktop,user_0458_s2,product_view,2024-01-02 22:24:34,39964.0
+user_0458,checkout_click,2024-01-03 09:40:29,Mobile_App,user_0458_s2,add_to_cart,2024-01-03 09:30:38,591.0
+user_0458,purchase,2024-01-03 09:43:14,Mobile_App,user_0458_s2,checkout_click,2024-01-03 09:40:29,165.0
+user_0459,home,2024-01-03 00:11:18,Web_Desktop,user_0459_s1,,,
+user_0460,home,2024-01-02 21:32:29,Mobile_App,user_0460_s1,,,
+user_0460,product_view,2024-01-02 21:35:36,Mobile_App,user_0460_s1,home,2024-01-02 21:32:29,187.0
+user_0461,home,2024-01-01 23:03:05,Web_Desktop,user_0461_s1,,,
+user_0461,product_view,2024-01-01 23:09:27,Web_Desktop,user_0461_s1,home,2024-01-01 23:03:05,382.0
+user_0462,home,2024-01-03 18:43:01,Mobile_App,user_0462_s1,,,
+user_0462,product_view,2024-01-03 18:51:20,Mobile_App,user_0462_s1,home,2024-01-03 18:43:01,499.0
+user_0462,add_to_cart,2024-01-03 18:54:29,Mobile_App,user_0462_s1,product_view,2024-01-03 18:51:20,189.0
+user_0462,home,2024-01-03 18:56:13,Mobile_App,user_0462_s1,add_to_cart,2024-01-03 18:54:29,104.0
+user_0462,product_view,2024-01-03 18:57:32,Mobile_App,user_0462_s1,home,2024-01-03 18:56:13,79.0
+user_0462,add_to_cart,2024-01-03 18:58:46,Mobile_App,user_0462_s1,product_view,2024-01-03 18:57:32,74.0
+user_0463,home,2024-01-02 22:38:02,Web_Desktop,user_0463_s1,,,
+user_0463,product_view,2024-01-02 22:40:27,Web_Desktop,user_0463_s1,home,2024-01-02 22:38:02,145.0
+user_0463,add_to_cart,2024-01-02 22:41:38,Web_Desktop,user_0463_s1,product_view,2024-01-02 22:40:27,71.0
+user_0463,home,2024-01-02 22:42:58,Web_Desktop,user_0463_s1,add_to_cart,2024-01-02 22:41:38,80.0
+user_0463,product_view,2024-01-02 22:43:22,Web_Desktop,user_0463_s1,home,2024-01-02 22:42:58,24.0
+user_0463,add_to_cart,2024-01-02 22:44:11,Web_Desktop,user_0463_s1,product_view,2024-01-02 22:43:22,49.0
+user_0464,home,2024-01-02 13:37:29,Web_Desktop,user_0464_s1,,,
+user_0464,product_view,2024-01-02 13:42:43,Web_Desktop,user_0464_s1,home,2024-01-02 13:37:29,314.0
+user_0465,home,2024-01-01 19:42:52,Web_Desktop,user_0465_s1,,,
+user_0465,product_view,2024-01-01 19:52:05,Web_Desktop,user_0465_s1,home,2024-01-01 19:42:52,553.0
+user_0465,add_to_cart,2024-01-01 19:58:44,Web_Desktop,user_0465_s1,product_view,2024-01-01 19:52:05,399.0
+user_0465,checkout_click,2024-01-01 20:06:31,Web_Desktop,user_0465_s1,add_to_cart,2024-01-01 19:58:44,467.0
+user_0465,purchase,2024-01-01 20:11:52,Web_Desktop,user_0465_s1,checkout_click,2024-01-01 20:06:31,321.0
+user_0466,home,2024-01-03 05:29:35,Web_Desktop,user_0466_s1,,,
+user_0466,product_view,2024-01-03 05:35:00,Web_Desktop,user_0466_s1,home,2024-01-03 05:29:35,325.0
+user_0467,home,2024-01-03 15:55:27,Web_Desktop,user_0467_s1,,,
+user_0467,product_view,2024-01-03 15:57:04,Web_Desktop,user_0467_s1,home,2024-01-03 15:55:27,97.0
+user_0467,add_to_cart,2024-01-03 21:03:58,Mobile_App,user_0467_s2,product_view,2024-01-03 15:57:04,18414.0
+user_0467,home,2024-01-03 21:05:29,Mobile_App,user_0467_s2,add_to_cart,2024-01-03 21:03:58,91.0
+user_0467,product_view,2024-01-03 21:06:13,Mobile_App,user_0467_s2,home,2024-01-03 21:05:29,44.0
+user_0467,add_to_cart,2024-01-03 21:07:16,Mobile_App,user_0467_s2,product_view,2024-01-03 21:06:13,63.0
+user_0468,home,2024-01-03 20:50:26,Tablet,user_0468_s1,,,
+user_0468,product_view,2024-01-03 20:51:39,Tablet,user_0468_s1,home,2024-01-03 20:50:26,73.0
+user_0468,add_to_cart,2024-01-03 20:57:18,Tablet,user_0468_s1,product_view,2024-01-03 20:51:39,339.0
+user_0469,home,2024-01-04 08:55:33,Web_Desktop,user_0469_s1,,,
+user_0470,purchase,2024-01-02 21:31:13,Mobile_App,user_0470_orphan,,,
+user_0471,home,2024-01-04 00:12:37,Tablet,user_0471_s1,,,
+user_0471,product_view,2024-01-04 00:15:09,Tablet,user_0471_s1,home,2024-01-04 00:12:37,152.0
+user_0471,add_to_cart,2024-01-04 00:15:56,Tablet,user_0471_s1,product_view,2024-01-04 00:15:09,47.0
+user_0472,home,2024-01-01 16:15:39,Web_Desktop,user_0472_s1,,,
+user_0472,product_view,2024-01-01 16:22:13,Web_Desktop,user_0472_s1,home,2024-01-01 16:15:39,394.0
+user_0473,home,2024-01-02 22:35:06,Tablet,user_0473_s1,,,
+user_0473,product_view,2024-01-02 22:38:27,Tablet,user_0473_s1,home,2024-01-02 22:35:06,201.0
+user_0473,add_to_cart,2024-01-02 22:44:20,Tablet,user_0473_s1,product_view,2024-01-02 22:38:27,353.0
+user_0473,checkout_click,2024-01-02 22:49:58,Tablet,user_0473_s1,add_to_cart,2024-01-02 22:44:20,338.0
+user_0473,purchase,2024-01-02 22:56:39,Tablet,user_0473_s1,checkout_click,2024-01-02 22:49:58,401.0
+user_0474,purchase,2024-01-01 21:43:20,Tablet,user_0474_orphan,,,
+user_0475,home,2024-01-02 21:27:16,Web_Desktop,user_0475_s1,,,
+user_0475,product_view,2024-01-02 21:36:44,Web_Desktop,user_0475_s1,home,2024-01-02 21:27:16,568.0
+user_0475,add_to_cart,2024-01-02 21:46:38,Web_Desktop,user_0475_s1,product_view,2024-01-02 21:36:44,594.0
+user_0475,checkout_click,2024-01-02 21:54:15,Web_Desktop,user_0475_s1,add_to_cart,2024-01-02 21:46:38,457.0
+user_0476,home,2024-01-02 02:07:02,Mobile_App,user_0476_s1,,,
+user_0476,product_view,2024-01-02 02:16:27,Mobile_App,user_0476_s1,home,2024-01-02 02:07:02,565.0
+user_0476,add_to_cart,2024-01-02 02:22:47,Mobile_App,user_0476_s1,product_view,2024-01-02 02:16:27,380.0
+user_0476,home,2024-01-02 02:23:35,Mobile_App,user_0476_s1,add_to_cart,2024-01-02 02:22:47,48.0
+user_0476,product_view,2024-01-02 02:23:48,Mobile_App,user_0476_s1,home,2024-01-02 02:23:35,13.0
+user_0476,add_to_cart,2024-01-02 02:25:33,Mobile_App,user_0476_s1,product_view,2024-01-02 02:23:48,105.0
+user_0476,checkout_click,2024-01-02 02:29:50,Mobile_App,user_0476_s1,add_to_cart,2024-01-02 02:25:33,257.0
+user_0476,purchase,2024-01-02 02:33:56,Mobile_App,user_0476_s1,checkout_click,2024-01-02 02:29:52,244.0
+user_0477,home,2024-01-02 01:12:51,Web_Desktop,user_0477_s1,,,
+user_0478,home,2024-01-01 22:03:14,Tablet,user_0478_s1,,,
+user_0479,home,2024-01-01 10:54:29,Mobile_App,user_0479_s1,,,
+user_0480,home,2024-01-02 03:58:37,Tablet,user_0480_s1,,,
+user_0480,product_view,2024-01-02 04:00:16,Tablet,user_0480_s1,home,2024-01-02 03:58:37,99.0
+user_0481,home,2024-01-01 10:33:34,Mobile_App,user_0481_s1,,,
+user_0481,product_view,2024-01-01 10:35:45,Mobile_App,user_0481_s1,home,2024-01-01 10:33:34,131.0
+user_0481,add_to_cart,2024-01-01 10:44:51,Mobile_App,user_0481_s1,product_view,2024-01-01 10:35:45,546.0
+user_0481,checkout_click,2024-01-01 10:48:30,Mobile_App,user_0481_s1,add_to_cart,2024-01-01 10:44:51,219.0
+user_0481,purchase,2024-01-01 10:52:05,Mobile_App,user_0481_s1,checkout_click,2024-01-01 10:48:30,215.0
+user_0482,home,2024-01-03 06:29:51,Web_Desktop,user_0482_s1,,,
+user_0483,home,2024-01-01 23:34:11,Mobile_App,user_0483_s1,,,
+user_0484,home,2024-01-04 00:11:21,Web_Desktop,user_0484_s1,,,
+user_0484,product_view,2024-01-04 00:16:48,Web_Desktop,user_0484_s1,home,2024-01-04 00:11:21,327.0
+user_0484,add_to_cart,2024-01-04 00:24:36,Web_Desktop,user_0484_s1,product_view,2024-01-04 00:16:48,468.0
+user_0484,home,2024-01-04 00:24:54,Web_Desktop,user_0484_s1,add_to_cart,2024-01-04 00:24:36,18.0
+user_0484,product_view,2024-01-04 00:26:51,Web_Desktop,user_0484_s1,home,2024-01-04 00:24:54,117.0
+user_0484,add_to_cart,2024-01-04 00:28:43,Web_Desktop,user_0484_s1,product_view,2024-01-04 00:26:51,112.0
+user_0484,checkout_click,2024-01-04 00:35:29,Web_Desktop,user_0484_s1,add_to_cart,2024-01-04 00:28:43,406.0
+user_0484,purchase,2024-01-04 00:44:57,Web_Desktop,user_0484_s1,checkout_click,2024-01-04 00:35:32,565.0
+user_0485,home,2024-01-01 19:10:22,Mobile_App,user_0485_s1,,,
+user_0486,home,2024-01-02 10:30:01,Mobile_App,user_0486_s1,,,
+user_0486,product_view,2024-01-02 10:35:10,Mobile_App,user_0486_s1,home,2024-01-02 10:30:01,309.0
+user_0486,add_to_cart,2024-01-02 10:42:29,Mobile_App,user_0486_s1,product_view,2024-01-02 10:35:10,439.0
+user_0486,checkout_click,2024-01-02 10:49:53,Mobile_App,user_0486_s1,add_to_cart,2024-01-02 10:42:29,444.0
+user_0486,purchase,2024-01-02 10:52:53,Mobile_App,user_0486_s1,checkout_click,2024-01-02 10:49:53,180.0
+user_0487,home,2024-01-03 19:07:00,Mobile_App,user_0487_s1,,,
+user_0488,home,2024-01-01 15:59:04,Mobile_App,user_0488_s1,,,
+user_0488,product_view,2024-01-01 16:01:12,Mobile_App,user_0488_s1,home,2024-01-01 15:59:04,128.0
+user_0488,add_to_cart,2024-01-01 16:10:34,Mobile_App,user_0488_s1,product_view,2024-01-01 16:01:12,562.0
+user_0488,checkout_click,2024-01-01 16:14:30,Mobile_App,user_0488_s1,add_to_cart,2024-01-01 16:10:34,236.0
+user_0488,purchase,2024-01-01 16:23:36,Mobile_App,user_0488_s1,checkout_click,2024-01-01 16:14:30,546.0
+user_0490,home,2024-01-03 16:57:06,Mobile_App,user_0490_s1,,,
+user_0491,home,2024-01-04 08:49:08,Web_Desktop,user_0491_s1,,,
+user_0491,product_view,2024-01-04 08:51:30,Web_Desktop,user_0491_s1,home,2024-01-04 08:49:08,142.0
+user_0491,add_to_cart,2024-01-04 09:00:22,Web_Desktop,user_0491_s1,product_view,2024-01-04 08:51:30,532.0
+user_0491,checkout_click,2024-01-04 09:08:53,Web_Desktop,user_0491_s1,add_to_cart,2024-01-04 09:00:22,511.0
+user_0491,purchase,2024-01-04 09:18:01,Web_Desktop,user_0491_s1,checkout_click,2024-01-04 09:08:53,548.0
+user_0492,home,2024-01-01 16:30:21,Web_Desktop,user_0492_s1,,,
+user_0492,product_view,2024-01-01 16:31:19,Web_Desktop,user_0492_s1,home,2024-01-01 16:30:21,58.0
+user_0492,add_to_cart,2024-01-01 16:34:00,Web_Desktop,user_0492_s1,product_view,2024-01-01 16:31:19,161.0
+user_0493,home,2024-01-01 12:55:31,Tablet,user_0493_s1,,,
+user_0493,product_view,2024-01-01 13:00:11,Tablet,user_0493_s1,home,2024-01-01 12:55:31,280.0
+user_0494,home,2024-01-03 00:40:23,Mobile_App,user_0494_s1,,,
+user_0495,home,2024-01-03 02:07:03,Web_Desktop,user_0495_s1,,,
+user_0496,home,2024-01-03 21:39:10,Mobile_App,user_0496_s1,,,
+user_0496,product_view,2024-01-03 21:41:22,Mobile_App,user_0496_s1,home,2024-01-03 21:39:10,132.0
+user_0496,add_to_cart,2024-01-03 21:45:22,Mobile_App,user_0496_s1,product_view,2024-01-03 21:41:22,240.0
+user_0496,checkout_click,2024-01-03 21:51:39,Mobile_App,user_0496_s1,add_to_cart,2024-01-03 21:45:22,377.0
+user_0496,purchase,2024-01-03 21:55:39,Mobile_App,user_0496_s1,checkout_click,2024-01-03 21:51:43,236.0
+user_0498,home,2024-01-03 12:57:14,Mobile_App,user_0498_s1,,,
+user_0498,product_view,2024-01-03 13:06:47,Mobile_App,user_0498_s1,home,2024-01-03 12:57:14,573.0
+user_0498,add_to_cart,2024-01-03 13:10:51,Mobile_App,user_0498_s1,product_view,2024-01-03 13:06:47,244.0
+user_0499,home,2024-01-02 23:41:17,Web_Desktop,user_0499_s1,,,
+user_0499,product_view,2024-01-02 23:51:07,Web_Desktop,user_0499_s1,home,2024-01-02 23:41:17,590.0
+user_0500,home,2024-01-01 11:48:28,Tablet,user_0500_s1,,,
+user_0500,product_view,2024-01-01 11:58:03,Tablet,user_0500_s1,home,2024-01-01 11:48:28,575.0
+user_0500,add_to_cart,2024-01-01 12:05:57,Tablet,user_0500_s1,product_view,2024-01-01 11:58:03,474.0
+user_0500,checkout_click,2024-01-01 12:07:28,Tablet,user_0500_s1,add_to_cart,2024-01-01 12:05:57,91.0
+user_0500,purchase,2024-01-01 12:10:29,Tablet,user_0500_s1,checkout_click,2024-01-01 12:07:28,181.0
