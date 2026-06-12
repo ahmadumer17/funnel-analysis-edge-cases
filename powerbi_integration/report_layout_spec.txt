@@ -1,0 +1,191 @@
+# Power BI Report Layout — Funnel Analysis Edge Cases
+# =====================================================
+# Four-page report.  Each page maps to one of the four findings
+# from the notebook.  Load all 7 CSVs from powerbi_integration/output/
+# then follow this spec page by page.
+#
+# Visual types use standard Power BI names.
+# All measures referenced here are defined in dax_measures.txt.
+# =====================================================
+
+
+PAGE 1 — Funnel Comparison (Naive vs Strict)
+============================================
+Purpose : Show the 7.1 pp checkout inflation from orphaned purchases.
+
+Visuals
+-------
+1. Clustered Bar Chart
+   Table  : pbi_funnel_comparison
+   Axis   : step_label  (sort by step_order ascending)
+   Values : users
+   Legend : funnel_model  (Naive / Strict)
+   Title  : "Naive vs Strict Sequence Funnel"
+
+2. KPI Card  — top-left
+   Measure : Naive Checkout to Purchase Rate
+   Label   : "Naive rate"
+   Format  : Percentage, 1 decimal
+
+3. KPI Card  — top-centre
+   Measure : Strict Checkout to Purchase Rate
+   Label   : "Strict rate"
+   Format  : Percentage, 1 decimal
+
+4. KPI Card  — top-right  (accent red / amber)
+   Measure : Checkout Conversion Inflation (pp)
+   Label   : "Inflation"
+   Format  : "+0.0 pp"  (use Inflation Label measure for display)
+
+5. Table visual — bottom
+   Table  : pbi_funnel_comparison
+   Columns: step_label | funnel_model | users | step_conversion_rate | drop_off_users
+   Conditional formatting on step_conversion_rate (green → red scale)
+
+Slicers
+-------
+- pbi_funnel_comparison[funnel_model]  (toggle Naive / Strict / Both)
+
+
+PAGE 2 — Deduplication: Checkout Volume Integrity
+==================================================
+Purpose : Expose the 49 % checkout event overcount from duplicate SDK fires.
+
+Visuals
+-------
+1. Stacked Column Chart
+   Table  : pbi_fact_events_raw
+   X-axis : event
+   Values : Count of event_id  (or COUNTROWS)
+   Legend : is_duplicate  (True = red, False = teal)
+   Filter : event = "checkout_click"  (page-level filter)
+   Title  : "Checkout Events — Raw vs Deduplicated"
+
+2. KPI Card
+   Measure : Total Duplicate Events
+   Label   : "Duplicate events removed"
+
+3. KPI Card
+   Measure : Duplicate Rate
+   Label   : "Duplicate rate"
+
+4. KPI Card
+   Measure : Checkout Overcount %
+   Label   : "Checkout overcount"
+   Format  : Percentage
+
+5. Line Chart — timeline
+   Table  : pbi_fact_events_raw
+   X-axis : timestamp  (by hour or minute)
+   Values : Count of rows  (split by is_duplicate)
+   Title  : "Duplicate events over time"
+
+Drill-through target
+--------------------
+Right-click any bar → drill through to a detail table showing:
+  user_id | event | timestamp | is_duplicate
+
+
+PAGE 3 — Sessionization: Cross-Device Drop-off Recovery
+========================================================
+Purpose : Show 34 user journeys that appeared as drop-offs but were
+          cross-device switches recoverable by sessionization.
+
+Visuals
+-------
+1. KPI Card
+   Measure : Total Sessions
+   Label   : "Sessions identified"
+
+2. KPI Card
+   Measure : Cross-Device Session Boundaries
+   Label   : "Cross-device boundaries"
+
+3. KPI Card
+   Measure : Avg Session Duration (min)
+   Label   : "Avg session duration"
+
+4. Funnel Chart
+   Table  : pbi_funnel_strict  (post-dedup, post-sessionization data)
+   Category : step  (order by step_order)
+   Values   : strict_users
+   Title    : "Strict Funnel — After Sessionization"
+
+5. Scatter Plot
+   Table  : pbi_fact_events_sessionized
+   X-axis : gap_minutes
+   Y-axis : Count of clean_session_id
+   Legend : device  (if column present)
+   Title  : "Session gap distribution"
+   Reference line at x = 30 (timeout threshold)
+
+6. Table  — detail
+   Table  : pbi_fact_events_sessionized
+   Columns: user_id | clean_session_id | event | timestamp | device | gap_minutes
+   Filter : gap_minutes > 30  (cross-device cases)
+
+
+PAGE 4 — Attribution: Mobile Influence
+=======================================
+Purpose : Reveal that Mobile_App influenced 52.6 % of conversions
+          but receives near-zero credit under standard models.
+
+Visuals
+-------
+1. Clustered Bar Chart  — attribution model comparison
+   Table  : pbi_attribution
+   Build three single-value measures as separate bars:
+     - Last Touch Mobile credits  (use Last Touch Mobile Rate)
+     - Position-Based Mobile credits  (Mobile Attributed Credits)
+     - True Mobile Influence  (Mobile True Influence (Conversions))
+   Title  : "Mobile Attribution: Last Touch vs Position-Based vs True Influence"
+
+2. Donut Chart
+   Table  : pbi_attribution
+   Values : credit  (sum, aggregated by device)
+   Legend : device
+   Title  : "Position-Based Credit Distribution"
+   Filter : converted = TRUE()
+
+3. KPI Card
+   Measure : Mobile True Influence (Conversions)
+   Label   : "Mobile-influenced conversions"
+
+4. KPI Card
+   Measure : Mobile Influence Rate
+   Label   : "% of conversions mobile-touched"
+   Format  : Percentage
+
+5. Matrix / Heatmap
+   Table   : pbi_attribution
+   Rows    : user_id
+   Columns : device
+   Values  : credit  (sum)
+   Filter  : converted = TRUE()
+   Title   : "Per-user attribution credits (converters only)"
+
+Slicer
+------
+- pbi_attribution[device]  (multi-select)
+
+
+CROSS-PAGE SETUP
+================
+- Add a Date/Time slicer on each page bound to the timestamp column of
+  the relevant fact table (pbi_fact_events_raw or pbi_fact_events_sessionized).
+- Set all visuals to use the same Page-level filter for timestamp range
+  so slicing one card filters the entire page.
+- Enable drill-through from Page 1 (funnel step) → Page 2 (raw events
+  for that step) so reviewers can inspect duplicates by funnel stage.
+- Add page-navigation buttons in the top-right corner of each page for
+  easy movement between the four findings.
+
+COLOUR THEME (recommended)
+==========================
+  Naive funnel     : #378ADD  (blue)
+  Strict funnel    : #1D9E75  (teal)
+  Duplicates       : #E24B4A  (red)
+  Clean events     : #639922  (green)
+  Mobile device    : #7F77DD  (purple)
+  Other devices    : #888780  (grey)
+  Inflation / alert: #BA7517  (amber)
