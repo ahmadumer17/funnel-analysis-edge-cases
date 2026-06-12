@@ -1,0 +1,222 @@
+// =============================================================================
+// DAX Measures — Funnel Analysis Edge Cases
+// Power BI Report  |  Ahmad Umer
+// =============================================================================
+// Paste each measure into Power BI Desktop:
+//   Modeling tab → New Measure
+// The table name in each CALCULATE() matches the CSV filename without .csv
+// =============================================================================
+
+
+// -----------------------------------------------------------------------------
+// TABLE: pbi_fact_events_raw
+// -----------------------------------------------------------------------------
+
+Total Raw Events =
+COUNTROWS( pbi_fact_events_raw )
+
+Total Duplicate Events =
+CALCULATE(
+    COUNTROWS( pbi_fact_events_raw ),
+    pbi_fact_events_raw[is_duplicate] = TRUE()
+)
+
+Duplicate Rate =
+DIVIDE(
+    [Total Duplicate Events],
+    [Total Raw Events],
+    0
+)
+
+Checkout Events Raw =
+CALCULATE(
+    COUNTROWS( pbi_fact_events_raw ),
+    pbi_fact_events_raw[event] = "checkout_click"
+)
+
+Checkout Events After Dedup =
+CALCULATE(
+    COUNTROWS( pbi_fact_events_clean ),
+    pbi_fact_events_clean[event] = "checkout_click"
+)
+
+Checkout Overcount % =
+DIVIDE(
+    [Checkout Events Raw] - [Checkout Events After Dedup],
+    [Checkout Events After Dedup],
+    0
+)
+
+
+// -----------------------------------------------------------------------------
+// TABLE: pbi_funnel_naive  |  pbi_funnel_strict
+// -----------------------------------------------------------------------------
+
+// — Naive funnel metrics —
+
+Naive Top of Funnel =
+CALCULATE(
+    MAX( pbi_funnel_naive[unique_users] ),
+    pbi_funnel_naive[step] = "home"
+)
+
+Naive Checkout to Purchase Rate =
+CALCULATE(
+    MAX( pbi_funnel_naive[step_conversion_rate] ),
+    pbi_funnel_naive[step] = "purchase"
+)
+
+Naive Overall Conversion =
+CALCULATE(
+    MAX( pbi_funnel_naive[overall_conversion_rate] ),
+    pbi_funnel_naive[step] = "purchase"
+)
+
+// — Strict funnel metrics —
+
+Strict Top of Funnel =
+CALCULATE(
+    MAX( pbi_funnel_strict[strict_users] ),
+    pbi_funnel_strict[step] = "home"
+)
+
+Strict Checkout to Purchase Rate =
+CALCULATE(
+    MAX( pbi_funnel_strict[step_conversion_rate] ),
+    pbi_funnel_strict[step] = "purchase"
+)
+
+Strict Overall Conversion =
+CALCULATE(
+    MAX( pbi_funnel_strict[overall_conversion_rate] ),
+    pbi_funnel_strict[step] = "purchase"
+)
+
+// — Inflation KPI card —
+// Positive value = naive overstates the true rate.
+
+Checkout Conversion Inflation (pp) =
+( [Naive Checkout to Purchase Rate] - [Strict Checkout to Purchase Rate] ) * 100
+
+
+// -----------------------------------------------------------------------------
+// TABLE: pbi_funnel_comparison  (used for the side-by-side bar chart)
+// -----------------------------------------------------------------------------
+
+// Bind to pbi_funnel_comparison[users] as Value,
+// pbi_funnel_comparison[step_label] as Axis,
+// pbi_funnel_comparison[funnel_model] as Legend.
+// No extra measures required — the table shape drives the visual.
+
+// Step-level drop-off for tooltip
+Step Drop-off =
+MAX( pbi_funnel_comparison[drop_off_users] )
+
+Step Conv Rate =
+MAX( pbi_funnel_comparison[step_conversion_rate] )
+
+
+// -----------------------------------------------------------------------------
+// TABLE: pbi_fact_events_sessionized
+// -----------------------------------------------------------------------------
+
+Total Sessions =
+DISTINCTCOUNT( pbi_fact_events_sessionized[clean_session_id] )
+
+Cross-Device Session Boundaries =
+// Sessions where the user appears on more than one device
+VAR DevicePerSession =
+    SUMMARIZE(
+        pbi_fact_events_sessionized,
+        pbi_fact_events_sessionized[user_id],
+        pbi_fact_events_sessionized[clean_session_id],
+        "device_count",
+        DISTINCTCOUNT( pbi_fact_events_sessionized[device] )
+    )
+RETURN
+    COUNTROWS(
+        FILTER( DevicePerSession, [device_count] > 1 )
+    )
+
+Avg Session Duration (min) =
+AVERAGEX(
+    VALUES( pbi_fact_events_sessionized[clean_session_id] ),
+    VAR MaxTs = CALCULATE( MAX( pbi_fact_events_sessionized[timestamp] ) )
+    VAR MinTs = CALCULATE( MIN( pbi_fact_events_sessionized[timestamp] ) )
+    RETURN DATEDIFF( MinTs, MaxTs, MINUTE )
+)
+
+
+// -----------------------------------------------------------------------------
+// TABLE: pbi_attribution
+// -----------------------------------------------------------------------------
+
+Total Attributed Credits =
+SUM( pbi_attribution[credit] )
+
+Mobile Attributed Credits =
+CALCULATE(
+    SUM( pbi_attribution[credit] ),
+    pbi_attribution[device] = "Mobile_App"
+)
+
+Mobile True Influence (Conversions) =
+// Count of unique converting users whose journey included Mobile at any point
+CALCULATE(
+    DISTINCTCOUNT( pbi_attribution[user_id] ),
+    pbi_attribution[converted] = TRUE(),
+    pbi_attribution[device] = "Mobile_App"
+)
+
+Mobile Influence Rate =
+DIVIDE(
+    [Mobile True Influence (Conversions)],
+    CALCULATE(
+        DISTINCTCOUNT( pbi_attribution[user_id] ),
+        pbi_attribution[converted] = TRUE()
+    ),
+    0
+)
+
+Last Touch Mobile Rate =
+// Conversions where mobile was the LAST device
+VAR LastTouchMobile =
+    FILTER(
+        SUMMARIZE(
+            pbi_fact_events_sessionized,
+            pbi_fact_events_sessionized[user_id],
+            "last_device",
+            CALCULATE(
+                LASTNONBLANK( pbi_fact_events_sessionized[device], 1 )
+            )
+        ),
+        [last_device] = "Mobile_App"
+    )
+RETURN
+    DIVIDE(
+        COUNTROWS( LastTouchMobile ),
+        CALCULATE(
+            DISTINCTCOUNT( pbi_fact_events_sessionized[user_id] ),
+            pbi_fact_events_sessionized[event] = "purchase"
+        ),
+        0
+    )
+
+
+// -----------------------------------------------------------------------------
+// FORMATTING helpers — apply to KPI cards
+// -----------------------------------------------------------------------------
+
+// Checkout Inflation Label  (shows "+7.1 pp" style)
+Inflation Label =
+VAR pp = [Checkout Conversion Inflation (pp)]
+RETURN
+    IF(
+        pp > 0,
+        "+" & FORMAT( pp, "0.0" ) & " pp inflation",
+        FORMAT( pp, "0.0" ) & " pp"
+    )
+
+// Duplicate rate label
+Duplicate Rate Label =
+FORMAT( [Duplicate Rate], "0.0%" ) & " of events are duplicates"
